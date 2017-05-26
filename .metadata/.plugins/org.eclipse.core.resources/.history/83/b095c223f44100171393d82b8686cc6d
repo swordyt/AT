@@ -1,0 +1,13 @@
+package com.yinting.core;
+
+public class Response {
+	public static String status(){
+		return null;
+	}
+	public static String header(String parameter){
+		return null;
+	}
+	public static Map header(){
+		return null;
+	}
+}

@@ -1,0 +1,29 @@
+package com.yinting.core;
+
+public class Request {
+	public static Request GET(String url) {
+		return null;
+	}
+
+	public static Request POST(String url) {
+		return null;
+	}
+
+	public static Request PUT(String url) {
+		return null;
+	}
+
+	public static Request DELETE(String url) {
+		return null;
+	}
+
+	public static Request HEAD(String url) {
+		return null;
+	}
+	public static Request header(String url) {
+		return null;
+	}
+	public static Request header(Map headeres) {
+		return null;
+	}
+}
