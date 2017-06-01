@@ -1,5 +1,8 @@
 package com.yinting.core;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.testng.annotations.Test;
 
 import com.yinting.core.Http.HttpRequest;
@@ -7,7 +10,18 @@ import com.yinting.core.Http.HttpRequest;
 public class test {
 	@Test
 	public void test() {
+		Map<String, String> bodyes = new HashMap<String, String>();
 		Request driver=new HttpRequest();
-		driver.GET("http://api.pinganfang.com/hf/2.0/home/preference/get?time=1496303998&apiKey=797z3it2mdh44weikz4x513irjq22pu9y292k246&apiSequence=ea61a9244c231b7c358c5d05eec08c85&signFuncID=100&signature=4f3886d456220bbd8f60c5b612174fb4&iUserID=0&sToken=&cityID=1").header("app-deviceID","868552023341648").body("_from", "android").invoke();
+		bodyes.put("apiKey", "797z3it2mdh44weikz4x513irjq22pu9y292k246");
+		bodyes.put("apiSequence", "2abffbfd7ef0b37bd254dcb3d9ee5429");
+		bodyes.put("iLoupanID", "864");
+		bodyes.put("name", "任清");
+		bodyes.put("signFuncID", "100");
+		bodyes.put("signature", "fb8ed8c47888ecca659591eb4047400f");
+		bodyes.put("tel", "18179012032");
+		bodyes.put("time", "1482735358");
+		bodyes.put("youhui", "5834");
+
+		driver.POST("http://api.st3.anhouse.com.cn/xf/lp/youhui.html").body("_from", "ios").bodyes(bodyes).invoke();
 	}
 }

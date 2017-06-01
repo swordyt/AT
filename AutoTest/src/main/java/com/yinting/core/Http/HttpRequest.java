@@ -1,6 +1,7 @@
 package com.yinting.core.Http;
 
 import java.util.Map;
+
 import com.yinting.core.Request;
 import com.yinting.core.Response;
 
@@ -22,8 +23,8 @@ public class HttpRequest implements Request {
 	}
 
 	public Request POST(String url) {
-		this.request=new Post();
-		return null;
+		this.request = new Post(url);
+		return this;
 	}
 
 	public Request PUT(String url) {
