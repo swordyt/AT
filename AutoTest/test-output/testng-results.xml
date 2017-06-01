@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
@@ -14,6 +15,17 @@
       </class> <!-- com.yinting.core.test1 -->
       <class name="com.yinting.core.test">
         <test-method status="PASS" signature="test()[pri:0, instance:com.yinting.core.test@215be6bb]" name="test" duration-ms="924" started-at="2017-06-01T21:02:31Z" finished-at="2017-06-01T21:02:32Z">
+=======
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1159" started-at="2017-06-01T12:38:50Z" finished-at="2017-06-01T12:38:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1159" started-at="2017-06-01T12:38:50Z" finished-at="2017-06-01T12:38:51Z">
+      <class name="com.yinting.core.test">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.yinting.core.test@77bb1dd2]" name="test" duration-ms="1094" started-at="2017-06-01T20:38:50Z" finished-at="2017-06-01T20:38:51Z">
+>>>>>>> 0f7250d70191017b7a930872c9a9cbdb2f1d5321
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->

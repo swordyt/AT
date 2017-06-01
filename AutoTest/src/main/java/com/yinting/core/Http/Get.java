@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -17,9 +16,9 @@ import com.yinting.core.Request;
 import com.yinting.core.Response;
 
 public class Get extends HttpRequest {
-	private HttpClient client = new DefaultHttpClient();
+	private final HttpClient client = new DefaultHttpClient();
 	private HttpResponse response;
-	private HttpGet get;
+	private final HttpGet get;
 	private String url;
 
 	public Get(String url) {
