@@ -64,8 +64,8 @@ public class Get extends HttpRequest {
 		try {
 			get.setURI(new URI(url));
 			this.response = client.execute(this.get);
-			System.out.println(EntityUtils.toString(this.response.getEntity(),
-					"utf-8"));
+//			System.out.println(EntityUtils.toString(this.response.getEntity(),
+//					"utf-8"));
 		} catch (ClientProtocolException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
