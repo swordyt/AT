@@ -75,7 +75,7 @@ public class Get extends HttpRequest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return null;
+		return new com.yinting.core.Http.HttpResponse(this.response);
 	}
 
 }

@@ -1,9 +1,6 @@
 package com.yinting.core;
 
-import java.io.IOException;
 import java.util.Map;
-
-import org.apache.http.client.ClientProtocolException;
 
 public interface Request {
 	public Request GET(String url);
