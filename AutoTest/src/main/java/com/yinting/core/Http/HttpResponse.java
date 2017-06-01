@@ -1,17 +1,51 @@
 package com.yinting.core.Http;
 
+import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.http.Header;
+import org.apache.http.ParseException;
+import org.apache.http.util.EntityUtils;
 
 import com.yinting.core.Response;
 
 public class HttpResponse implements Response {
-	public HttpResponse(org.apache.http.HttpResponse resposne){
-		
+	private org.apache.http.HttpResponse httpResponse;
+	private HttpResponse response;
+	private String body;
+
+	public HttpResponse(org.apache.http.HttpResponse response) {
+		this.httpResponse = response;
+		try {
+			this.body = EntityUtils
+					.toString(this.httpResponse.getEntity(), "utf-8");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		this.JSON();
 	}
 
-	public Response assertStatus(String expect) {
+	public HttpResponse JSON() {
+		this.response=new Json(this.httpResponse);
+		return this;
+	}
+	public HttpResponse XML(){
+		this.response=new Xml(this.httpResponse);
+		return this;
+	}
+	public HttpResponse Html(){
+		this.response=new Html(this.httpResponse);
+		return this;
+	}
+
+	public HttpResponse assertStatus(String expect) {
 		// TODO Auto-generated method stub
-		return null;
+		return this;
 	}
 
 	public String status() {
@@ -24,18 +58,20 @@ public class HttpResponse implements Response {
 		return null;
 	}
 
-	public String header(String parameter) {
-		// TODO Auto-generated method stub
-		return null;
+	public String header(String name) {
+		return this.httpResponse.getFirstHeader(name).getValue();
 	}
 
-	public Map getHeaderes() {
-		// TODO Auto-generated method stub
-		return null;
+	public Map<String, String> getHeaderes() {
+		Map map = new HashMap<String, String>();
+		for (Header header : this.httpResponse.getAllHeaders()) {
+			map.put(header.getName(), header.getValue());
+		}
+		return map;
 	}
 
 	public Response assertValue(String path, String expect) {
-		// TODO Auto-generated method stub
+		expect.equalsIgnoreCase(this.getValue(path));
 		return null;
 	}
 
@@ -45,8 +81,7 @@ public class HttpResponse implements Response {
 	}
 
 	public String getBody() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.body;
 	}
 
 }

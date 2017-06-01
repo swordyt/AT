@@ -1,0 +1,68 @@
+package com.yinting.core.Http;
+
+import java.io.IOException;
+import java.util.Map;
+
+import org.apache.http.ParseException;
+import org.apache.http.util.EntityUtils;
+
+import com.yinting.core.Response;
+
+public class HttpResponse implements Response {
+	private org.apache.http.HttpResponse response;
+	private String body;
+
+	public HttpResponse(org.apache.http.HttpResponse response) {
+		this.response = response;
+		try {
+			this.body = EntityUtils
+					.toString(this.response.getEntity(), "utf-8");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public Response assertStatus(String expect) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String status() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Response assertHeader(String header, String expect) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String header(String name) {
+		this.response.getFirstHeader(name);
+		return null;
+	}
+
+	public Map getHeaderes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Response assertValue(String path, String expect) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getValue(String path) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getBody() {
+		return this.body;
+	}
+
+}
