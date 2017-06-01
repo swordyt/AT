@@ -1,0 +1,49 @@
+package com.yinting.core.Http;
+
+import java.util.Map;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+import com.yinting.core.Request;
+import com.yinting.core.Response;
+
+public class Get extends HttpRequest{
+	private HttpClient client=new DefaultHttpClient();
+	private HttpGet get;
+	private String url;
+	public Get(String url){
+		this.url=url;
+	}
+	
+	@Override
+	public Request body(String name, String value) {
+		return this;
+	}
+
+	@Override
+	public Request bodyes(Map<String, String> bodyes) {
+		// TODO Auto-generated method stub
+		return super.bodyes(bodyes);
+	}
+
+	@Override
+	public Request header(String name, String value) {
+		// TODO Auto-generated method stub
+		return super.header(name, value);
+	}
+
+	@Override
+	public Request headeres(Map<String, String> headeres) {
+		// TODO Auto-generated method stub
+		return super.headeres(headeres);
+	}
+
+	@Override
+	public Response invoke() {
+		client.execute(get);
+		return null;
+	}
+
+}

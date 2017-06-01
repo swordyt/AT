@@ -17,7 +17,7 @@ public class HttpRequest implements Request {
 	}
 
 	public Request GET(String url) {
-		this.request = new Get();
+		this.request = new Get(url);
 		return this;
 	}
 
