@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1255" started-at="2017-06-01T07:36:07Z" finished-at="2017-06-01T07:36:09Z">
+  <suite name="Default suite" duration-ms="365" started-at="2017-06-01T08:32:59Z" finished-at="2017-06-01T08:32:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1255" started-at="2017-06-01T07:36:07Z" finished-at="2017-06-01T07:36:09Z">
+    <test name="Default test" duration-ms="365" started-at="2017-06-01T08:32:59Z" finished-at="2017-06-01T08:32:59Z">
       <class name="com.yinting.core.test">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.yinting.core.test@1810399e]" name="test" duration-ms="1240" started-at="2017-06-01T15:36:08Z" finished-at="2017-06-01T15:36:09Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.yinting.core.test@1810399e]" name="test" duration-ms="350" started-at="2017-06-01T16:32:59Z" finished-at="2017-06-01T16:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->

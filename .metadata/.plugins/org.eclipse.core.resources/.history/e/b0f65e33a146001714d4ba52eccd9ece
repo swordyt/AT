@@ -12,7 +12,7 @@ public class HttpRequest implements Request {
 	}
 
 	public Request bodyes(Map<String, String> bodyes) {
-		this.request.bodyes(bodyes);
+		this.bodyes(bodyes);
 		return this;
 	}
 

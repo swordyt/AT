@@ -24,7 +24,7 @@ public class Get extends HttpRequest {
 
 	public Get(String url) {
 		this.url = url;
-		get = new HttpGet();
+		get=new HttpGet();
 	}
 
 	@Override
@@ -53,7 +53,7 @@ public class Get extends HttpRequest {
 
 	@Override
 	public Request headeres(Map<String, String> headeres) {
-		for (Map.Entry<String, String> entry : headeres.entrySet()) {
+		for(Map.Entry<String, String> entry:headeres.entrySet()){
 			this.header(entry.getKey(), entry.getValue());
 		}
 		return null;
@@ -62,7 +62,6 @@ public class Get extends HttpRequest {
 	@Override
 	public Response invoke() {
 		try {
-			get.setURI(new URI(url));
 			this.response = client.execute(this.get);
 			System.out.println(EntityUtils.toString(this.response.getEntity(),
 					"utf-8"));
@@ -72,7 +71,7 @@ public class Get extends HttpRequest {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (URISyntaxException e) {
+		}catch (URISyntaxException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
