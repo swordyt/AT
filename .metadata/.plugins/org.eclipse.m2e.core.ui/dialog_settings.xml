@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.yinting"/>
 			<item value="AutoTest"/>
 		</list>
 		<list key="name">

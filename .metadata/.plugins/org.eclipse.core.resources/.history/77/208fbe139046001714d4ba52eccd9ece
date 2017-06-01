@@ -1,0 +1,7 @@
+package com.yinting.core.Http;
+
+import com.yinting.core.Request;
+
+public class Get implements Request{
+
+}

@@ -1,0 +1,15 @@
+package com.yinting.core;
+
+import org.apache.log4j.Logger;
+
+public class Log {
+	private static final Logger log=Logger.getLogger(Log.class);
+
+	private Log() {
+
+	}
+	public static Log instance(){
+		
+		return log;
+	}
+}

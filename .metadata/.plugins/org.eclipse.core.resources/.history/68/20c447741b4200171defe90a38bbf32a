@@ -1,0 +1,16 @@
+package com.yinting.core;
+
+
+import java.util.logging.Logger;
+import org.apache.log4j.BasicConfigurator;   
+import org.apache.log4j.Logger;   
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.annotations.Test;
+
+public class test {
+	@Test
+public void test(){
+		
+Logger log=
+}
+}

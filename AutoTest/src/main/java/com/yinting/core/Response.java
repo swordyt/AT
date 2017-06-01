@@ -2,36 +2,20 @@ package com.yinting.core;
 
 import java.util.Map;
 
-public class Response {
-	public static Response assertStatus(String expect) {
-		return null;
-	}
+public interface Response {
+	public Response assertStatus(String expect);
 
-	public static String status() {
-		return null;
-	}
+	public String status();
 
-	public static Response assertHeader(String header, String expect) {
-		return null;
-	}
+	public Response assertHeader(String header, String expect);
 
-	public static String header(String parameter) {
-		return null;
-	}
+	public String header(String parameter);
 
-	public static Map getHeaderes() {
-		return null;
-	}
+	public Map getHeaderes();
 
-	public static Response assertValue(String path, String expect) {
-		return null;
-	}
+	public Response assertValue(String path, String expect);
 
-	public static String getValue(String path) {
-		return null;
-	}
+	public String getValue(String path);
 
-	public static String getBody() {
-		return null;
-	}
+	public String getBody();
 }

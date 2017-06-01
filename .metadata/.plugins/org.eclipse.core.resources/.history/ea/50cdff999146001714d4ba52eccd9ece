@@ -1,0 +1,69 @@
+package com.yinting.core.Http;
+
+import java.io.IOException;
+import java.util.Map;
+
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpRequestBase;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+import com.yinting.core.Request;
+import com.yinting.core.RequestType;
+import com.yinting.core.Response;
+
+public abstract class HttpRequest implements Request {
+	private HttpRequest request;
+	public Request body(String name, String value) {
+		request.body(name, value);
+		return null;
+	}
+
+	public Request bodyes(Map<String, String> bodyes) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request GET(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request POST(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request PUT(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request DELETE(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request HEAD(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request header(String name, String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Request headeres(Map<String, String> headeres) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Response invoke() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

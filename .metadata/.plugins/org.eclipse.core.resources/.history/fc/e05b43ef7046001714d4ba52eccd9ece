@@ -1,0 +1,259 @@
+package com.yinting.core;
+
+import java.util.Enumeration;
+import java.util.ResourceBundle;
+
+import org.apache.log4j.Appender;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.Priority;
+import org.apache.log4j.spi.LoggerRepository;
+import org.apache.log4j.spi.LoggingEvent;
+
+public class Log{
+	protected Log(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public synchronized void addAppender(Appender newAppender) {
+		// TODO Auto-generated method stub
+		super.addAppender(newAppender);
+	}
+
+	@Override
+	public void assertLog(boolean assertion, String msg) {
+		// TODO Auto-generated method stub
+		super.assertLog(assertion, msg);
+	}
+
+	@Override
+	public void callAppenders(LoggingEvent event) {
+		// TODO Auto-generated method stub
+		super.callAppenders(event);
+	}
+
+	@Override
+	public void debug(Object message) {
+		// TODO Auto-generated method stub
+		super.debug(message);
+	}
+
+	@Override
+	public void debug(Object message, Throwable t) {
+		// TODO Auto-generated method stub
+		super.debug(message, t);
+	}
+
+	@Override
+	public void error(Object message) {
+		// TODO Auto-generated method stub
+		super.error(message);
+	}
+
+	@Override
+	public void error(Object message, Throwable t) {
+		// TODO Auto-generated method stub
+		super.error(message, t);
+	}
+
+	@Override
+	public void fatal(Object message) {
+		// TODO Auto-generated method stub
+		super.fatal(message);
+	}
+
+	@Override
+	public void fatal(Object message, Throwable t) {
+		// TODO Auto-generated method stub
+		super.fatal(message, t);
+	}
+
+	@Override
+	protected void forcedLog(String fqcn, Priority level, Object message,
+			Throwable t) {
+		// TODO Auto-generated method stub
+		super.forcedLog(fqcn, level, message, t);
+	}
+
+	@Override
+	public boolean getAdditivity() {
+		// TODO Auto-generated method stub
+		return super.getAdditivity();
+	}
+
+	@Override
+	public synchronized Enumeration getAllAppenders() {
+		// TODO Auto-generated method stub
+		return super.getAllAppenders();
+	}
+
+	@Override
+	public synchronized Appender getAppender(String name) {
+		// TODO Auto-generated method stub
+		return super.getAppender(name);
+	}
+
+	@Override
+	public Level getEffectiveLevel() {
+		// TODO Auto-generated method stub
+		return super.getEffectiveLevel();
+	}
+
+	@Override
+	public Priority getChainedPriority() {
+		// TODO Auto-generated method stub
+		return super.getChainedPriority();
+	}
+
+	@Override
+	public LoggerRepository getHierarchy() {
+		// TODO Auto-generated method stub
+		return super.getHierarchy();
+	}
+
+	@Override
+	public LoggerRepository getLoggerRepository() {
+		// TODO Auto-generated method stub
+		return super.getLoggerRepository();
+	}
+
+	@Override
+	public ResourceBundle getResourceBundle() {
+		// TODO Auto-generated method stub
+		return super.getResourceBundle();
+	}
+
+	@Override
+	protected String getResourceBundleString(String key) {
+		// TODO Auto-generated method stub
+		return super.getResourceBundleString(key);
+	}
+
+	@Override
+	public void info(Object message) {
+		// TODO Auto-generated method stub
+		super.info(message);
+	}
+
+	@Override
+	public void info(Object message, Throwable t) {
+		// TODO Auto-generated method stub
+		super.info(message, t);
+	}
+
+	@Override
+	public boolean isAttached(Appender appender) {
+		// TODO Auto-generated method stub
+		return super.isAttached(appender);
+	}
+
+	@Override
+	public boolean isDebugEnabled() {
+		// TODO Auto-generated method stub
+		return super.isDebugEnabled();
+	}
+
+	@Override
+	public boolean isEnabledFor(Priority level) {
+		// TODO Auto-generated method stub
+		return super.isEnabledFor(level);
+	}
+
+	@Override
+	public boolean isInfoEnabled() {
+		// TODO Auto-generated method stub
+		return super.isInfoEnabled();
+	}
+
+	@Override
+	public void l7dlog(Priority priority, String key, Throwable t) {
+		// TODO Auto-generated method stub
+		super.l7dlog(priority, key, t);
+	}
+
+	@Override
+	public void l7dlog(Priority priority, String key, Object[] params,
+			Throwable t) {
+		// TODO Auto-generated method stub
+		super.l7dlog(priority, key, params, t);
+	}
+
+	@Override
+	public void log(Priority priority, Object message, Throwable t) {
+		// TODO Auto-generated method stub
+		super.log(priority, message, t);
+	}
+
+	@Override
+	public void log(Priority priority, Object message) {
+		// TODO Auto-generated method stub
+		super.log(priority, message);
+	}
+
+	@Override
+	public void log(String callerFQCN, Priority level, Object message,
+			Throwable t) {
+		// TODO Auto-generated method stub
+		super.log(callerFQCN, level, message, t);
+	}
+
+	@Override
+	public synchronized void removeAllAppenders() {
+		// TODO Auto-generated method stub
+		super.removeAllAppenders();
+	}
+
+	@Override
+	public synchronized void removeAppender(Appender appender) {
+		// TODO Auto-generated method stub
+		super.removeAppender(appender);
+	}
+
+	@Override
+	public synchronized void removeAppender(String name) {
+		// TODO Auto-generated method stub
+		super.removeAppender(name);
+	}
+
+	@Override
+	public void setAdditivity(boolean additive) {
+		// TODO Auto-generated method stub
+		super.setAdditivity(additive);
+	}
+
+	@Override
+	public void setLevel(Level level) {
+		// TODO Auto-generated method stub
+		super.setLevel(level);
+	}
+
+	@Override
+	public void setPriority(Priority priority) {
+		// TODO Auto-generated method stub
+		super.setPriority(priority);
+	}
+
+	@Override
+	public void setResourceBundle(ResourceBundle bundle) {
+		// TODO Auto-generated method stub
+		super.setResourceBundle(bundle);
+	}
+
+	@Override
+	public void warn(Object message) {
+		// TODO Auto-generated method stub
+		super.warn(message);
+	}
+
+	@Override
+	public void warn(Object message, Throwable t) {
+		// TODO Auto-generated method stub
+		super.warn(message, t);
+	}
+	private static final Logger log=Logger.getLogger(Log.class);
+
+	public static Logger instance(){
+		return log;
+	}
+}

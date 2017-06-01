@@ -1,7 +1,0 @@
-package com.yinting.core;
-
-public class Response {
-	public static String status(){
-		
-	}
-}

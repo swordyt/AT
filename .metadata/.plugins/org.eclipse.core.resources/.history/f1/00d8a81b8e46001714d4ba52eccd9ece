@@ -1,0 +1,6 @@
+package com.yinting.core;
+
+public enum RequestType {
+	GET, POST, PUT, DELETE, HEAD;
+	private String value;
+}

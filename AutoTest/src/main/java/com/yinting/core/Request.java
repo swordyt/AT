@@ -1,55 +1,28 @@
 package com.yinting.core;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.IOException;
 import java.util.Map;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.message.BasicNameValuePair;
-public class Request {
-	public static Request GET(String url) { 
-		HttpPost httppost=new HttpPost();
-		List<NameValuePair> list=new ArrayList<NameValuePair>();
-		list.add(new BasicNameValuePair("", ""));
-		httppost.setEntity();
-		return null;
-	}
+import org.apache.http.client.ClientProtocolException;
 
-	public static Request POST(String url) {
-		return null;
-	}
+public interface Request {
+	public Request GET(String url);
 
-	public static Request PUT(String url) {
-		return null;
-	}
+	public Request POST(String url);
 
-	public static Request DELETE(String url) {
-		return null;
-	}
+	public Request PUT(String url);
 
-	public static Request HEAD(String url) {
-		return null;
-	}
+	public Request DELETE(String url);
 
-	public static Request header(String parameter, String value) {
-		return null;
-	}
+	public Request HEAD(String url);
 
-	public static Request headeres(Map headeres) {
-		return null;
-	}
+	public Request header(String name, String value);
 
-	public static Request body(String parameter, String value) {
-		return null;
-	}
+	public Request headeres(Map<String,String> headeres);
 
-	public static Request bodyes(Map bodyes) {
-		return null;
-	}
+	public Request body(String name, String value);
 
-	public static Response invoke() {
-		return null;
-	}
+	public Request bodyes(Map<String,String> bodyes);
+
+	public Response invoke();
 }

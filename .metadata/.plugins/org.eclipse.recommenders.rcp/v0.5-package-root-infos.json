@@ -1,0 +1,379 @@
+[
+  {
+    "symbolicName": "commons-codec-1.2",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "397f4731a9f9b6eb1907e224911c77ea3aa27a8b",
+    "jarFileModificationDate": "2017-05-26T18:35:22+08:00",
+    "location": "/Users/ting/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "29820464260229b133c39965832ec39ba1b5e363",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "log4j-1.2.9",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "55856d711ab8b88f8c7b04fd85ff1643ffbfde7c",
+    "jarFileModificationDate": "2017-05-26T21:58:25+08:00",
+    "location": "/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "82a0f9c5cbc2b79bdb6cfe80487691e232b26f9c",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e419f43adbb708e506a5fe944216ee78168a9a00",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "commons-logging-1.0.4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f029a2aefe2b3e1517573c580f948caac31b1056",
+    "jarFileModificationDate": "2017-05-26T18:35:22+08:00",
+    "location": "/Users/ting/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.yaml.snakeyaml",
+    "version": {
+      "major": 1,
+      "minor": 12,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ebe66a6b88caab31d7a19571ad23656377523545",
+    "jarFileModificationDate": "2016-02-25T23:57:16+08:00",
+    "location": "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bsh-2.0b4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a05f0a0feefa8d8467ac80e16e7de071489f0d9c",
+    "jarFileModificationDate": "2016-02-25T23:57:16+08:00",
+    "location": "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3f881e3b34693a96cd3d9e20d6aeabae98757359",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2e7bb94b4794a3ee5db263de6c1e2726ca85cdf7",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f752f773e484bdab9b0df566bbb1d197e674e8d2",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c0b30c9498fbd314ea62e9c4c2f3aad50327542c",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "30ce32542a0676a22019407d28d0cf449e7ed58b",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5dc5db48346b0c2e46c354c0da1ded072dc43e89",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1c6997c20e635410773a14288359ff2f67b3fde1",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8f64d258112245e151d6fd0e01fc0b44f89007a3",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd8bb250113c07b7ea5d28235036f6210efa6d09",
+    "jarFileModificationDate": "2015-08-23T10:00:01+08:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "58b95b2da2ea5a049b31647cdcd59539ae1240a4",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpclient",
+    "version": {
+      "major": 4,
+      "minor": 5,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d1577ae15f01ef5438c5afc62162457c00a34713",
+    "jarFileModificationDate": "2017-05-26T19:02:26+08:00",
+    "location": "/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2b027a502a5a208b60a27ab2f5a5c6888490b7c8",
+    "jarFileModificationDate": "2015-10-07T07:20:47+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ce04e34240f674bc72680f8b843b1457383161a",
+    "jarFileModificationDate": "2016-12-14T19:10:09+08:00",
+    "location": "/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.beust.jcommander",
+    "version": {
+      "major": 1,
+      "minor": 48,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bfcb96281ea3b59d626704f74bc6d625ff51cbce",
+    "jarFileModificationDate": "2016-02-25T23:57:16+08:00",
+    "location": "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "commons-httpclient-3.1-rc1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "962616364835eaa661b7b5eaa0c5ead586d2c4fa",
+    "jarFileModificationDate": "2017-05-26T18:33:45+08:00",
+    "location": "/Users/ting/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.logging",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+    "jarFileModificationDate": "2016-12-14T15:01:03+08:00",
+    "location": "/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ea620a443dec1765d9cf46a99897aaa52c380f2d",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpcore",
+    "version": {
+      "major": 4,
+      "minor": 4,
+      "micro": 6,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e3fd8ced1f52c7574af952e2e6da0df8df08eb82",
+    "jarFileModificationDate": "2017-05-26T19:02:25+08:00",
+    "location": "/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d2716239efce236bac6887a73d90905e01e7134e",
+    "jarFileModificationDate": "2015-10-07T04:59:18+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a6a677e06b1e6f25ac314d24f42f34954b20b792",
+    "jarFileModificationDate": "2015-10-07T07:20:46+08:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.testng",
+    "version": {
+      "major": 6,
+      "minor": 11,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1fdd5e22f50b14f6d846163456e8c9a7657626fb",
+    "jarFileModificationDate": "2017-03-01T07:20:52+08:00",
+    "location": "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar",
+    "javaRuntime": false
+  }
+]

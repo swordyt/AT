@@ -1,0 +1,32 @@
+{
+  "/Users/ting/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar": {
+    "location": "/Users/ting/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/ting/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar\u0027. Neither fingerprint \u0027962616364835eaa661b7b5eaa0c5ead586d2c4fa\u0027 nor symbolic name \u0027commons-httpclient-3.1-rc1\u0027 are known."
+  },
+  "/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar": {
+    "coordinate": "org.apache.commons:org.apache.commons.logging:zip:call:1.0.0",
+    "location": "/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar": {
+    "location": "/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar\u0027. Neither fingerprint \u002755856d711ab8b88f8c7b04fd85ff1643ffbfde7c\u0027 nor symbolic name \u0027log4j-1.2.9\u0027 are known."
+  },
+  "/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar": {
+    "coordinate": "org.apache.httpcomponents:org.apache.httpcomponents.httpclient:zip:call:4.0.0",
+    "location": "/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar",
+    "status": "RESOLVED"
+  },
+  "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/ting/Documents/AutoTest/AutoTest/src/main/java": {
+    "location": "/Users/ting/Documents/AutoTest/AutoTest/src/main/java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/ting/Documents/AutoTest/AutoTest/src/main/java\u0027. Skipped."
+  }
+}

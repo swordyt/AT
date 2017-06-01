@@ -1,0 +1,25 @@
+package com.yinting.core;
+
+import java.util.Map;
+
+public interface Request {
+	public static Request GET(String url);
+
+	public static Request POST(String url);
+
+	public static Request PUT(String url);
+
+	public static Request DELETE(String url);
+
+	public static Request HEAD(String url);
+
+	public static Request header(String parameter, String value);
+
+	public static Request headeres(Map headeres);
+
+	public static Request body(String parameter, String value);
+
+	public static Request bodyes(Map bodyes);
+
+	public static Response invoke();
+}

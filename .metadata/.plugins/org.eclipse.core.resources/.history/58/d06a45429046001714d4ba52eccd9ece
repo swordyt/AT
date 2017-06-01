@@ -1,0 +1,12 @@
+package com.yinting.core.Http;
+
+import java.util.Map;
+
+import com.yinting.core.Request;
+import com.yinting.core.Response;
+
+public class Get extends HttpRequest{
+
+
+
+}

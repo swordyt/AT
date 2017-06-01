@@ -1,7 +1,0 @@
-package com.yinting.core;
-
-public class Request {
-public static Request GET(){
-	return null;
-}
-}
