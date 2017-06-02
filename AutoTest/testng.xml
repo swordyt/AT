@@ -5,9 +5,9 @@
 <listener class-name="com.yinting.core.Test.TestngListener"></listener>
 </listeners>
   <test name="Test">
-  	<classes>
-  	<class name="com.yinting.core.test"></class>
-  	<class name="com.yinting.core.test1"></class>
-  	</classes>
+    <classes>
+      <class name="com.yinting.core.TestCase"/>
+      <class name="com.yinting.core.test1"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

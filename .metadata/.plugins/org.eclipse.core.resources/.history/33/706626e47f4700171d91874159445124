@@ -1,0 +1,83 @@
+package com.yinting.core.Test;
+
+import java.util.Date;
+
+import org.testng.IClassListener;
+import org.testng.ISuite;
+import org.testng.ISuiteListener;
+import org.testng.ITestClass;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class TestngListener implements ISuiteListener, ITestListener,IClassListener {
+	public void onStart(ISuite suite) {
+		TestFactory.getSuite().setStartTime(new Date().getTime());
+		System.out.println("套件开始时间：" + new Date().getTime());
+	}
+
+	public void onFinish(ISuite suite) {
+		TestFactory.getSuite().setEndTime(new Date().getTime());
+		TestFactory.endSuite();
+		System.out.println("套件onFinish:" + suite.getName());
+
+	}
+
+	public void onTestStart(ITestResult result) {
+		TestFactory.getCas().setStartTime(new Date().getTime());
+		System.out.println("测试onTestStart");
+
+	}
+
+	public void onTestSuccess(ITestResult result) {
+		TestFactory.getCas().setResult(CaseResultType.SUCCESS);
+		TestFactory.getCas().setEndTime(new Date().getTime());
+		TestFactory.endCase();
+		System.out.println("测试onTestSuccess");
+
+	}
+
+	public void onTestFailure(ITestResult result) {
+		TestFactory.getCas().setResult(CaseResultType.FAILURE);
+		TestFactory.getCas().setEndTime(new Date().getTime());
+		TestFactory.endCase();
+		System.out.println("测试onTestFailure");
+
+	}
+
+	public void onTestSkipped(ITestResult result) {
+		TestFactory.getCas().setResult(CaseResultType.SKIPPED);
+		TestFactory.getCas().setEndTime(new Date().getTime());
+		TestFactory.endCase();
+		System.out.println("测试onTestSkipped");
+
+	}
+
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		TestFactory.getCas().setResult(CaseResultType.FBWSP);
+		TestFactory.getCas().setEndTime(new Date().getTime());
+		TestFactory.endCase();
+		System.out.println("测试onTestFailedButWithinSuccessPercentage");
+
+	}
+
+	public void onStart(ITestContext context) {
+		System.out.println("onStart:" + context.getName());
+
+	}
+
+	public void onFinish(ITestContext context) {
+		System.out.println("onFinish");
+	}
+
+	public void onBeforeClass(ITestClass testClass) {
+		TestFactory.getCls().setStartTime(new Date().getTime());
+		
+	}
+
+	public void onAfterClass(ITestClass testClass) {
+		TestFactory.getCls().setEndTime(new Date().getTime());
+		
+	}
+
+}

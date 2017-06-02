@@ -1,9 +1,11 @@
 package com.yinting.core.Http;
 
+import java.util.Date;
 import java.util.Map;
 
 import com.yinting.core.Request;
 import com.yinting.core.Response;
+import com.yinting.core.Test.TestFactory;
 
 public class HttpRequest implements Request {
 	private HttpRequest request;
@@ -19,27 +21,32 @@ public class HttpRequest implements Request {
 	}
 
 	public Request GET(String url) {
+		TestFactory.getStep().setStartTime(new Date().getTime());
 		this.request = new Get(url);
 		this.message="driver.GET("+url+")";
 		return this;
 	}
 
 	public Request POST(String url) {
+		TestFactory.getStep().setStartTime(new Date().getTime());
 		this.request = new Post(url);
 		return this;
 	}
 
 	public Request PUT(String url) {
+		TestFactory.getStep().setStartTime(new Date().getTime());
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	public Request DELETE(String url) {
+		TestFactory.getStep().setStartTime(new Date().getTime());
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	public Request HEAD(String url) {
+		TestFactory.getStep().setStartTime(new Date().getTime());
 		return null;
 	}
 
@@ -57,6 +64,9 @@ public class HttpRequest implements Request {
 	public Response invoke() {
 		this.message+=".invoke()";
 		System.out.println(this.message);
+		TestFactory.getStep().setEndTime(new Date().getTime());
+		TestFactory.getStep().setStep(this.message);
+		TestFactory.endStep();
 		return this.request.invoke();
 	}
 

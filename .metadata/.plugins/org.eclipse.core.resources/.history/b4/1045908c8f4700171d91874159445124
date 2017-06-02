@@ -1,0 +1,18 @@
+package com.yinting.core.Test;
+
+public class test2 {
+	private test1 a;
+
+	public test1 getA() {
+		a=new test1();
+		return a;
+	}
+
+	public void setA(test1 a) {
+		this.a = a;
+	}
+	public void printA(){
+		System.out.println(a.getName());
+	}
+
+}

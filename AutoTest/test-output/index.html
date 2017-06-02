@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -48,13 +48,8 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-<<<<<<< HEAD
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
                     <span>testng.xml</span>
-=======
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>D:\Users\ex-renqing111\AppData\Local\Temp\testng-eclipse-2008899664\testng-customsuite.xml</span>
->>>>>>> 0f7250d70191017b7a930872c9a9cbdb2f1d5321
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -96,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,7 +107,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yinting.core.test" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yinting.core.TestCase" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yinting.core.test1" hash-for-method="test1">test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,7 +130,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.yinting.core.test</span>
+              <span class="class-name">com.yinting.core.TestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -155,16 +155,19 @@
                   <span class="method-name">test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-<<<<<<< HEAD
             <span class="header-content">/Users/ting/Documents/AutoTest/AutoTest/testng.xml</span>
-=======
-            <span class="header-content">D:\Users\ex-renqing111\AppData\Local\Temp\testng-eclipse-2008899664\testng-customsuite.xml</span>
->>>>>>> 0f7250d70191017b7a930872c9a9cbdb2f1d5321
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -176,7 +179,7 @@
   &lt;/listeners&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.yinting.core.test&quot;/&gt;
+      &lt;class name=&quot;com.yinting.core.TestCase&quot;/&gt;
       &lt;class name=&quot;com.yinting.core.test1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -217,32 +220,26 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'com.yinting.core.test')
-<<<<<<< HEAD
-data.setCell(0, 3, 924);
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'com.yinting.core.test1')
+data.setCell(0, 3, 5587);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'com.yinting.core.test1')
-data.setCell(1, 3, 187);
+data.setCell(1, 2, 'com.yinting.core.TestCase')
+data.setCell(1, 3, 416);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'com.yinting.core.test1')
+data.setCell(2, 3, 186);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
-=======
-data.setCell(0, 3, 1094);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
->>>>>>> 0f7250d70191017b7a930872c9a9cbdb2f1d5321
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
-<<<<<<< HEAD
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
-=======
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
->>>>>>> 0f7250d70191017b7a930872c9a9cbdb2f1d5321
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -266,7 +263,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.yinting.core.test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.yinting.core.TestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test</span>
                 <span class="method-start">0 ms</span>
@@ -276,7 +273,11 @@ return data;
               <div class="chronological-class-name">com.yinting.core.test1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">926 ms</span>
+                <span class="method-start">419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">606 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
