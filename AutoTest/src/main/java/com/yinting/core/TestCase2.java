@@ -7,11 +7,11 @@ import org.testng.annotations.Test;
 
 import com.yinting.core.Http.HttpRequest;
 
-public class test {
+public class TestCase2 {
 	@Test
 	public void test() {
 		Map<String, String> bodyes = new HashMap<String, String>();
-		Request driver=new HttpRequest();
+		Request driver = new HttpRequest();
 		bodyes.put("apiKey", "797z3it2mdh44weikz4x513irjq22pu9y292k246");
 		bodyes.put("apiSequence", "2abffbfd7ef0b37bd254dcb3d9ee5429");
 		bodyes.put("iLoupanID", "864");
@@ -23,5 +23,6 @@ public class test {
 		bodyes.put("youhui", "5834");
 
 		driver.POST("http://api.st3.anhouse.com.cn/xf/lp/youhui.html").body("_from", "ios").bodyes(bodyes).invoke();
+		System.out.println("-------------------TestCase2.java");
 	}
 }
