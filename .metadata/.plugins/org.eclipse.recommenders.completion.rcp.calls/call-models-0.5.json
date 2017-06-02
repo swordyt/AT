@@ -28,5 +28,15 @@
     "location": "/Users/ting/Documents/AutoTest/AutoTest/src/main/java",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027/Users/ting/Documents/AutoTest/AutoTest/src/main/java\u0027. Skipped."
+  },
+  "/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar": {
+    "coordinate": "org.apache.httpcomponents:org.apache.httpcomponents.httpcore:zip:call:4.0.0",
+    "location": "/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar": {
+    "location": "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar\u0027. Neither fingerprint \u00271fdd5e22f50b14f6d846163456e8c9a7657626fb\u0027 nor symbolic name \u0027org.testng\u0027 are known."
   }
 }

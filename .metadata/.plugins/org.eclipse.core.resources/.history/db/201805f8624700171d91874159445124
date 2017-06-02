@@ -1,0 +1,9 @@
+package com.yinting.core.Test;
+
+import java.util.List;
+
+public class TestCase {
+	private long startTime = 0;
+	private long endTime = 0;
+	private List stepList;
+}

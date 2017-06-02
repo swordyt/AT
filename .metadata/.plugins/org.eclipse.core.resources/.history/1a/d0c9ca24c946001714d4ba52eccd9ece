@@ -1,0 +1,7 @@
+package com.yinting.core.Test;
+
+public class Test {
+private long testStartTime=0;
+private long testFinishTime=0;
+
+}

@@ -1,4 +1,4 @@
-package com.yinting.core;
+package com.yinting.core; 
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +7,11 @@ import org.testng.annotations.Test;
 
 import com.yinting.core.Http.HttpRequest;
 
+/** 
+ * @author 作者 E-mail: 
+ * @version 创建时间：2017年6月2日 下午9:10:33 
+ * 类说明 
+ */
 public class TestCase {
 	@Test
 	public void test() {
@@ -26,3 +31,4 @@ public class TestCase {
 		System.out.println("------------TestCase.java");
 	}
 }
+ 

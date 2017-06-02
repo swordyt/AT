@@ -1,8 +1,0 @@
-package com.yinting.core.Http;
-
-
-public class Get extends HttpRequest{
-
-
-
-}

@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.management.RuntimeErrorException;
+
 import org.apache.http.Header;
 import org.apache.http.ParseException;
 import org.apache.http.util.EntityUtils;
@@ -14,18 +16,18 @@ public class HttpResponse implements Response {
 	private org.apache.http.HttpResponse httpResponse;
 	private HttpResponse response;
 	private String body;
-
+	protected HttpResponse(){
+		
+	}
 	public HttpResponse(org.apache.http.HttpResponse response) {
 		this.httpResponse = response;
 		try {
-			this.body = EntityUtils
-					.toString(this.httpResponse.getEntity(), "utf-8");
-		} catch (ParseException e) {
+			this.body = EntityUtils.toString(this.httpResponse.getEntity(),
+					"utf-8");
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new RuntimeException(e);
 		}
 		this.JSON();
 	}

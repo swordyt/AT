@@ -108,6 +108,7 @@ public class GetTestJava {
 		// 创建根节点suite，并设置name属性为xmlsuitename
 		Element root = document.addElement("suite").addAttribute("name", "Suite");
 
+
 		// 创建节点test，并设置name、verbose属性
 		Element test = root.addElement("test")
 
