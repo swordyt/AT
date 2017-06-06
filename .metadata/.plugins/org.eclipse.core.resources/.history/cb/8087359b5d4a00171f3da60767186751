@@ -1,0 +1,14 @@
+package com.yinting.core.datadriver;
+
+public enum DataType {
+	EXCEL("excel",0), XML, DB;
+	private DataType(String name,int type) {
+
+	}
+	public String getValue(){
+		
+	}
+	public int getType(){
+		
+	}
+}

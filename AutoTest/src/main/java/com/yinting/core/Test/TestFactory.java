@@ -35,7 +35,6 @@ public class TestFactory {
 	}
 
 	public static TestCase getCas() {
-		System.out.println("CASE创建");
 		if (TestFactory.cas == null) {
 			TestFactory.cas = new TestCase();
 		}

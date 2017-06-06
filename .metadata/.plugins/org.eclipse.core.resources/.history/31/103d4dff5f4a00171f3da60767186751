@@ -1,0 +1,15 @@
+package com.yinting.core.datadriver;
+
+public class Data {
+	public Data(String excelPath, String sheet) {
+
+	}
+
+	public Data(String xmlPath) throws Exception {
+		throw new Exception("功能未实现");
+	}
+
+	public Data() {
+
+	}
+}

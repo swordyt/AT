@@ -1,0 +1,7 @@
+package com.yinting.core.datadriver;
+
+public class Data{
+	public static DataDriver useExcel(){
+		return null;
+	}
+}

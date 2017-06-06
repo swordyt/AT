@@ -1,0 +1,12 @@
+package com.yinting.core.datadriver;
+
+import java.util.Iterator;
+
+import org.testng.annotations.DataProvider;
+
+public class DataProviderClass {
+	@DataProvider(name="")
+public Iterator<Class> db(){
+	return null;
+}
+}

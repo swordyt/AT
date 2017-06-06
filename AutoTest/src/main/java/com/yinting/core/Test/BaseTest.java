@@ -1,0 +1,6 @@
+package com.yinting.core.Test;
+
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
+public class BaseTest extends AbstractTestNGSpringContextTests{
+
+}

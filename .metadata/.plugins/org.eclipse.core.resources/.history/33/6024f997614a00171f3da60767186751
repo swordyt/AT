@@ -1,0 +1,17 @@
+package com.yinting.core.datadriver;
+
+public class Data {
+	private int type = 0; // 0 excel,1 DB,2 xml;
+
+	public Data(String excelPath, String sheet) {
+		this.type = 0;
+	}
+
+	public Data(String sqlPath) {
+		this.type = 1;
+	}
+
+	public Data() {
+		this.type = 2;
+	}
+}

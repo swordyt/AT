@@ -1,6 +1,0 @@
-package com.yinting.core.Test;
-
-public class TestFactory {
-private static TestSuite suite;
-private static TestClass cla;
-}

@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://git.ipo.com/hf-test-automation/nf-ta-app-hf"/>
+		<item value="http://git.ipo.com/hf-test-automation/nf-ta-app-hf"/>
 		<item value="git@github.com:swordyt/project.git"/>
 	</list>
 	<section name="GitImportWizard">

@@ -1,0 +1,16 @@
+package com.yinting.core.datadriver;
+
+public class Data {
+	private int type=0;
+	public Data(String excelPath, String sheet) {
+
+	}
+
+	public Data(String sqlPath) {
+
+	}
+
+	public Data() {
+
+	}
+}

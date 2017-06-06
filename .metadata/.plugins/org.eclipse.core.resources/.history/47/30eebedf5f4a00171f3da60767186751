@@ -1,0 +1,15 @@
+package com.yinting.core.datadriver;
+
+public class Data {
+	public Data(String excelPath, String sheet) {
+
+	}
+
+	public Data(String xmlPath) {
+		
+	}
+
+	public Data() {
+
+	}
+}
