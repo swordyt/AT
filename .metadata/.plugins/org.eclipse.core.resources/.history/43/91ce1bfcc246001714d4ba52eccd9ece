@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yinting.core.test">
+      <class name="com.Testng.run.Test001">
         <methods>
-          <include name="test"/>
+          <include name="test_getListFiles"/>
         </methods>
-      </class> <!-- com.yinting.core.test -->
+      </class> <!-- com.Testng.run.Test001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,6 +12,7 @@ import com.yinting.core.datadriver.Driver;
  */
 public class TestCase {
 	@Test
+<<<<<<< HEAD
 	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3" })
 	public void test(String str) {
 		// Request driver = new HttpRequest();

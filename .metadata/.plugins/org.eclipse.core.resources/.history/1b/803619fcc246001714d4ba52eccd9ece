@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 01 20:38:50 CST 2017</td>
+<td>Started on:</td><td>Fri Jun 02 16:40:42 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1159 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (167 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,10 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.yinting.core.test.test()'><b>test</b><br>Test class: com.yinting.core.test</td>
+<td title='com.Testng.run.Test001.test_getListFiles()'><b>test_getListFiles</b><br>Test class: com.Testng.run.Test001</td>
 <td></td>
-<td>1</td>
-<td>com.yinting.core.test@77bb1dd2</td></tr>
+<td>0</td>
+<td>com.Testng.run.Test001@3de08f43</td></tr>
 </table><p>
 </body>
 </html>

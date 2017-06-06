@@ -6,11 +6,20 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.yinting.core.TestCase">
         <methods>
           <include name="test"/>
         </methods>
       </class> <!-- com.yinting.core.TestCase -->
+=======
+      <class name="com.yinting.core.test1">
+        <methods>
+          <include name="test1"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.yinting.core.test1 -->
+>>>>>>> b4aee948eb6c6345a85d8533fbcbeaaab411736c
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
