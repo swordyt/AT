@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.yinting.core.Test.TestngListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="methods">
     <classes>
       <class name="com.yinting.core.TestCase">
         <methods>
-          <include name="test"/>
+          <include name="test5"/>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test6"/>
+          <include name="test3"/>
+          <include name="test1"/>
         </methods>
       </class> <!-- com.yinting.core.TestCase -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,26 @@
+package com.yinting.core;
+
+public class DataExchangeArea {
+	public static ThreadLocal<String[]> local = new ThreadLocal<String[]>(){
+
+		@Override
+		protected String[] initialValue() {
+			
+			return super.initialValue();
+		}
+
+		@Override
+		public String[] get() {
+			
+			return super.get();
+		}
+
+		@Override
+		public void set(String[] value) {
+			System.out.println(Thread.currentThread().getId());
+			System.out.println(value.toString());
+			super.set(value);
+		}
+		
+	};
+}

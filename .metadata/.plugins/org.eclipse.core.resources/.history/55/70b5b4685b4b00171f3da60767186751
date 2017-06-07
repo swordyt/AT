@@ -1,0 +1,6 @@
+package com.yinting.core;
+
+public class DataExchangeArea {
+public static ThreadLocal<String []> local=new ThreadLocal<String[]>();
+
+}

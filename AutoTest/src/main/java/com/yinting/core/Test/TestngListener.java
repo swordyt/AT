@@ -20,6 +20,9 @@ import org.testng.annotations.IFactoryAnnotation;
 import org.testng.annotations.IListenersAnnotation;
 import org.testng.annotations.ITestAnnotation;
 
+import com.yinting.core.DataExchangeArea;
+import com.yinting.core.TestCase;
+import com.yinting.core.datadriver.DataDriver;
 import com.yinting.core.datadriver.DataProviderClass;
 import com.yinting.core.datadriver.Driver;
 
@@ -110,7 +113,6 @@ public class TestngListener implements ISuiteListener, ITestListener,
 		if (ann != null) {
 			dataDriver(annotation, (Driver) ann);
 		}
-
 	}
 
 	public void transform(IListenersAnnotation annotation, Class testClass) {
@@ -120,6 +122,7 @@ public class TestngListener implements ISuiteListener, ITestListener,
 
 	private void dataDriver(ITestAnnotation annotation, Driver driver) {
 		annotation.setDataProviderClass(DataProviderClass.class);
+		DataDriver.parameter=driver.parameter();
 		switch (driver.type().getType()) {
 		case 0: // excel
 			annotation.setDataProvider(DATAPROVIDER_EXCEL);
