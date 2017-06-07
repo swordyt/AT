@@ -7,7 +7,7 @@ public class XmlDriver extends DataDriver{
 		return false;
 	}
 
-	public Object next() {
+	public Object[] next() {
 		// TODO Auto-generated method stub
 		return null;
 	}

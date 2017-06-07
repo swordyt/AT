@@ -16,11 +16,8 @@ public class TestFactory {
 	}
 
 	public static void endStep() {
-		if (cas != null) {
-			TestFactory.cas.insertStep(TestFactory.step);
-			TestFactory.step = null;
-		}
-
+		TestFactory.cas.insertStep(TestFactory.step);
+		TestFactory.step = null;
 	}
 
 	public static TestSuite getSuite() {
@@ -62,8 +59,8 @@ public class TestFactory {
 					TestStep step = stepList.get(k);
 					System.out.println("==========StepStart==================");
 					System.out.println("步骤开始时间：" + step.getStartTime());
-					System.out.println("步骤" + (k + 1) + "：" + step.getStep());
-					System.out.println("步骤结束时间：" + step.getEndTime());
+					System.out.println("步骤"+(k+1)+"："+step.getStep());
+					System.out.println("步骤结束时间："+step.getEndTime());
 					System.out.println("==========StepEnd====================");
 				}
 				System.out.println("测试结束时间：" + caseList.get(j).getEndTime());

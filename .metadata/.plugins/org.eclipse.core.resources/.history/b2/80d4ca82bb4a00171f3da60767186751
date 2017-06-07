@@ -9,6 +9,7 @@
       <classes>
          <class name="com.yinting.core.test1"/>
          <class name="com.yinting.core.TestCase"/>
+         <class name="com.yinting.core.TestCase2"/>
       </classes>
    </test>
 </suite>

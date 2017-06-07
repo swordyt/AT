@@ -1,15 +1,16 @@
 package com.yinting.core.datadriver;
 
-public class DbDriver extends DataDriver{
+public class ExcelDriver extends DataDriver {
+	private Integer i = 0;
 
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	public Object[] next() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return ;
 	}
 
 	@Override

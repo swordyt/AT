@@ -1,204 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60" started-at="2017-06-06T08:26:39Z" finished-at="2017-06-06T08:26:39Z">
+  <suite name="Default suite" duration-ms="18" started-at="2017-06-06T13:23:53Z" finished-at="2017-06-06T13:23:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60" started-at="2017-06-06T08:26:39Z" finished-at="2017-06-06T08:26:39Z">
-      <class name="com.yinting.core.test1">
-        <test-method status="FAIL" signature="test()[pri:0, instance:com.yinting.core.test1@1810399e]" name="test" duration-ms="40" started-at="2017-06-06T16:26:39Z" finished-at="2017-06-06T16:26:39Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.yinting.core.Test.TestFactory.endStep(TestFactory.java:19)
-	at com.yinting.core.Http.HttpRequest.invoke(HttpRequest.java:69)
-	at com.yinting.core.test1.test(test1.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:com.yinting.core.test1@1810399e]" name="test1" duration-ms="1" started-at="2017-06-06T16:26:39Z" finished-at="2017-06-06T16:26:39Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.yinting.core.Test.TestFactory.endStep(TestFactory.java:19)
-	at com.yinting.core.Http.HttpRequest.invoke(HttpRequest.java:69)
-	at com.yinting.core.test1.test1(test1.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-=======
-<testng-results skipped="0" failed="2" total="4" passed="2">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Suite" duration-ms="45251" started-at="2017-06-02T13:16:13Z" finished-at="2017-06-02T13:16:58Z">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="45251" started-at="2017-06-02T13:16:13Z" finished-at="2017-06-02T13:16:58Z">
-      <class name="com.yinting.core.TestCase2">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.yinting.core.TestCase2@41c85632]" name="test" duration-ms="48" started-at="2017-06-02T21:16:58Z" finished-at="2017-06-02T21:16:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.yinting.core.TestCase2 -->
-      <class name="com.yinting.core.test1">
-        <test-method status="FAIL" signature="test()[pri:0, instance:com.yinting.core.test1@7798ce82]" name="test" duration-ms="22952" started-at="2017-06-02T21:16:13Z" finished-at="2017-06-02T21:16:36Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NullPointerException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-	at com.yinting.core.Http.HttpResponse.<init>(HttpResponse.java:30)
-	at com.yinting.core.Http.Get.invoke(Get.java:78)
-	at com.yinting.core.Http.HttpRequest.invoke(HttpRequest.java:70)
-	at com.yinting.core.test1.test(test1.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: java.lang.NullPointerException
-	at com.yinting.core.Http.HttpResponse.<init>(HttpResponse.java:25)
-	... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:com.yinting.core.test1@7798ce82]" name="test1" duration-ms="21080" started-at="2017-06-02T21:16:36Z" finished-at="2017-06-02T21:16:57Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NullPointerException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-	at com.yinting.core.Http.HttpResponse.<init>(HttpResponse.java:30)
-	at com.yinting.core.Http.Get.invoke(Get.java:78)
-	at com.yinting.core.Http.HttpRequest.invoke(HttpRequest.java:70)
-	at com.yinting.core.test1.test1(test1.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: java.lang.NullPointerException
-	at com.yinting.core.Http.HttpResponse.<init>(HttpResponse.java:25)
-	... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
->>>>>>> b4aee948eb6c6345a85d8533fbcbeaaab411736c
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.yinting.core.test1 -->
-<<<<<<< HEAD
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-=======
+    <test name="Default test" duration-ms="18" started-at="2017-06-06T13:23:53Z" finished-at="2017-06-06T13:23:53Z">
       <class name="com.yinting.core.TestCase">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.yinting.core.TestCase@5ef75c3b]" name="test" duration-ms="1078" started-at="2017-06-02T21:16:57Z" finished-at="2017-06-02T21:16:58Z">
+        <test-method status="FAIL" signature="test(java.lang.Integer)[pri:0, instance:com.yinting.core.TestCase@100fc185]" name="test" duration-ms="0" started-at="2017-06-06T21:23:53Z" finished-at="2017-06-06T21:23:53Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [test] with [class java.lang.Integer].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [test] with [class java.lang.Integer].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:458)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- com.yinting.core.TestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
->>>>>>> b4aee948eb6c6345a85d8533fbcbeaaab411736c
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
