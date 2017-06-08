@@ -1,0 +1,29 @@
+package com.yinting.core.datadriver;
+
+import java.lang.reflect.Method;
+
+public class ExcelDriver extends DataDriver {
+	private Integer i = 0;
+	private int position = 0;
+	private int total = 0;
+
+	public ExcelDriver(Method method) {
+		total = parameteres.get(md5(method)).size();
+	}
+
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return position < total;
+	}
+
+	public Object[] next() {
+		return new Object[] {""};
+	}
+
+	@Override
+	public int getType() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

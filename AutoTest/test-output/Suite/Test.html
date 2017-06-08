@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 07 20:20:06 CST 2017</td>
+<td>Started on:</td><td>Wed Jun 07 21:29:05 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (69 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (41 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,163 +67,313 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.yinting.core.TestCase.test1()'><b>test1</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 1</td>
-<td></td>
+<td title='com.yinting.core.TestCase.test1()'><b>test1</b><br>Test class: com.yinting.core.TestCase</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace260908452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace260908452'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test1([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.TestCase@6d00a15d</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test1()'><b>test1</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 2</td>
-<td></td>
+<td title='com.yinting.core.TestCase.test2()'><b>test2</b><br>Test class: com.yinting.core.TestCase</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test2([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1440864033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1440864033'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test2([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.TestCase@6d00a15d</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test1()'><b>test1</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 3</td>
-<td></td>
+<td title='com.yinting.core.TestCase.test3()'><b>test3</b><br>Test class: com.yinting.core.TestCase</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test3([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace806360529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace806360529'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test3([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.TestCase@6d00a15d</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test1()'><b>test1</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 4</td>
-<td></td>
+<td title='com.yinting.core.TestCase.test4()'><b>test4</b><br>Test class: com.yinting.core.TestCase</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test4([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1100473580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1100473580'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test4([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.TestCase@6d00a15d</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test1()'><b>test1</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 5</td>
-<td></td>
+<td title='com.yinting.core.TestCase.test5()'><b>test5</b><br>Test class: com.yinting.core.TestCase</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test5([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1387171883", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387171883'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test5([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.TestCase@6d00a15d</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test2()'><b>test2</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 1</td>
-<td></td>
+<td title='com.yinting.core.TestCase.test6()'><b>test6</b><br>Test class: com.yinting.core.TestCase</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test6([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1811571069", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1811571069'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test6([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.TestCase@6d00a15d</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test2()'><b>test2</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 2</td>
-<td></td>
+<td title='com.yinting.core.test1.testa()'><b>testa</b><br>Test class: com.yinting.core.test1</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testa([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1458779604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1458779604'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testa([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.test1@396a51ab</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test2()'><b>test2</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 3</td>
-<td></td>
+<td title='com.yinting.core.test1.testb()'><b>testb</b><br>Test class: com.yinting.core.test1</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testb([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace867245787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace867245787'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testb([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.test1@396a51ab</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test2()'><b>test2</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 4</td>
-<td></td>
+<td title='com.yinting.core.test1.testc()'><b>testc</b><br>Test class: com.yinting.core.test1</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testc([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace581959272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace581959272'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testc([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.test1@396a51ab</td></tr>
 <tr>
-<td title='com.yinting.core.TestCase.test2()'><b>test2</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 5</td>
-<td></td>
+<td title='com.yinting.core.test1.testd()'><b>testd</b><br>Test class: com.yinting.core.test1</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testd([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1846432109", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1846432109'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testd([])
+Arguments: [(java.lang.Integer)0]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
 <td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test3()'><b>test3</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 1</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test3()'><b>test3</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 2</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test3()'><b>test3</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 3</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test3()'><b>test3</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 4</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test3()'><b>test3</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 5</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test4()'><b>test4</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 1</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test4()'><b>test4</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 2</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test4()'><b>test4</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 3</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test4()'><b>test4</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 4</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test4()'><b>test4</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 5</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test5()'><b>test5</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 1</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test5()'><b>test5</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 2</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test5()'><b>test5</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 3</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test5()'><b>test5</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 4</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test5()'><b>test5</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 5</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test6()'><b>test6</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 1</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test6()'><b>test6</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 2</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test6()'><b>test6</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 3</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test6()'><b>test6</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 4</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
-<tr>
-<td title='com.yinting.core.TestCase.test6()'><b>test6</b><br>Test class: com.yinting.core.TestCase<br>Parameters: 5</td>
-<td></td>
-<td>0</td>
-<td>com.yinting.core.TestCase@643b1d11</td></tr>
+<td>com.yinting.core.test1@396a51ab</td></tr>
 </table><p>
 </body>
 </html>

@@ -18,30 +18,30 @@ public class TestCase {
 	public void test6(String i) {
 		System.out.println(Thread.currentThread().getName() + ":" + i);
 	}
-	@Test
-	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
-	public void test5(String i) {
-		System.out.println(Thread.currentThread().getName() + ":" + i);
-	}
-	@Test
-	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
-	public void test4(String i) {
-		System.out.println(Thread.currentThread().getName() + ":" + i);
-	}
-	@Test
-	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
-	public void test3(String i) {
-		System.out.println(Thread.currentThread().getName() + ":" + i);
-	}
-	@Test
-	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
-	public void test2(String i) {
-		System.out.println(Thread.currentThread().getName() + ":" + i);
-	}
-	@Test
-	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
-	public void test1(String i) {
-		System.out.println(Thread.currentThread().getName() + ":" + i);
-	}
+//	@Test
+//	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
+//	public void test5(String i) {
+//		System.out.println(Thread.currentThread().getName() + ":" + i);
+//	}
+//	@Test
+//	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
+//	public void test4(String i) {
+//		System.out.println(Thread.currentThread().getName() + ":" + i);
+//	}
+//	@Test
+//	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
+//	public void test3(String i) {
+//		System.out.println(Thread.currentThread().getName() + ":" + i);
+//	}
+//	@Test
+//	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
+//	public void test2(String i) {
+//		System.out.println(Thread.currentThread().getName() + ":" + i);
+//	}
+//	@Test
+//	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
+//	public void test1(String i) {
+//		System.out.println(Thread.currentThread().getName() + ":" + i);
+//	}
 
 }

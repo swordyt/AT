@@ -1,15 +1,20 @@
 package com.yinting.core.datadriver;
 
-public class XmlDriver extends DataDriver{
+import java.lang.reflect.Method;
+
+public class XmlDriver extends DataDriver {
+	private int i=0;
+	public XmlDriver(Method method) {
+	}
 
 	public boolean hasNext() {
-		// TODO Auto-generated method stub
-		return false;
+		
+		return i++<20;
 	}
 
 	public Object[] next() {
 		// TODO Auto-generated method stub
-		return null;
+		return new String[]{i+""};
 	}
 
 	@Override

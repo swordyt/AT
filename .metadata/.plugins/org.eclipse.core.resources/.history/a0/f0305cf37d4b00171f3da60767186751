@@ -1,0 +1,9 @@
+package com.yinting.core.datadriver;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public abstract class DataDriver implements Iterator<Object[]> {
+	public static Map parameteres=new HashMap<String, String[]>();
+	public abstract int getType();
+}

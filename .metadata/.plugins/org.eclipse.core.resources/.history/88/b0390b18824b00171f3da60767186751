@@ -1,0 +1,25 @@
+package com.yinting.core.datadriver;
+
+import java.lang.reflect.Method;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public abstract class DataDriver implements Iterator<Object[]> {
+	public static Map<String,String[]> parameteres=new HashMap<String, String[]>();
+	public abstract int getType();
+	public static String md5(Method method){
+		String key=Thread.currentThread().getName()+"-"+method.getDeclaringClass().getName()+"-"+method.getName();
+		try {
+			MessageDigest md5=MessageDigest.getInstance(key);
+			
+		} catch (NoSuchAlgorithmException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		BASE64Encoder base64en = new BASE64Encoder();
+		return null;
+	}
+}

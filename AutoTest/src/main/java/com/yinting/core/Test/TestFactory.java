@@ -84,7 +84,9 @@ public class TestFactory {
 	}
 
 	public static void endCase() {
-		TestFactory.cls.insertCase(cas);
+		if(TestFactory.cls !=null){
+			TestFactory.cls.insertCase(cas);
+		}
 		cas = null;
 	}
 }

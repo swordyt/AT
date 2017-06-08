@@ -111,7 +111,7 @@ public class TestngListener implements ISuiteListener, ITestListener,
 			Constructor testConstructor, Method testMethod) {
 		Annotation ann = testMethod.getAnnotation(Driver.class);
 		if (ann != null) {
-			dataDriver(annotation, (Driver) ann);
+			dataDriver(annotation,testMethod, (Driver) ann);
 		}
 	}
 
@@ -120,9 +120,9 @@ public class TestngListener implements ISuiteListener, ITestListener,
 
 	}
 
-	private void dataDriver(ITestAnnotation annotation, Driver driver) {
+	private void dataDriver(ITestAnnotation annotation,Method method, Driver driver) {
 		annotation.setDataProviderClass(DataProviderClass.class);
-		DataDriver.parameter=driver.parameter();
+		DataDriver.parameteres.put(DataDriver.md5(method), driver.parameter());
 		switch (driver.type().getType()) {
 		case 0: // excel
 			annotation.setDataProvider(DATAPROVIDER_EXCEL);

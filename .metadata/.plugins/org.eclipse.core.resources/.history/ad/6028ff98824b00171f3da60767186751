@@ -1,0 +1,26 @@
+package com.yinting.core.datadriver;
+
+import java.lang.reflect.Method;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public abstract class DataDriver implements Iterator<Object[]> {
+	public static Map<String,String[]> parameteres=new HashMap<String, String[]>();
+	public abstract int getType();
+	public static String md5(Method method){
+		String key=Thread.currentThread().getName()+"-"+method.getDeclaringClass().getName()+"-"+method.getName();
+		try {
+			MessageDigest md5=MessageDigest.getInstance(key);
+			md5.update(key.getBytes());
+			return new BigInteger(1,md5.digest()).toString();
+			
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace("md5计算错误");
+		}
+		return null;
+	}
+}

@@ -1,6 +1,11 @@
 package com.yinting.core.datadriver;
 
-public class DbDriver extends DataDriver{
+import java.lang.reflect.Method;
+
+public class DbDriver extends DataDriver {
+	public DbDriver(Method method) {
+
+	}
 
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
