@@ -1,8 +1,0 @@
-package com.yinting.core;
-
-public class Log {
-private static Log log;
-private Log(){
-
-}
-}

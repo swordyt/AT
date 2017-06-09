@@ -1,13 +1,9 @@
 package com.yinting.core.Http;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.management.RuntimeErrorException;
-
 import org.apache.http.Header;
-import org.apache.http.ParseException;
 import org.apache.http.util.EntityUtils;
 
 import com.yinting.core.Response;

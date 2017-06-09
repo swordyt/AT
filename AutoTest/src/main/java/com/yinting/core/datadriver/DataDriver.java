@@ -12,7 +12,7 @@ public abstract class DataDriver implements Iterator<Object[]> {
 	public static Map<String,String[]> parameteres=new HashMap<String, String[]>();
 	public abstract int getType();
 	public static String md5(Method method){
-		String key=Thread.currentThread().getName()+"-"+method.getDeclaringClass().getName()+"-"+method.getName();
+		String key=method.getDeclaringClass().getName()+"-"+method.getName();
 		try {
 			MessageDigest md5=MessageDigest.getInstance("MD5", new sun.security.provider.Sun());
 			md5.update(key.getBytes());

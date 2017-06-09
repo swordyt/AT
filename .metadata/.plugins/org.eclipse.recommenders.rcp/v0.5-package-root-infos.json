@@ -195,6 +195,19 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "dom4j-1.6.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+    "jarFileModificationDate": "2017-06-06T21:00:38+08:00",
+    "location": "/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "com.google.inject",
     "version": {
       "major": 3,
@@ -2493,6 +2506,19 @@
     "jarFileFingerprint": "5592374f834645c4ae250f4c9fbb314c9369d698",
     "jarFileModificationDate": "2016-12-16T14:56:23+08:00",
     "location": "/Users/ting/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jdom",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9986f2db44c7d183a861e72d3003eea1fcfe7a99",
+    "jarFileModificationDate": "2017-06-06T21:00:38+08:00",
+    "location": "/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar",
     "javaRuntime": false
   },
   {

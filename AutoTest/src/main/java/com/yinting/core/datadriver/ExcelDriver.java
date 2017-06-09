@@ -8,21 +8,19 @@ public class ExcelDriver extends DataDriver {
 	private int total = 0;
 	private String[] parameter;
 	public ExcelDriver(Method method) {
-//		String key=md5(method);
-//		System.out.println("========="+key+"====");
-//		parameter=DataDriver.parameteres.get(key);
-//		total = parameter.length;
+		parameter=DataDriver.parameteres.get(md5(method));
+		total = parameter.length;
 	}
 
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
-//		return position < total;
-		return true;
+		return position < total;
+//		return true;
 	}
 
 	public Object[] next() {
 //		return new Object[] {parameter[position++]};
-		return new Object[] {""+i++};
+		return new Object[] {parameter[position++]};
 	}
 
 	@Override

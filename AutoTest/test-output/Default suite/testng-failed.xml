@@ -5,7 +5,7 @@
     <classes>
       <class name="com.yinting.core.TestCase">
         <methods>
-          <include name="test"/>
+          <include name="test6"/>
         </methods>
       </class> <!-- com.yinting.core.TestCase -->
     </classes>

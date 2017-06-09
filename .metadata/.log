@@ -312,3 +312,1392 @@ Binding(CTRL+SHIFT+ARROW_DOWN,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:04:43.282
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:04:43.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:05:04.322
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:05:04.323
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:05:16.761
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:05:16.763
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:05:26.529
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:05:26.531
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:07:12.634
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:07:12.635
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:07:30.693
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:07:30.694
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:07:46.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:07:46.760
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:08:15.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:08:15.502
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:08:22.747
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52226 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52226 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:22.120
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:22.124
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:28.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:28.543
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:41.020
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:41.022
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:47.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:47.805
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:56.869
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:09:56.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:10:14.863
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:10:14.864
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:10:16.912
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:10:16.914
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:10:21.349
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52235 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52235 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:10:56.914
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52239 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--103011181/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52239 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--103011181/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:11:22.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:11:22.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:11:33.713
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:11:33.714
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:11:36.644
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52244 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1593792765/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52244 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1593792765/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:11:50.800
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:11:50.801
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:12:16.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:12:16.502
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:12:25.029
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52248 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1964198687/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52248 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1964198687/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:12:38.005
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:12:38.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:12:41.185
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52251 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--155752429/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52251 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--155752429/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:14:15.384
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:14:15.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:14:28.559
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:14:28.561
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:14:32.381
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52354 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1664967477/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52354 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1664967477/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:16:22.851
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:16:22.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:16:26.443
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52363 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--2065739558/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52363 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--2065739558/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:22:48.556
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52383 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--769749853/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52383 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--769749853/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:24:40.176
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:24:40.177
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:24:46.883
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:24:46.885
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:16.383
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:16.384
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:29.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:29.798
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:36.410
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:36.411
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:52.317
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:25:52.318
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:25:57.889
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52399 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-507291399/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52399 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-507291399/testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 4 2017-06-08 10:26:22.622
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-06-08 10:26:22.622
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-06-08 10:26:22.622
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-06-08 10:26:22.623
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-06-08 10:26:22.623
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-06-08 10:26:22.623
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:27:07.621
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52405 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1489463396/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52405 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1489463396/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:28:43.059
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52416 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--15568677/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52416 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--15568677/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:29:36.869
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:29:36.870
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:29:46.823
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:29:46.844
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52423 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1669696143/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52423 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1669696143/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:30:11.823
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:30:11.829
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:30:16.807
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:30:16.828
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52425 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1700045334/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52425 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1700045334/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:30:56.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:30:56.728
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:30:59.252
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:30:59.257
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:31:04.813
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:31:04.825
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52430 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-530606195/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52430 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-530606195/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:31:33.035
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:31:33.039
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:31:37.314
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:31:37.334
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52436 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-711099402/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52436 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-711099402/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:32:28.013
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:32:28.014
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:32:37.091
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:32:37.092
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:09.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:09.287
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:17.737
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:17.738
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:39.107
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:39.109
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:52.509
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:36:52.510
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:37:41.383
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:37:41.384
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:38:41.402
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:38:41.403
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:38:49.652
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:38:49.652
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:38:57.912
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:38:57.929
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52606 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--2063500584/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52606 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--2063500584/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:39:15.124
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:39:15.125
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 10:41:58.816
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 10:42:35.008
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 10:42:37.742
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:43:08.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:43:08.692
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:43:26.405
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:43:26.406
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:43:47.005
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:43:47.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:44:46.979
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:44:46.980
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:44:59.118
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:44:59.119
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:45:25.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:45:25.860
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:45:43.997
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:45:43.998
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:45:50.252
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:45:50.254
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:45:54.949
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52638 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1610078625/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52638 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1610078625/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:46:18.660
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:46:18.661
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:46:22.130
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52641 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1330396823/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52641 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1330396823/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:47:59.132
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:47:59.133
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:13.291
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:13.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:31.948
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:31.949
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:46.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:46.386
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:50.883
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:50.884
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:58.479
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:48:58.480
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:49:03.488
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.Test.test2
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6()
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:49:03.507
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52651 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--30597954/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52651 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--30597954/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:49:19.937
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:49:19.938
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:49:25.088
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:49:25.090
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:49:29.654
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.Test.test2
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6()
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:49:29.672
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52654 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1055337517/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52654 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1055337517/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:50:49.529
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:50:49.530
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:51:05.735
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:51:05.736
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:51:30.785
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:51:30.786
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:51:48.096
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:51:48.097
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:51:53.137
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.Test.test2
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6()
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:51:53.156
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52664 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1257917942/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52664 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1257917942/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:52:36.732
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:52:36.734
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:52:43.188
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52669 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--228821903/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52669 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--228821903/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:53:00.171
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:53:00.172
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:53:02.675
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 10:53:02.676
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 10:53:05.831
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52672 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1840889146/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52672 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1840889146/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 11:30:17.882
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52761 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52761 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 11:30:26.581
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.TestngListener
+  import com.yinting.core.Test.test2
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 11:30:26.602
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52764 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-768635472/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 52764 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-768635472/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 11:42:34.987
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 11:42:34.988
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 14:57:06.928
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 14:57:09.120
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:01:17.386
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:03:23.112
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:04:04.729
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:04:59.462
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:850)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:743)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:662)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at org.testng.eclipse.ui.conversion.JUnitVisitor.visit(JUnitVisitor.java:159)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:489)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2514)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2585)
+	at org.eclipse.jdt.core.dom.EnumDeclaration.accept0(EnumDeclaration.java:281)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2514)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2585)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2514)
+	at org.testng.eclipse.util.Utils$1.accept(Utils.java:53)
+	at org.testng.eclipse.util.TestSearchEngine.findTestTypes(TestSearchEngine.java:536)
+	at org.testng.eclipse.util.TestSearchEngine.findTestTypes(TestSearchEngine.java:521)
+	at org.testng.eclipse.util.TestSearchEngine.findTestTypes(TestSearchEngine.java:508)
+	at org.testng.eclipse.util.TestSearchEngine.findTestTypes(TestSearchEngine.java:508)
+	at org.testng.eclipse.util.TestSearchEngine.collectTypes(TestSearchEngine.java:490)
+	at org.testng.eclipse.util.TestSearchEngine.collectTypes(TestSearchEngine.java:439)
+	at org.testng.eclipse.util.TestSearchEngine.doFindTests(TestSearchEngine.java:290)
+	at org.testng.eclipse.util.TestSearchEngine.access$0(TestSearchEngine.java:281)
+	at org.testng.eclipse.util.TestSearchEngine$2.run(TestSearchEngine.java:86)
+	at org.testng.eclipse.refactoring.FindTestsRunnableContext.run(FindTestsRunnableContext.java:14)
+	at org.testng.eclipse.util.TestSearchEngine.findTests(TestSearchEngine.java:89)
+	at org.testng.eclipse.util.Utils.findTypes(Utils.java:179)
+	at org.testng.eclipse.refactoring.TestNGXmlPage.createModel(TestNGXmlPage.java:309)
+	at org.testng.eclipse.refactoring.TestNGXmlPage.createControl(TestNGXmlPage.java:99)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:174)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:736)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:608)
+	at org.eclipse.jface.window.Window.create(Window.java:432)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1104)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:178)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:202)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:122)
+	at org.testng.eclipse.refactoring.ConvertFromJUnitAction.run(ConvertFromJUnitAction.java:43)
+	at org.testng.eclipse.refactoring.ConvertFromJUnitAction.execute(ConvertFromJUnitAction.java:20)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 40 more
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:05:03.874
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:07:25.238
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:07:25.240
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:08:44.730
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:08:44.731
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:08:46.753
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:08:46.754
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:15:57.562
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:15:57.563
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2017-06-08 15:40:19.244 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ting/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ting/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-08 15:40:29.429
+!MESSAGE Unable to update index for anhouse|http://maven.ipo.com/nexus/content/groups/public/
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:40:31.163
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:42:45.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 15:42:45.294
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:43:27.481
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:4918)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5296)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:49:23.664
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:49:57.385
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:917)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:50:02.421
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 15:59:31.733
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:00:34.859
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:06:19.395
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:06:52.787
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:08:29.887
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:08:52.551
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:09:48.918
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 16:09:56.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 16:09:56.124
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 16:10:02.692
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53124 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-2079316882/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53124 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-2079316882/testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 16:10:17.179
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 16:11:25.642
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53126 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--2005053204/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53126 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--2005053204/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:28:38.454
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:28:38.456
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 17:31:03.721
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] test1.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.Test
+  import com.yinting.core.Http.HttpRequest
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class test1
+    void testd()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 17:31:03.739
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53745 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1079223939/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53745 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1079223939/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 17:31:15.041
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53750 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53750 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /Users/ting/Documents/AutoTest/AutoTest/testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:32:39.608
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:32:39.610
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:33:06.475
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:33:06.477
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2017-06-08 17:33:37.084
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 17:37:22.999
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53831 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1715923746/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53831 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1715923746/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:37:29.348
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:37:29.350
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 17:37:32.429
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53834 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1728348407/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53834 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1728348407/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:37:49.235
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-08 17:37:49.237
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2017-06-08 17:37:52.540
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53836 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1278695754/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 53836 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1278695754/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:56:39.895
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.test2
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:56:39.918
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54424 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1841896042/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 54424 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--1841896042/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:58:26.803
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -listener com.yinting.core.Test.TestngListener -serport 54431 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1686018221/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -listener com.yinting.core.Test.TestngListener -serport 54431 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-1686018221/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:58:39.076
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestCase.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Listeners
+  import org.testng.annotations.Test
+  import com.yinting.core.Test.test2
+  import com.yinting.core.datadriver.DataType
+  import com.yinting.core.datadriver.Driver
+  class TestCase
+    void test6(String)
+    String[][] name()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:58:39.096
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -listener com.yinting.core.Test.TestngListener -serport 54434 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-108162981/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -listener com.yinting.core.Test.TestngListener -serport 54434 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse-108162981/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:58:44.740
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:TestCase2.java [in com.yinting.core [in src/main/java [in AutoTest]]]
+  package com.yinting.core
+  import java.util.HashMap
+  import java.util.Map
+  import org.testng.annotations.Test
+  import com.yinting.core.Http.HttpRequest
+  class TestCase2
+    void test()
+
+!ENTRY org.testng.eclipse 1 0 2017-06-09 14:58:44.759
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/ting/Documents/AutoTest/AutoTest/target/test-classes /Users/ting/Documents/AutoTest/AutoTest/target/classes /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar /Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar /Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar /Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54436 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--829070015/testng-customsuite.xml
+java -ea -classpath /Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/ting/Documents/AutoTest/AutoTest/target/test-classes:/Users/ting/Documents/AutoTest/AutoTest/target/classes:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/jdom.jar:/Users/ting/Documents/AutoTest/AutoTest/lib/dom4j-1.6.1.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ting/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ting/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ting/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ting/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar org.testng.remote.RemoteTestNG -serport 54436 -protocol json -d /Users/ting/Documents/AutoTest/AutoTest/test-output /var/folders/1v/n1vns8z17cb8wth8mr8mf45m0000gn/T/testng-eclipse--829070015/testng-customsuite.xml

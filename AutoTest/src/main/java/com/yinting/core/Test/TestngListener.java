@@ -5,7 +5,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.Date;
 
-import org.testng.IAnnotationTransformer3;
+import org.testng.IAnnotationTransformer2;
 import org.testng.IClassListener;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
@@ -13,21 +13,17 @@ import org.testng.ITestClass;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.IConfigurationAnnotation;
 import org.testng.annotations.IDataProviderAnnotation;
 import org.testng.annotations.IFactoryAnnotation;
-import org.testng.annotations.IListenersAnnotation;
 import org.testng.annotations.ITestAnnotation;
 
-import com.yinting.core.DataExchangeArea;
-import com.yinting.core.TestCase;
 import com.yinting.core.datadriver.DataDriver;
 import com.yinting.core.datadriver.DataProviderClass;
 import com.yinting.core.datadriver.Driver;
 
 public class TestngListener implements ISuiteListener, ITestListener,
-		IClassListener, IAnnotationTransformer3 {
+		IClassListener, IAnnotationTransformer2 {
 	public static final String DATAPROVIDER_DB = "DATAPROVIDER_DB";
 	public static final String DATAPROVIDER_EXCEL = "DATAPROVIDER_EXCEL";
 	public static final String DATAPROVIDER_XML = "DATAPROVIDER_XML";
@@ -93,34 +89,38 @@ public class TestngListener implements ISuiteListener, ITestListener,
 		TestFactory.endClass();
 	}
 
-	public void transform(IConfigurationAnnotation annotation, Class testClass,
-			Constructor testConstructor, Method testMethod) {
-		// TODO Auto-generated method stub
+	// public void transform(IConfigurationAnnotation annotation, Class
+	// testClass,
+	// Constructor testConstructor, Method testMethod) {
+	// System.out.println("IConfigurationAnnotation");
+	// // TODO Auto-generated method stub
+	//
+	// }
+	//
+	// public void transform(IDataProviderAnnotation annotation, Method method)
+	// {
+	// System.out.println("IDataProviderAnnotation");
+	// }
+	//
+	// public void transform(IFactoryAnnotation annotation, Method method) {
+	// System.out.println("IFactoryAnnotation");
+	// }
+	//
+	// public void transform(ITestAnnotation annotation, Class testClass,
+	// Constructor testConstructor, Method testMethod) {
+	// Annotation ann = testMethod.getAnnotation(Driver.class);
+	// if (ann != null) {
+	// dataDriver(annotation, testMethod, (Driver) ann);
+	// }
+	// }
+	//
+	// public void transform(IListenersAnnotation annotation, Class testClass) {
+	// System.out.println("IListenersAnnotation");
+	//
+	// }
 
-	}
-
-	public void transform(IDataProviderAnnotation annotation, Method method) {
-
-	}
-
-	public void transform(IFactoryAnnotation annotation, Method method) {
-
-	}
-
-	public void transform(ITestAnnotation annotation, Class testClass,
-			Constructor testConstructor, Method testMethod) {
-		Annotation ann = testMethod.getAnnotation(Driver.class);
-		if (ann != null) {
-			dataDriver(annotation,testMethod, (Driver) ann);
-		}
-	}
-
-	public void transform(IListenersAnnotation annotation, Class testClass) {
-		// TODO Auto-generated method stub
-
-	}
-
-	private void dataDriver(ITestAnnotation annotation,Method method, Driver driver) {
+	private void dataDriver(ITestAnnotation annotation, Method method,
+			Driver driver) {
 		annotation.setDataProviderClass(DataProviderClass.class);
 		DataDriver.parameteres.put(DataDriver.md5(method), driver.parameter());
 		switch (driver.type().getType()) {
@@ -136,5 +136,30 @@ public class TestngListener implements ISuiteListener, ITestListener,
 		default:
 			annotation.setDataProvider(DATAPROVIDER_EXCEL);
 		}
+	}
+
+	public void transform(ITestAnnotation annotation, Class testClass,
+			Constructor testConstructor, Method testMethod) {
+		Annotation ann = testMethod.getAnnotation(Driver.class);
+		if (ann != null) {
+			dataDriver(annotation, testMethod, (Driver) ann);
+		}
+
+	}
+
+	public void transform(IConfigurationAnnotation annotation, Class testClass,
+			Constructor testConstructor, Method testMethod) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void transform(IDataProviderAnnotation annotation, Method method) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void transform(IFactoryAnnotation annotation, Method method) {
+		// TODO Auto-generated method stub
+
 	}
 }
