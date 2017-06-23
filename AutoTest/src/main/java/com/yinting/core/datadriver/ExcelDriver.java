@@ -29,4 +29,9 @@ public class ExcelDriver extends DataDriver {
 		return 0;
 	}
 
+	public void remove() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

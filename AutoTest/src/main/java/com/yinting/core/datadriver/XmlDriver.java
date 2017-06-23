@@ -23,4 +23,9 @@ public class XmlDriver extends DataDriver {
 		return 0;
 	}
 
+	public void remove() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

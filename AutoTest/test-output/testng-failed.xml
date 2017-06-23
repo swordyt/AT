@@ -3,11 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.yinting.core.TestCase">
+      <class name="com.yinting.core.test1">
         <methods>
-          <include name="test6"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="testd"/>
+          <include name="tet1"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
         </methods>
-      </class> <!-- com.yinting.core.TestCase -->
+      </class> <!-- com.yinting.core.test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

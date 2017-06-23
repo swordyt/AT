@@ -1,0 +1,10 @@
+package com.yinting.core;
+
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
+import org.springframework.transaction.annotation.Transactional;
+@ContextConfiguration("classpath*:config/ApplicationContext.xml")
+@Transactional
+public class BaseTestCase extends AbstractTransactionalTestNGSpringContextTests{
+
+}

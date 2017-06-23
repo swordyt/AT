@@ -1,5 +1,7 @@
 package com.yinting.core.Test;
 
-public class BaseTest {
+import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
+
+public class BaseTest extends AbstractTransactionalTestNGSpringContextTests{
 
 }

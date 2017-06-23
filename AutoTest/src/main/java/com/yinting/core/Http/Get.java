@@ -35,15 +35,6 @@ public class Get extends HttpRequest {
 		}
 		return null;
 	}
-
-	@Override
-	public Request bodyes(Map<String, String> bodyes) {
-		for (Map.Entry<String, String> entry : bodyes.entrySet()) {
-			this.body(entry.getKey(), entry.getValue());
-		}
-		return null;
-	}
-
 	@Override
 	public Request header(String name, String value) {
 		this.get.addHeader(name, value);

@@ -2,6 +2,7 @@ package com.yinting.core.Http;
 
 import java.util.Date;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import com.yinting.core.Request;
 import com.yinting.core.Response;
@@ -11,12 +12,15 @@ public class HttpRequest implements Request {
 	private HttpRequest request;
 	private String message;
 	public Request body(String name, String value) {
+		this.message+=".body("+name+","+value+")";
 		this.request.body(name, value);
 		return this;
 	}
 
 	public Request bodyes(Map<String, String> bodyes) {
-		this.request.bodyes(bodyes);
+		for(Entry<String, String> entry:bodyes.entrySet()){
+			body(entry.getKey(),entry.getValue());
+		}
 		return this;
 	}
 
@@ -29,6 +33,7 @@ public class HttpRequest implements Request {
 
 	public Request POST(String url) {
 		TestFactory.getStep().setStartTime(new Date().getTime());
+		this.message="driver.POST("+url+")";
 		this.request = new Post(url);
 		return this;
 	}

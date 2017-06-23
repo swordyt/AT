@@ -20,7 +20,7 @@ import org.apache.http.util.EntityUtils;
 import com.yinting.core.Request;
 import com.yinting.core.Response;
 
-public class Post extends HttpRequest{
+public class Post extends HttpRequest {
 
 	private final String url;
 	private final HttpPost post;
@@ -39,15 +39,6 @@ public class Post extends HttpRequest{
 		formparams.add(new BasicNameValuePair(name, value));
 		return null;
 	}
-
-	@Override
-	public Request bodyes(Map<String, String> bodyes) {
-		for (Map.Entry<String, String> entry : bodyes.entrySet()) {
-			this.body(entry.getKey(), entry.getValue());
-		}
-		return null;
-	}
-
 
 	@Override
 	public Request header(String name, String value) {
@@ -71,7 +62,8 @@ public class Post extends HttpRequest{
 			post.setEntity(uefEntity);
 
 			this.response = client.execute(this.post);
-			System.out.println(EntityUtils.toString(this.response.getEntity(), "utf-8"));
+			System.out.println(EntityUtils.toString(this.response.getEntity(),
+					"utf-8"));
 		} catch (ClientProtocolException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
