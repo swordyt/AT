@@ -1,7 +1,0 @@
-package com.yinting.core.Test;
-
-import org.testng.IAnnotationTransformer2;
-
-public class test2 implements IAnnotationTransformer2 {
-
-}

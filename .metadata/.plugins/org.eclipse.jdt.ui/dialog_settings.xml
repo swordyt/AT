@@ -5,6 +5,7 @@
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 		<item value="false" key="updateSimilarElements"/>
@@ -95,7 +96,7 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="3" key="index"/>
+		<item value="0" key="index"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
@@ -103,7 +104,7 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="0" key="pageIndex"/>
+		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

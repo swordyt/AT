@@ -1,5 +1,0 @@
-package com.yinting.core.Test;
-
-public class test1 {
-private String name;
-}

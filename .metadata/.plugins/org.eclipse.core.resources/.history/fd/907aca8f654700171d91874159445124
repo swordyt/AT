@@ -1,8 +1,0 @@
-package com.yinting.core.Test;
-
-public enum CaseResultType {
-SUCCESS,FAILURE,SKIPPED,FBWSP;
-private CaseResultType(String name,int type){
-	
-}
-}

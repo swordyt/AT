@@ -494,6 +494,19 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "javax.annotation-api",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "67747496d8b5c1f300ed3cde4ba69d6f453ba984",
+    "jarFileModificationDate": "2017-06-23T17:46:56+08:00",
+    "location": "/Users/ting/.m2/repository/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "commons-logging-1.0.4",
     "version": {
       "major": -1,
@@ -1105,6 +1118,19 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "org.mybatis.mybatis-spring",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5197169e15a43066f177a1cd12a098e1283fdc76",
+    "jarFileModificationDate": "2017-06-22T16:56:10+08:00",
+    "location": "/Users/ting/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "bcprov",
     "version": {
       "major": 1,
@@ -1362,6 +1388,19 @@
     "jarFileFingerprint": "4173f8c079d1aa5159e2a4c6e5789a8208a6e46c",
     "jarFileModificationDate": "2016-12-16T14:59:24+08:00",
     "location": "/Users/ting/.m2/repository/org/jodd/jodd-lagarto/3.4.10/jodd-lagarto-3.4.10.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.mysql.cj",
+    "version": {
+      "major": 6,
+      "minor": 0,
+      "micro": 6,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1d19b184dbc596008cc71c83596f051c3ec4097f",
+    "jarFileModificationDate": "2017-06-23T09:09:01+08:00",
+    "location": "/Users/ting/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar",
     "javaRuntime": false
   },
   {
@@ -2218,7 +2257,7 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "dbbd7cd309ce167ec8367de4e41c63c2c8593cc5",
-    "jarFileModificationDate": "2016-12-16T15:00:20+08:00",
+    "jarFileModificationDate": "2017-06-23T09:09:02+08:00",
     "location": "/Users/ting/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar",
     "javaRuntime": false
   },
@@ -2314,6 +2353,19 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "org.mybatis.mybatis",
+    "version": {
+      "major": 3,
+      "minor": 4,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2b9a5082fe0bdb3128bab8b4b19b23ca0f3d9b38",
+    "jarFileModificationDate": "2017-06-23T17:29:16+08:00",
+    "location": "/Users/ting/.m2/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "rome-0.9",
     "version": {
       "major": -1,
@@ -2350,6 +2402,19 @@
     "jarFileFingerprint": "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
     "jarFileModificationDate": "2016-12-16T14:58:46+08:00",
     "location": "/Users/ting/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "slf4j.api",
+    "version": {
+      "major": 1,
+      "minor": 7,
+      "micro": 12,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8e20852d05222dc286bf1c71d78d0531e177c317",
+    "jarFileModificationDate": "2017-06-22T14:47:45+08:00",
+    "location": "/Users/ting/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar",
     "javaRuntime": false
   },
   {
@@ -2441,6 +2506,19 @@
     "jarFileFingerprint": "2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa",
     "jarFileModificationDate": "2016-12-16T14:59:03+08:00",
     "location": "/Users/ting/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.mysql.jdbc",
+    "version": {
+      "major": 5,
+      "minor": 1,
+      "micro": 12,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "14ae02cc2adb2aed677080a0c0356e7569e298ec",
+    "jarFileModificationDate": "2017-06-23T14:54:46+08:00",
+    "location": "/Users/ting/Documents/AutoTest/AutoTest/lib/mysql-connector-java-0.0.1.jar",
     "javaRuntime": false
   },
   {

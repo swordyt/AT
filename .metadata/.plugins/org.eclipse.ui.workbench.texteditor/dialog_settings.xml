@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="test1" key="selection"/>
+		<item value="private String " key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="`"/>
+			<item value="iba"/>
+			<item value="ib"/>
+			<item value="1.8"/>
+			<item value="jdk"/>
+			<item value="jd"/>
+			<item value="mysql"/>
 			<item value="test1"/>
-			<item value="test5"/>
-			<item value="test6"/>
-			<item value="m_dataProviderClass"/>
-			<item value="class"/>
-			<item value="package com.yinting.core.Test;"/>
-			<item value="public"/>
-			<item value="@Override"/>
 		</list>
 		<list key="replacehistory">
+			<item value="private String "/>
 			<item value="public static"/>
 			<item value=""/>
 			<item value="Log.instance()"/>

@@ -6,3 +6,15 @@
 1498122283020	Move file
 1498183183020	Move file
 1498183186467	Move file
+1498202158825	Move file
+1498211437395	Rename method 'getUser'
+1498288829393	Rename type 'UserDao'
+1498289010808	Delete element
+1498323488399	Delete element
+1498323493921	Delete element
+1498323499552	Delete element
+1498325181324	Rename package 'qacontext.framework.jdbc.txmanage'
+1498325212425	Rename resource 'txmanage-context.xml'
+1498326358685	Rename type 'UserMapper'
+1498326393286	Rename method 'selectUser'
+1498327521210	Rename method 'gettUser'

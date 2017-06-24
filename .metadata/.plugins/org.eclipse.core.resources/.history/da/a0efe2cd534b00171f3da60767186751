@@ -1,8 +1,0 @@
-package com.yinting.core.datadriver;
-
-import java.util.Iterator;
-
-public abstract class DataDriver implements Iterator<Object[]>{
-	public static ThreadLocal<String[]>
-public abstract int getType();
-}

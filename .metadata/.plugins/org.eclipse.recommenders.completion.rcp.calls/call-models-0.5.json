@@ -38,5 +38,15 @@
     "location": "/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar",
     "status": "UNRESOLVED",
     "error": "No call model found for \u0027/Users/ting/Documents/eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar\u0027. Neither fingerprint \u00271fdd5e22f50b14f6d846163456e8c9a7657626fb\u0027 nor symbolic name \u0027org.testng\u0027 are known."
+  },
+  "/Users/ting/.m2/repository/org/springframework/spring-orm/3.2.3.RELEASE/spring-orm-3.2.3.RELEASE.jar": {
+    "location": "/Users/ting/.m2/repository/org/springframework/spring-orm/3.2.3.RELEASE/spring-orm-3.2.3.RELEASE.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/ting/.m2/repository/org/springframework/spring-orm/3.2.3.RELEASE/spring-orm-3.2.3.RELEASE.jar\u0027. Neither fingerprint \u00275e2a9788a140adc944dd1b9766abe40531b002c6\u0027 nor symbolic name \u0027spring-orm-3.2.3.RELEASE\u0027 are known."
+  },
+  "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar",
+    "status": "RESOLVED"
   }
 }

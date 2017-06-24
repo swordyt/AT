@@ -1,0 +1,12 @@
+package com.yinting.dao;
+
+import org.testng.annotations.Test;
+
+public class userTest {
+@Resource
+private UserDao userDao;
+@Test
+public void test1(){
+	
+}
+}

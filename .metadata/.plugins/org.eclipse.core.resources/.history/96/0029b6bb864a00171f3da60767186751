@@ -1,9 +1,0 @@
-package com.yinting.core.datadriver;
-
-import java.util.Iterator;
-
-public class DataProviderClass {
-public Iterator<Class> db(){
-	return null;
-}
-}

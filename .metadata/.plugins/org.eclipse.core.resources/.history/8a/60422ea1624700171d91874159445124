@@ -1,8 +1,0 @@
-package com.yinting.core.Test;
-
-public class TestStep {
-	private StringBuilder step;
-	private long startTime=0;
-	private long endTime=0;
-	
-}

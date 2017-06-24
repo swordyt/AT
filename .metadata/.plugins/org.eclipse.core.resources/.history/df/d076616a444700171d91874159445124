@@ -1,6 +1,0 @@
-package com.yinting.core.Test;
-
-public class TestSuite {
-	private long startTime;
-	private long endTime;
-}
