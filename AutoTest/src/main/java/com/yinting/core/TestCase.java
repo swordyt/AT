@@ -1,8 +1,11 @@
 package com.yinting.core;
 
+import java.util.Map;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
 import com.yinting.core.Test.test2;
 import com.yinting.core.datadriver.DataType;
 import com.yinting.core.datadriver.Driver;
@@ -14,10 +17,9 @@ import com.yinting.core.datadriver.Driver;
 @Listeners({test2.class})
 public class TestCase {
 	@Test
-	@Driver(type = DataType.EXCEL, parameter = { "1", "2", "3", "4", "5" })
-	public void test6(String i) {
-//		String i="";
-		System.out.println( Thread.currentThread().getName() + ":" + i);
+	@Driver(type = DataType.EXCEL, parameter = { "/Users/ting/Documents/nf-ta-app-hf/src/main/resources/datadriver/ci/excel/com/anhouse/ta/hf/domain/app/domain/entity/requestentity/xf/hf_comment_create.xls", "run", "3", "4", "5" })
+	public void test6(Map data) {
+		System.out.println(data.get("_from"));
 	}
 //	@Test
 //	@Driver(type = DataType.EXCEL, parameter = { "a", "b", "c", "d", "e" })

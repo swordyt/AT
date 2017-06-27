@@ -1,51 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47776" started-at="2017-06-24T18:28:41Z" finished-at="2017-06-24T18:29:29Z">
+  <suite name="Default suite" duration-ms="173" started-at="2017-06-27T03:30:34Z" finished-at="2017-06-27T03:30:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47776" started-at="2017-06-24T18:28:41Z" finished-at="2017-06-24T18:29:29Z">
-      <class name="com.yinting.dao.userTest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.yinting.dao.userTest@a8c1143]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2017-06-25T02:28:41Z" finished-at="2017-06-25T02:28:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.yinting.dao.userTest@a8c1143]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2767" started-at="2017-06-25T02:28:41Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-25T02:28:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.dao.userTest@a8c1143]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="78" started-at="2017-06-25T02:28:44Z" finished-at="2017-06-25T02:28:44Z">
+    <test name="Default test" duration-ms="173" started-at="2017-06-27T03:30:34Z" finished-at="2017-06-27T03:30:34Z">
+      <class name="com.yinting.core.TestCase">
+        <test-method status="PASS" signature="test6(java.util.Map)[pri:0, instance:com.yinting.core.TestCase@215a730d]" name="test6" duration-ms="10" started-at="2017-06-27T11:30:34Z" finished-at="2017-06-27T11:30:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.yinting.dao.userTest.test1()]]>
+                <![CDATA[{iIndeed=7, iSurroundingRate=1, iLoupanID=4, sToken=5, iCityID=2, iEnvironment_rate=9, sComment=3, sImgs=6, _from=android, iTransportationRate=8}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.yinting.dao.userTest@a8c1143]" name="test1" duration-ms="44768" started-at="2017-06-25T02:28:44Z" finished-at="2017-06-25T02:29:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.dao.userTest@a8c1143]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="137" started-at="2017-06-25T02:29:28Z" finished-at="2017-06-25T02:29:29Z">
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test6(java.util.Map)[pri:0, instance:com.yinting.core.TestCase@215a730d]" name="test6" duration-ms="3" started-at="2017-06-27T11:30:34Z" finished-at="2017-06-27T11:30:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.yinting.dao.userTest.test1()]]>
+                <![CDATA[{iIndeed=7, iSurroundingRate=1, iLoupanID=4, sToken=5, iCityID=2, sComment=3, sImgs=6, _from=android, iTransportationRate=8}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.yinting.dao.userTest@a8c1143]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-25T02:29:29Z" finished-at="2017-06-25T02:29:29Z">
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test6(java.util.Map)[pri:0, instance:com.yinting.core.TestCase@215a730d]" name="test6" duration-ms="2" started-at="2017-06-27T11:30:34Z" finished-at="2017-06-27T11:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{iIndeed=7, iSurroundingRate=1, iLoupanID=4, sToken=5, iCityID=2, iEnvironment_rate=9, sComment=3, sImgs=6, iTransportationRate=8}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- com.yinting.dao.userTest -->
+        </test-method> <!-- test6 -->
+      </class> <!-- com.yinting.core.TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
