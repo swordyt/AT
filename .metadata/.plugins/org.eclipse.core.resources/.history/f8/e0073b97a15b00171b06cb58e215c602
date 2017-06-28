@@ -1,0 +1,25 @@
+package com.yinting.core;
+
+import javax.annotation.Resource;
+
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.yinting.jdbc.DbHandller;
+
+@ContextConfiguration("classpath:qacontext/applicationContext.xml")
+@Transactional
+// @Transactional(propagation = Propagation.REQUIRED)
+public class BaseTestCase extends AbstractTransactionalTestNGSpringContextTests {
+	@Resource
+	private DbHandller handler;
+
+	public BaseTestCase() {
+		System.out.println("我是构造函数");
+	}
+
+	public DbHandller getHandler() {
+		return this.handler;
+	}
+}

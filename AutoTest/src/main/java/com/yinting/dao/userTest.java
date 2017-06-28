@@ -9,6 +9,6 @@ public class userTest extends BaseTestCase{
 
 	@Test
 	public void test1() {
-		System.out.println(userDao.getUser(0));
+		userDao.getU();
 	}
 }

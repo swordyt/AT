@@ -1,0 +1,61 @@
+package com.yinting.core.datadriver;
+
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+
+import com.yinting.core.Log;
+import com.yinting.jdbc.DbHandller;
+
+public class DbDriver extends DataDriver {
+	@Resource
+	private DbHandller handle;
+	private int total = 0;
+	private int position = 1;
+	private String path = "";
+	private Map para = null; //需要传递给sqlmapping的参数
+	private String xmlMapping="";//xml映射
+	public DbDriver(Method method) {
+		parameter = DataDriver.parameteres.get(md5(method)); //获取本test的参数
+		this.totalParameter = parameter.length;
+		initPara();
+	}
+
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Object[] next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getType() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void remove() {
+		// TODO Auto-generated method stub
+
+	}
+	private void initPara(){
+		if(this.parameter.length <2){
+			throw new RuntimeException("数据驱动错误：参数个数不正确，一：xmlMapping->method，二：method接收的参数");
+		}
+		this.xmlMapping=this.parameter[0];
+		String str=this.parameter[1];
+		String[] paraes=str.split(",");
+		HashMap map=new HashMap<String, String>();
+		for(String param:paraes){
+			String[] stres=param.split("=");
+			
+		}
+		handle.queryForList(this.parameter[0], parameterObject)
+	}
+
+}

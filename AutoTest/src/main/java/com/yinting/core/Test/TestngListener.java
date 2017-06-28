@@ -89,38 +89,10 @@ public class TestngListener implements ISuiteListener, ITestListener,
 		TestFactory.endClass();
 	}
 
-	// public void transform(IConfigurationAnnotation annotation, Class
-	// testClass,
-	// Constructor testConstructor, Method testMethod) {
-	// System.out.println("IConfigurationAnnotation");
-	// // TODO Auto-generated method stub
-	//
-	// }
-	//
-	// public void transform(IDataProviderAnnotation annotation, Method method)
-	// {
-	// System.out.println("IDataProviderAnnotation");
-	// }
-	//
-	// public void transform(IFactoryAnnotation annotation, Method method) {
-	// System.out.println("IFactoryAnnotation");
-	// }
-	//
-	// public void transform(ITestAnnotation annotation, Class testClass,
-	// Constructor testConstructor, Method testMethod) {
-	// Annotation ann = testMethod.getAnnotation(Driver.class);
-	// if (ann != null) {
-	// dataDriver(annotation, testMethod, (Driver) ann);
-	// }
-	// }
-	//
-	// public void transform(IListenersAnnotation annotation, Class testClass) {
-	// System.out.println("IListenersAnnotation");
-	//
-	// }
-
+	// 实现数据驱动分类，并带着参数
 	private void dataDriver(ITestAnnotation annotation, Method method,
 			Driver driver) {
+		System.out.println("这里是监听的数据驱动分发");
 		annotation.setDataProviderClass(DataProviderClass.class);
 		DataDriver.parameteres.put(DataDriver.md5(method), driver.parameter());
 		switch (driver.type().getType()) {

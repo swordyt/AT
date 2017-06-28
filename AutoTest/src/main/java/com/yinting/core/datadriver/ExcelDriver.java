@@ -11,26 +11,23 @@ import jxl.Sheet;
 import jxl.Workbook;
 
 public class ExcelDriver extends DataDriver {
-	private int position = 1;
-	private int totalParameter = 0;
-	private String[] parameter;
 	private String filePath = "";// excel 路径
 	private String sheetName = "";
 	private String[] cellName;
 	private Workbook book = null;
 	private Sheet sheet = null;
-	private int rowNum = 0;// 数据表的行数
-
+	private int total = 0;// 数据表的行数
+	private int position = 1;
 	public ExcelDriver(Method method) {
-		parameter = DataDriver.parameteres.get(md5(method));
+		this.parameter = DataDriver.parameteres.get(md5(method));
 		this.totalParameter = parameter.length;
 		filePath = parameter[0];// 第一个参数为filePath
 		sheetName = parameter[1];// 第二个参数为sheetName
-		readExcel(filePath, sheetName);
+		initPara(filePath, sheetName);
 	}
 
 	public boolean hasNext() {
-		return position <= this.rowNum - 1;
+		return position <= this.total - 1;
 	}
 
 	public Object[] next() {
@@ -44,7 +41,7 @@ public class ExcelDriver extends DataDriver {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
+	
 	public void remove() {
 		// TODO Auto-generated method stub
 
@@ -64,7 +61,7 @@ public class ExcelDriver extends DataDriver {
 	}
 
 	// 初始化Excel数据
-	private void readExcel(String path, String sheet) {
+	private void initPara(String path, String sheet) {
 		try {
 			this.book = Workbook.getWorkbook(new File(path));
 		} catch (Exception e) {
@@ -76,7 +73,7 @@ public class ExcelDriver extends DataDriver {
 		for (int i = 0; i < cells.length; i++) {
 			this.cellName[i] = cells[i].getContents().toString();
 		}
-		this.rowNum = this.sheet.getRows();
+		this.total = this.sheet.getRows();
 	}
 
 }
