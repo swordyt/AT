@@ -1,6 +1,8 @@
 package com.yinting.core;
-
-import javax.annotation.Resource;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -15,4 +17,19 @@ import com.yinting.core.Http.HttpRequest;
 public class BaseTestCase extends AbstractTransactionalTestNGSpringContextTests {
 	@Autowired
 	protected HttpRequest driver;
+	
+	public static String properties(String fileName,String key) {
+		String path="src/main/resources/properties/inter/"+System.getProperty("ENV")+"/"+fileName;
+		Properties prop=new Properties();
+		try {
+			prop.load(new FileInputStream(path));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return prop.getProperty(key);
+	}
 }

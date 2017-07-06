@@ -6,6 +6,8 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.yinting.core.Log;
+
 import jxl.Cell;
 import jxl.CellType;
 import jxl.Sheet;
@@ -70,7 +72,6 @@ public class ExcelDriver extends DataDriver {
 	// 初始化Excel数据
 	private void initPara(String path, String sheet) {
 		path="src/main/resources/datadriver/excel/"+System.getProperty("ENV")+"/"+path;
-		System.out.println(path);
 		try {
 			this.book = Workbook.getWorkbook(new File(path));
 		} catch (BiffException e) {

@@ -14463,3 +14463,356 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2017-07-05 17:50:07,895 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-07-05 17:50:07,897 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-05 17:50:07,897 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:12:58,788 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 09:19:58,254 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:19:58,261 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:19:58,264 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:19:58,264 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:20:41,444 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:20:41,448 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:20:41,450 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:20:41,450 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:25:18,805 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:25:18,806 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:25:18,811 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:25:18,811 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:26:27,609 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:26:27,615 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:26:27,617 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:26:27,617 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:27:29,266 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:27:29,268 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:27:29,271 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:27:29,272 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:28:16,715 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:28:16,718 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:28:16,721 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:28:16,721 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:28:38,226 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:28:38,228 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:28:38,230 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:28:38,231 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 09:30:50,090 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:30:50,091 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 09:30:50,094 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 09:30:50,094 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 10:53:10,790 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 10:53:13,605 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:53:13,622 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:53:13,646 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:53:13,661 [DefaultMetadataResolver-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:53:13,740 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:53:13,846 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:53:13,897 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:53:13,974 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:53:14,041 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:53:14,105 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:53:14,664 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-06 10:53:14,666 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\testapi\src\main\resources
+2017-07-06 10:53:14,670 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-06 10:53:14,671 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\testapi\src\test\resources
+2017-07-06 10:55:23,454 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 10:55:23,786 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 10:55:23,792 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 10:55:23,794 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 10:55:23,794 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 10:55:33,556 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 10:55:34,036 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 10:55:34,185 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: testapi:testapi:0.0.1-SNAPSHOT @ E:\AT\testapi\pom.xml.
+2017-07-06 10:55:34,285 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:55:34,287 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:55:34,318 [DefaultMetadataResolver-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:55:34,324 [DefaultMetadataResolver-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:55:34,415 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/maven-metadata.xml
+2017-07-06 10:55:34,477 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:55:34,573 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:55:34,649 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:55:34,723 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:55:34,822 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/yinting/AutoTest/0.0.1-SNAPSHOT/AutoTest-0.0.1-SNAPSHOT.pom
+2017-07-06 10:55:35,075 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 10:55:35,076 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 10:55:35,077 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 10:55:35,482 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 10:55:36,399 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 10:55:36,400 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 10:55:36,403 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 10:55:36,403 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 10:55:36,873 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-06 10:55:36,874 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\testapi\src\main\resources
+2017-07-06 10:55:36,876 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-06 10:55:36,877 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\testapi\src\test\resources
+2017-07-06 10:56:16,927 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 10:56:16,928 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 10:56:20,737 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 10:56:20,739 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 10:56:20,740 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 10:56:20,740 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:05:59,515 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 11:05:59,698 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:05:59,699 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:05:59,700 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:05:59,701 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:06:07,180 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 11:06:07,372 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:06:07,372 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:06:07,373 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:06:07,374 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:07:58,408 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 11:07:58,597 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:07:58,597 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:07:58,599 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:07:58,600 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:08:03,156 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 11:08:03,315 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:08:03,315 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:08:03,316 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:08:03,316 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:09:02,262 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:09:02,263 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:09:02,265 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:09:02,266 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:09:16,576 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:09:16,576 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:09:16,577 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:09:16,577 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:50:28,057 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 11:52:31,671 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:52:31,679 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:52:31,683 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:52:31,683 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:53:05,446 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:05,452 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:53:05,455 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:05,455 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:53:35,922 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:35,923 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:53:35,925 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:35,925 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:53:41,898 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:41,898 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:53:41,900 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:41,900 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:53:50,315 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:50,316 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:53:50,320 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:50,320 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:53:57,315 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:57,316 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:53:57,317 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:53:57,318 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:54:01,268 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:54:01,270 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:54:01,271 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:54:01,271 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:54:55,609 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:54:55,610 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:54:55,614 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:54:55,615 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 11:55:18,188 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:55:18,189 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 11:55:18,190 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 11:55:18,191 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 12:02:37,056 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:02:37,057 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 12:02:37,058 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:02:37,058 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 12:02:45,714 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:02:45,715 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 12:02:45,716 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:02:45,716 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 12:03:31,457 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 12:03:32,263 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 12:03:32,759 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 12:03:32,760 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 12:03:32,761 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 12:03:33,101 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 12:03:34,116 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:03:34,117 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 12:03:34,143 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:03:34,143 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 12:03:56,753 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 12:03:56,754 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 12:04:00,613 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:04:00,615 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 12:04:00,616 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:04:00,617 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 12:04:29,208 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:04:29,209 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 12:04:29,210 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:04:29,211 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 12:04:38,317 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 12:04:38,318 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 12:04:41,891 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:04:41,891 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 12:04:41,892 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 12:04:41,892 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 13:58:05,288 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 13:58:05,296 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 13:58:05,298 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 13:58:05,301 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:01:29,468 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 14:16:09,209 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 14:17:36,821 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:17:36,828 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:17:36,831 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:17:36,831 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:17:37,191 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-06 14:17:37,192 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\testapi\src\main\resources
+2017-07-06 14:17:37,194 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-06 14:17:37,195 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\testapi\src\test\resources
+2017-07-06 14:24:56,407 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 14:25:43,291 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:25:43,296 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:25:43,299 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:25:43,299 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:26:00,896 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:26:00,903 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:26:00,905 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:26:00,905 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:26:21,813 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 14:26:22,509 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 14:26:22,964 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 14:26:22,965 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 14:26:22,967 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 14:26:23,251 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 14:26:24,230 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:26:24,231 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:26:24,234 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:26:24,234 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:26:34,323 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 14:26:34,324 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 14:26:38,277 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:26:38,279 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:26:38,280 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:26:38,281 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:34:10,931 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 14:34:10,932 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 14:34:14,750 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:34:14,751 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:34:14,752 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:34:14,752 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:36:19,550 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 14:39:23,094 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 14:39:23,572 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:39:23,581 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:39:23,582 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-06 14:39:23,595 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:39:23,595 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:40:39,150 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:40:39,156 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:40:39,157 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:40:39,160 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:40:39,160 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:41:54,624 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:41:54,633 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:41:54,634 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:41:54,636 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:41:54,636 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:42:11,712 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 14:42:11,713 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 14:42:15,376 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:42:15,376 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:42:15,376 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:42:15,378 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:42:15,378 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:56:31,560 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 14:56:54,733 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:56:54,741 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:56:54,742 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-06 14:56:54,755 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:56:54,755 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:57:07,917 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:57:07,942 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:57:07,942 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-06 14:57:07,947 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:57:07,948 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:58:25,047 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 14:58:25,470 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:58:25,471 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:58:25,474 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:58:25,474 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 14:58:38,581 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 14:58:39,086 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 14:58:39,409 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 14:58:39,411 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 14:58:39,413 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 14:58:39,985 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 14:58:40,900 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:58:40,901 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 14:58:40,903 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 14:58:40,904 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:00:09,297 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 15:00:09,299 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml clean
+2017-07-06 15:00:11,547 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:00:11,551 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:00:11,552 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:00:11,552 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:00:20,391 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 15:00:20,391 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 15:00:24,327 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:00:24,328 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:00:24,330 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:00:24,330 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:01:17,187 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 15:01:17,563 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 15:01:18,017 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 15:01:18,018 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 15:01:18,018 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 15:01:18,234 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 15:01:18,902 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:01:18,903 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:01:18,905 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:01:18,906 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:01:25,909 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 15:01:25,910 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 15:01:29,734 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:01:29,735 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:01:29,737 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:01:29,737 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:07:58,960 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 15:07:59,221 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:07:59,223 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:07:59,225 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:07:59,225 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:12:04,769 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:12:04,771 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:12:04,773 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:12:04,773 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:12:34,012 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 15:12:34,459 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 15:12:34,758 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 15:12:34,758 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 15:12:34,759 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 15:12:35,025 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 15:12:35,673 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:12:35,674 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:12:35,677 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:12:35,677 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:16:13,942 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 15:16:36,883 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 15:16:36,884 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 15:16:41,484 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:16:41,487 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:16:41,490 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:16:41,491 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:21:57,162 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 15:22:44,187 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:22:44,194 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:22:44,197 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:22:44,197 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:22:56,888 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-06 15:22:57,614 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-07-06 15:22:58,281 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-07-06 15:22:58,282 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-07-06 15:22:58,283 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-07-06 15:22:58,604 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-06 15:22:59,316 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:22:59,317 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:22:59,320 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:22:59,321 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-07-06 15:23:06,584 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-07-06 15:23:06,586 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-07-06 15:23:10,370 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:23:10,371 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-06 15:23:10,373 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-06 15:23:10,373 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
