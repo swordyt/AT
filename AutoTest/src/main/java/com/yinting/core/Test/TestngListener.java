@@ -1,9 +1,15 @@
 package com.yinting.core.Test;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.Date;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.Properties;
 
 import org.testng.IAnnotationTransformer2;
 import org.testng.IClassListener;
@@ -22,14 +28,33 @@ import com.yinting.core.datadriver.DataDriver;
 import com.yinting.core.datadriver.DataProviderClass;
 import com.yinting.core.datadriver.Driver;
 
-public class TestngListener implements ISuiteListener, ITestListener,
-		IClassListener, IAnnotationTransformer2 {
+public class TestngListener implements ISuiteListener, ITestListener, IClassListener, IAnnotationTransformer2 {
 	public static final String DATAPROVIDER_DB = "DATAPROVIDER_DB";
 	public static final String DATAPROVIDER_EXCEL = "DATAPROVIDER_EXCEL";
 	public static final String DATAPROVIDER_XML = "DATAPROVIDER_XML";
 	public static String[] parameter;
 
 	public void onStart(ISuite suite) {
+		Properties systemPro = System.getProperties();
+		Properties userPro = new Properties();
+		try {
+			if (!systemPro.containsKey("ENV")) {
+				userPro.load(new FileInputStream("src/main/resources/config/env.properties"));
+				Enumeration keys = userPro.propertyNames();
+				while (keys.hasMoreElements()) {
+					String key = (String) keys.nextElement();
+					System.setProperty(key, userPro.getProperty(key));
+				}
+			}
+
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		TestFactory.getSuite().setStartTime(new Date().getTime());
 	}
 
@@ -90,8 +115,7 @@ public class TestngListener implements ISuiteListener, ITestListener,
 	}
 
 	// 实现数据驱动分类，并带着参数
-	private void dataDriver(ITestAnnotation annotation, Method method,
-			Driver driver) {
+	private void dataDriver(ITestAnnotation annotation, Method method, Driver driver) {
 		System.out.println("这里是监听的数据驱动分发");
 		annotation.setDataProviderClass(DataProviderClass.class);
 		DataDriver.parameteres.put(DataDriver.md5(method), driver.parameter());
@@ -110,8 +134,7 @@ public class TestngListener implements ISuiteListener, ITestListener,
 		}
 	}
 
-	public void transform(ITestAnnotation annotation, Class testClass,
-			Constructor testConstructor, Method testMethod) {
+	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 		Annotation ann = testMethod.getAnnotation(Driver.class);
 		if (ann != null) {
 			dataDriver(annotation, testMethod, (Driver) ann);
@@ -119,8 +142,8 @@ public class TestngListener implements ISuiteListener, ITestListener,
 
 	}
 
-	public void transform(IConfigurationAnnotation annotation, Class testClass,
-			Constructor testConstructor, Method testMethod) {
+	public void transform(IConfigurationAnnotation annotation, Class testClass, Constructor testConstructor,
+			Method testMethod) {
 		// TODO Auto-generated method stub
 
 	}

@@ -1,2 +1,0 @@
-sword.jdbc.driverClassName.Oracle=oracle.jdbc.OracleDriver
-sword.jdbc.driverClassName.Mysql=com.mysql.jdbc.Driver

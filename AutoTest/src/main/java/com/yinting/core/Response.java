@@ -18,4 +18,5 @@ public interface Response {
 	public String getValue(String path);
 
 	public String getBody();
+	public <T>T toBean(Class<T> cls);
 }

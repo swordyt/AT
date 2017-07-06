@@ -1,3 +1,8 @@
 eclipse.m2.WorkspacelifecycleMappingsLocation=/Users/ting/Documents/AutoTest/.metadata/.plugins/org.eclipse.m2e.core/lifecycle-mapping-metadata.xml
-eclipse.m2.userSettingsFile=/Users/ting/.m2/settings.xml
+eclipse.m2.defaultRuntime=apache-maven-3.5.0
+eclipse.m2.globalSettingsFile=D\:\\software\\apache-maven-3.5.0\\conf\\settings.xml
+eclipse.m2.runtimes=apache-maven-3.5.0
+eclipse.m2.runtimesNodes/apache-maven-3.5.0/location=D\:\\software\\apache-maven-3.5.0
+eclipse.m2.runtimesNodes/apache-maven-3.5.0/type=EXTERNAL
+eclipse.m2.userSettingsFile=D\:\\software\\apache-maven-3.5.0\\conf\\settings.xml
 eclipse.preferences.version=1

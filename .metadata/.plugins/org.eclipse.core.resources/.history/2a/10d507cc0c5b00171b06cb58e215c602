@@ -1,8 +1,0 @@
-package com.yinting.dao;
-
-import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
-
-@SuppressWarnings("deprecation")
-public class Db extends SqlMapClientDaoSupport{
-
-}

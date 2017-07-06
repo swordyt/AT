@@ -11,7 +11,7 @@ import com.yinting.core.Response;
 public class HttpResponse implements Response {
 	private org.apache.http.HttpResponse httpResponse;
 	private HttpResponse response;
-	private String body;
+	protected String body;
 	protected HttpResponse(){
 		
 	}
@@ -20,16 +20,16 @@ public class HttpResponse implements Response {
 		try {
 			this.body = EntityUtils.toString(this.httpResponse.getEntity(),
 					"utf-8");
+			System.out.println(this.body);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
-		this.JSON();
 	}
 
 	public HttpResponse JSON() {
-		this.response=new Json(this.httpResponse);
+		this.response=new Json(this.body);
 		return this;
 	}
 	public HttpResponse XML(){
@@ -74,12 +74,14 @@ public class HttpResponse implements Response {
 	}
 
 	public String getValue(String path) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.response.getValue(path);
 	}
 
 	public String getBody() {
 		return this.body;
+	}
+	public <T>T toBean(Class<T> cls) {
+		return this.response.toBean(cls);
 	}
 
 }

@@ -1,3 +1,0 @@
-sword.mysql.url=jdbc:mysql://10.59.82.22:3306/qamp?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=UTF8&amp;rewriteBatchedStatements=true
-sword.mysql.username=admin
-sword.mysql.password=anhouse2016

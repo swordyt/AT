@@ -5,12 +5,13 @@
 
 <sqlMap namespace="com.yinting.dao.User">
 <resultMap class="java.util.HashMap" id="Map">
-<result property="iAutoID" column="iAutoID" javaType="java.lang.String"/>
-<result property="sNickname" column="sNickname" javaType="java.lang.String"/>
-<result property="sMobile" column="sMobile" javaType="java.lang.String"/>
+<result property="id" column="id" javaType="java.lang.String"/>
+<result property="code" column="code" javaType="java.lang.String"/>
+<result property="name" column="name" javaType="java.lang.String"/>
+<result property="city_code" column="city_code" javaType="java.lang.String"/>
 </resultMap>
 	<select id="getUser" parameterClass="hashmap" resultMap="Map">
-		select * from user_db.t_user where iAutoID>$iAutoID$ limit $value$
+		select * from maiziyun.basic_area where id>$id$ limit $value$
 	</select>
 
 	<!-- select t.sCompanyName from aaz_db.t_company t where t.iCompanyID=#value# -->

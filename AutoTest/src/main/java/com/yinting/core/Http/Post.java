@@ -6,8 +6,6 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -26,6 +24,7 @@ public class Post extends HttpRequest {
 	private final HttpPost post;
 	CloseableHttpClient client = HttpClients.createDefault();
 	private HttpResponse response;
+//	private HttpResponse response;
 	private final List<NameValuePair> formparams = new ArrayList<NameValuePair>();
 	private UrlEncodedFormEntity uefEntity;
 
@@ -61,9 +60,7 @@ public class Post extends HttpRequest {
 			uefEntity = new UrlEncodedFormEntity(formparams, "UTF-8");
 			post.setEntity(uefEntity);
 
-			this.response = client.execute(this.post);
-			System.out.println(EntityUtils.toString(this.response.getEntity(),
-					"utf-8"));
+			this.response=new HttpResponse(client.execute(this.post));
 		} catch (ClientProtocolException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -74,7 +71,7 @@ public class Post extends HttpRequest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return null;
+		return this.response;
 	}
 
 }

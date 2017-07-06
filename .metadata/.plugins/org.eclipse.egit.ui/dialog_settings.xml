@@ -6,6 +6,11 @@
 		<item value="http://git.ipo.com/hf-test-automation/nf-ta-app-hf"/>
 		<item value="git@github.com:swordyt/project.git"/>
 	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
 	<section name="GitImportWizard">
 	</section>
 </section>
