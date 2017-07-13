@@ -116,7 +116,6 @@ public class TestngListener implements ISuiteListener, ITestListener, IClassList
 
 	// 实现数据驱动分类，并带着参数
 	private void dataDriver(ITestAnnotation annotation, Method method, Driver driver) {
-		System.out.println("这里是监听的数据驱动分发");
 		annotation.setDataProviderClass(DataProviderClass.class);
 		DataDriver.parameteres.put(DataDriver.md5(method), driver.parameter());
 		switch (driver.type().getType()) {

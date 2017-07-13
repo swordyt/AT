@@ -6,21 +6,39 @@ import java.util.Map;
 import org.apache.http.Header;
 import org.apache.http.util.EntityUtils;
 
+import com.yinting.core.Log;
 import com.yinting.core.Response;
 
 public class HttpResponse implements Response {
 	private org.apache.http.HttpResponse httpResponse;
 	private HttpResponse response;
 	protected String body;
-	protected HttpResponse(){
-		
+
+	public org.apache.http.HttpResponse getHttpResponse() {
+		return httpResponse;
 	}
+
+	public void setHttpResponse(org.apache.http.HttpResponse httpResponse) {
+		this.httpResponse = httpResponse;
+	}
+
+	public HttpResponse getResponse() {
+		return response;
+	}
+
+	public void setResponse(HttpResponse response) {
+		this.response = response;
+	}
+
+	protected HttpResponse() {
+
+	}
+
 	public HttpResponse(org.apache.http.HttpResponse response) {
 		this.httpResponse = response;
 		try {
-			this.body = EntityUtils.toString(this.httpResponse.getEntity(),
-					"utf-8");
-			System.out.println(this.body);
+			this.body = EntityUtils.toString(this.httpResponse.getEntity(), "utf-8");
+			Log.log(this.body);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -29,15 +47,17 @@ public class HttpResponse implements Response {
 	}
 
 	public HttpResponse JSON() {
-		this.response=new Json(this.body);
+		this.response = new Json(this.body);
 		return this;
 	}
-	public HttpResponse XML(){
-		this.response=new Xml(this.httpResponse);
+
+	public HttpResponse XML() {
+		this.response = new Xml(this.httpResponse);
 		return this;
 	}
-	public HttpResponse Html(){
-		this.response=new Html(this.httpResponse);
+
+	public HttpResponse Html() {
+		this.response = new Html(this.httpResponse);
 		return this;
 	}
 
@@ -80,8 +100,13 @@ public class HttpResponse implements Response {
 	public String getBody() {
 		return this.body;
 	}
-	public <T>T toBean(Class<T> cls) {
+
+	public <T> T toBean(Class<T> cls) {
 		return this.response.toBean(cls);
+	}
+
+	public Integer getIndex(String keyStr) {
+		return this.response.getIndex(keyStr);
 	}
 
 }

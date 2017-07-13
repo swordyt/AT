@@ -42,6 +42,7 @@ public class ExcelDriver extends DataDriver {
 		Map<String, String> data = this.readRow(this.position);
 		publicPosition=this.position;
 		this.position++;
+		Log.log("====================用例："+data.get("Description").toString()+"onStart========================");
 		return new Object[] { data };
 	}
 

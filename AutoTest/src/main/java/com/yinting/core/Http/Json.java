@@ -69,7 +69,7 @@ public class Json extends HttpResponse {
 		for (int i = 1; i < list.size() - 1; i++) {
 		 String key =list.get(i).getKey();
 		 if (!obj.has(key)) {
-		 Log.debug("不存在该元素：" + key);
+		 Log.log("不存在该元素：" + key);
 		 return null;
 		 }
 		 if (i == list.size() - 2) {

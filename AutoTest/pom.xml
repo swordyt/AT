@@ -117,17 +117,6 @@
 			<artifactId>maven-jar-plugin</artifactId> <version>3.0.2</version> <configuration> 
 			<excludes> <exclude>src/main/resources/**</exclude> </excludes> </configuration> 
 			</plugin> </plugins> -->
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.6.1</version>
-				<configuration>
-					<javadocExecutable>C:\Program Files\Java\jdk1.8.0_131\bin\javadoc</javadocExecutable>
-					<encoding>UTF-8</encoding>
-				</configuration>
-			</plugin>
-		</plugins>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -136,9 +125,12 @@
 					<exclude>**/*.xls</exclude>
 					<exclude>**/*.properties</exclude>
 				</excludes>
-				<includes>
-					<include>config/log4j.properties</include>
-				</includes>
+			</resource>
+			<resource>
+				<directory>com.yinting.dao</directory>
+				<excludes>
+					<exclude>**/*</exclude>
+				</excludes>
 			</resource>
 		</resources>
 		<defaultGoal>compile</defaultGoal>
