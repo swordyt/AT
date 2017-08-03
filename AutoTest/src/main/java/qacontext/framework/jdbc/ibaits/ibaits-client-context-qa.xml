@@ -12,7 +12,7 @@
 	<bean id="sqlMapClientQa" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean" parent="parentSqlMapClient">
 		<property name="mappingLocations">
 			<list>
-				<value>classpath:ormapping/ibatis/qa/*.xml</value>
+				<value>classpath:ormapping/ibatis/qa/**/*.xml</value>
 			</list>
 		</property>
 		<property name="dataSource" ref="dataSourceQa" />
