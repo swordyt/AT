@@ -52,7 +52,7 @@ public class HttpResponse implements Response {
 	}
 
 	public HttpResponse XML() {
-		this.response = new Xml(this.httpResponse);
+		this.response = new Xml(this.body);
 		return this;
 	}
 

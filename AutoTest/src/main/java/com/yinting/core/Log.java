@@ -12,7 +12,7 @@ public class Log {
 
 	public static Logger instance() {
 		if (log == null) {
-			PropertyConfigurator.configure("config/log4j.properties");
+			PropertyConfigurator.configure("log4j.properties");
 			log = Logger.getLogger(Log.class);
 		}
 

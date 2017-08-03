@@ -8,7 +8,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.Date;
 import java.util.Enumeration;
-import java.util.Iterator;
 import java.util.Properties;
 
 import org.testng.IAnnotationTransformer2;
@@ -27,6 +26,7 @@ import org.testng.annotations.ITestAnnotation;
 import com.yinting.core.datadriver.DataDriver;
 import com.yinting.core.datadriver.DataProviderClass;
 import com.yinting.core.datadriver.Driver;
+import com.yinting.core.dubbo.Dubbo;
 
 public class TestngListener implements ISuiteListener, ITestListener, IClassListener, IAnnotationTransformer2 {
 	public static final String DATAPROVIDER_DB = "DATAPROVIDER_DB";
@@ -54,7 +54,7 @@ public class TestngListener implements ISuiteListener, ITestListener, IClassList
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
+		Dubbo.scanDubboXml();
 		TestFactory.getSuite().setStartTime(new Date().getTime());
 	}
 
