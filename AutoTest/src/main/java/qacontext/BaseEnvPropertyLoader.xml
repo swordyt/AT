@@ -27,8 +27,7 @@
 		<property name="locations">
 			<!-- PropertyPlaceholderConfigurer类中有个locations属性，接收的是一个数组，即我们可以在下面配好多个properties文件 -->
 			<list>
-				<value>classpath:properties/framework/jdbc-common.properties
-				</value>
+				<value>classpath:properties/framework/jdbc-common.properties</value>
 				<value>classpath:properties/framework/qa/jdbc.properties</value>
 			</list>
 		</property>
