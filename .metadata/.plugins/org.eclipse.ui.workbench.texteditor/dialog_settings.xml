@@ -2,21 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Log" key="selection"/>
+		<item value="对应数据存在问题请检查数据有效性" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="对应数据存在问题请检查数据有效性"/>
+			<item value="readBean"/>
+			<item value="beanReader"/>
+			<item value="数据源"/>
+			<item value="setApplicationContext"/>
+			<item value="applicationContext"/>
+			<item value="DOCUMENT_FACTORY"/>
+			<item value="fileXml"/>
+			<item value="id1502336504698"/>
+			<item value="id1502333254510"/>
 			<item value="Log"/>
 			<item value="`"/>
 			<item value="iba"/>
 			<item value="ib"/>
 			<item value="1.8"/>
-			<item value="jdk"/>
-			<item value="jd"/>
-			<item value="mysql"/>
-			<item value="test1"/>
 		</list>
 		<list key="replacehistory">
 			<item value="private String "/>
@@ -29,7 +35,7 @@
 		<item value="300" key="DIALOG_WIDTH"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="746" key="DIALOG_X_ORIGIN"/>
-		<item value="110" key="DIALOG_Y_ORIGIN"/>
+		<item value="933" key="DIALOG_X_ORIGIN"/>
+		<item value="47" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

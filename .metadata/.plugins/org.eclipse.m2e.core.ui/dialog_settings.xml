@@ -37,6 +37,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\Desktop\fmgw-maiziyun"/>
+			<item value="E:\AT\AutoTest"/>
 			<item value="E:\workspace\com.nonobank"/>
 			<item value="/Users/ting/Documents/nf-ta-app-hf"/>
 		</list>

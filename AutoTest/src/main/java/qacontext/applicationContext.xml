@@ -52,9 +52,6 @@
 	<!-- <import resource="classpath:qacontext/framework/orm/dao/dao-ibatis-qamp-context.xml" 
 		/> <import resource="classpath:qacontext/framework/orm/mng/qacontext-main-orm-mng.xml" 
 		/> -->
-	<!-- DataPersistence -->
-
-	<import resource="classpath:pool.xml" />
 
 	<!-- service -->
 	<!-- <import resource="classpath:qacontext/service/qacontext-main-service.xml" 

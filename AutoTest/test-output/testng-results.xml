@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="114929" started-at="2017-08-10T11:02:15Z" finished-at="2017-08-10T11:04:10Z">
+  <suite name="Default suite" duration-ms="4200" started-at="2017-08-11T07:11:21Z" finished-at="2017-08-11T07:11:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="114929" started-at="2017-08-10T11:02:15Z" finished-at="2017-08-10T11:04:10Z">
+    <test name="Default test" duration-ms="4200" started-at="2017-08-11T07:11:21Z" finished-at="2017-08-11T07:11:25Z">
       <class name="com.yinting.tools.DataPersistenceFactory">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@5d94f2e8]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="9" started-at="2017-08-10T19:02:15Z" finished-at="2017-08-10T19:02:15Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2017-08-11T15:11:21Z" finished-at="2017-08-11T15:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@5d94f2e8]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3250" started-at="2017-08-10T19:02:15Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-08-10T19:02:18Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3513" started-at="2017-08-11T15:11:21Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-08-11T15:11:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.tools.DataPersistenceFactory@5d94f2e8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="27" started-at="2017-08-10T19:02:18Z" finished-at="2017-08-10T19:02:18Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="36" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="traversalData()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@5d94f2e8]" name="traversalData" duration-ms="111570" started-at="2017-08-10T19:02:18Z" finished-at="2017-08-10T19:04:10Z">
+        <test-method status="PASS" signature="traversalData()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="traversalData" duration-ms="17" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- traversalData -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.tools.DataPersistenceFactory@5d94f2e8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="45" started-at="2017-08-10T19:04:10Z" finished-at="2017-08-10T19:04:10Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="602" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@5d94f2e8]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2017-08-10T19:04:10Z" finished-at="2017-08-10T19:04:10Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->

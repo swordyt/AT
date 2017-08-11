@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
 import org.testng.annotations.Test;
 import com.yinting.core.BaseTestCase;
 import com.yinting.core.Log;
+import com.yinting.test.TestStatus;
 import com.yinting.tools.DataPersistence.Parameter;
 
 /**
@@ -28,18 +29,18 @@ import com.yinting.tools.DataPersistence.Parameter;
  */
 @Service
 public class DataPersistenceFactory extends BaseTestCase {
-	private Document doc, docBean;
-	private Element root, rootBean;
-	private File fileXml, fileBean;
-	private SAXReader reader, readerBean;
+	private Document doc;
+	private Element root;
+	private File fileXml;
+	private SAXReader reader;
 	private XMLWriter writer;
 	OutputFormat format;
 	// private DataPersistence dao;
-	private static List<String> ids,idsBean,idsAll;
+	private static List<String> ids;
 
-	private DataPersistenceFactory() {
+	public DataPersistenceFactory() {
 		fileXml = new File("src/main/resources/ormapping/persistence/qa/pool.xml");
-		fileBean = new File("src/main/java/pool.xml");
+		// fileBean = new File("src/main/java/pool.xml");
 		reader = new SAXReader();
 		format = OutputFormat.createPrettyPrint();
 		format.setEncoding("UTF-8");
@@ -66,11 +67,19 @@ public class DataPersistenceFactory extends BaseTestCase {
 	/**
 	 * 通过传入的DataPersistence bean进行反射执行
 	 */
-	private void execute(DataPersistence bean) throws ClassNotFoundException, NoSuchMethodException, SecurityException,
-			IllegalAccessException, IllegalArgumentException, InvocationTargetException, InstantiationException {
+	private void execute(DataPersistence bean){
 		Status status;
-		Class clazz = Class.forName(bean.getCls());
-		Object obj = applicationContext.getBean(bean.getId(), clazz);
+		Class clazz = null;
+		try {
+			clazz = Class.forName(bean.getCls());
+		} catch (ClassNotFoundException e2) {
+			Log.log("Exception:"+bean.getCls());
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		// Class clazz=applica tionContext.getClassLoader().loadClass(bean.getCls());
+		Object obj = applicationContext.getAutowireCapableBeanFactory().createBean(clazz);//自动创建bean
+		// Object obj = applicationContext.getBean(bean.getId(), clazz);
 		List<DataPersistence.Parameter> parameters = bean.getParameters();
 		Class[] paraType = null;
 		String[] paraValue = null;
@@ -78,16 +87,37 @@ public class DataPersistenceFactory extends BaseTestCase {
 			paraType = new Class[parameters.size()];
 			paraValue = new String[parameters.size()];
 			for (int i = 0; i < parameters.size(); i++) {
-				paraType[i] = Class.forName(parameters.get(i).getType());
+				try {
+					paraType[i] = Class.forName(parameters.get(i).getType());
+				} catch (ClassNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				paraValue[i] = parameters.get(i).getValue();
 			}
 		}
-		Method method = clazz.getMethod(bean.getMethod(), paraType);
+		Method method=null;
 		try {
+			method = clazz.getMethod(bean.getMethod(), paraType);
+		} catch (NoSuchMethodException e1) {
+			Log.log("Exception"+clazz.toString()+","+bean.getMethod());
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (SecurityException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		try {
+			// Object reValue = method.invoke(obj, paraValue);
 			Object reValue = method.invoke(obj, paraValue);
 			status = (Status) reValue;
 		} catch (Exception e) {
+			e.printStackTrace();
 			status = Status.EXCEPTION;
+		}
+		if(status == null) {
+			Log.log(bean.getId()+"被执行方法未标明执行状态，默认设置为Exception.");
+			status=Status.EXCEPTION;
 		}
 		bean.setStatus(status.getValue());
 		writeXml(bean);
@@ -131,13 +161,13 @@ public class DataPersistenceFactory extends BaseTestCase {
 		if (ids == null) {
 			ids = new ArrayList<String>();
 		}
-		if(idsAll == null) {
-			idsAll=new ArrayList<String>();
-		}
+		// if(idsAll == null) {
+		// idsAll=new ArrayList<String>();
+		// }
 		Iterator<Element> it = root.elementIterator();
 		while (it.hasNext()) {
 			Element e = it.next();
-			idsAll.add(e.attributeValue("ID"));
+			// idsAll.add(e.attributeValue("ID"));
 			if (e.attributeValue("status").equalsIgnoreCase("SUCCESS")) {
 				continue;
 			}
@@ -151,24 +181,27 @@ public class DataPersistenceFactory extends BaseTestCase {
 		}
 		return ids;
 	}
-
-	public List<String> readBean() {
-		beanReader();
-		read();
-		Iterator< Element> it=rootBean.elementIterator("bean");
-		idsBean=new ArrayList<String>();
-		while(it.hasNext()) {
-			Element e=it.next();
-			String id=e.attributeValue("id");
-			if(!idsAll.contains(id)) {
-				rootBean.remove(e);
-				continue;
-			}
-			idsBean.add(id);
-		}
-		write(fileBean, docBean);
-		return idsBean;
-	}
+	/**
+	 * 
+	 * 获取bean配置文件中的id，并检查该id的有效性。如果该id在xml中不存在将删除该项
+	 */
+	// public List<String> readBean() {
+	//// beanReader();
+	// read();
+	// Iterator< Element> it=rootBean.elementIterator("bean");
+	// idsBean=new ArrayList<String>();
+	// while(it.hasNext()) {
+	// Element e=it.next();
+	// String id=e.attributeValue("id");
+	// if(!idsAll.contains(id)) {
+	// rootBean.remove(e);
+	// continue;
+	// }
+	// idsBean.add(id);
+	// }
+	// write(fileBean, docBean);
+	// return idsBean;
+	// }
 
 	/**
 	 * time yyyy-MM-dd-HH-mm-ss 年，月，日，时，分，秒
@@ -215,42 +248,42 @@ public class DataPersistenceFactory extends BaseTestCase {
 	 * 根据传入的bean 将对象数据写入bean和xml文件，
 	 */
 	private void write(DataPersistence data) {
-		writeBean(data);
+		// writeBean(data);
 		writeXml(data);
 	}
 
 	/**
 	 * 统一初始化root,readerBean,rootBean参数。
 	 */
-	private Element beanReader() {
-		if (readerBean == null) {
-			readerBean = new SAXReader();
-		}
-		try {
-			docBean = readerBean.read(fileBean);
-		} catch (DocumentException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		rootBean = docBean.getRootElement();
-		return rootBean;
-	}
+	// private Element beanReader() {
+	// if (readerBean == null) {
+	// readerBean = new SAXReader();
+	// }
+	// try {
+	// docBean = readerBean.read(fileBean);
+	// } catch (DocumentException e) {
+	// // TODO Auto-generated catch block
+	// e.printStackTrace();
+	// }
+	// rootBean = docBean.getRootElement();
+	// return rootBean;
+	// }
 
 	/**
 	 * 将xml中数据同步到bean文件中。
 	 */
-	private void writeBean(DataPersistence data) {
-		beanReader();
-		Element eBean = rootBean.addElement("bean");
-		eBean.setAttributeValue("id", data.getId());
-		eBean.setAttributeValue("class", data.getCls());
-		write(fileBean,docBean);
-
-	}
+	// private void writeBean(DataPersistence data) {
+	//// beanReader();
+	// Element eBean = rootBean.addElement("bean");
+	// eBean.setAttributeValue("id", data.getId());
+	// eBean.setAttributeValue("class", data.getCls());
+	// write(fileBean,docBean);
+	//
+	// }
 	/**
 	 * 根据传入的File和Document 将Document写入指定的File
-	 * */
-	private void write(File file,Document document) {
+	 */
+	private void write(File file, Document document) {
 		try {
 			writer = new XMLWriter(new FileOutputStream(file), format);
 			writer.write(document);
@@ -261,9 +294,10 @@ public class DataPersistenceFactory extends BaseTestCase {
 			e1.printStackTrace();
 		}
 	}
+
 	/**
 	 * 将数据写入到xml中
-	 * */
+	 */
 	private void writeXml(DataPersistence data) {
 		Element e = root.elementByID(data.getId());
 		if (e == null) {
@@ -290,7 +324,7 @@ public class DataPersistenceFactory extends BaseTestCase {
 			el.setAttributeValue("ID", parameters.get(i).getId());
 			el.setText(parameters.get(i).getValue());
 		}
-		write(fileXml,doc);
+		write(fileXml, doc);
 	}
 
 	/**
@@ -344,11 +378,12 @@ public class DataPersistenceFactory extends BaseTestCase {
 	@Test
 	public void traversalData() {
 		List<String> list = read();
-		readBean();
 		for (String id : list) {
 			executeByID(id);
 		}
-//		save(TestStatus.class, "test", "1d", new String[] {"yinting","26"});
+		;
+//		executeByID("id1502434784613");
+//		 save(TestStatus.class, "test", "1s", new String[] {"yinting","26"});
 	}
 
 }

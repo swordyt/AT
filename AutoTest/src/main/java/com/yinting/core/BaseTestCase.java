@@ -8,8 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
 import org.springframework.transaction.annotation.Transactional;
+import org.testng.annotations.BeforeSuite;
 
 import com.yinting.core.Http.HttpRequest;
+import com.yinting.tools.DataPersistenceFactory;
 
 @ContextConfiguration("classpath:qacontext/applicationContext.xml")
 @Transactional

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1501731295672_1" label="fmgw-parent" name="fmgw-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-facade" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-dal" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-integration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-test" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fmgw-business" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495789221579_0" label="Window Working Set" name="Aggregate for window 1495789221578"/>
 </workingSetManager>
