@@ -8,6 +8,8 @@ import org.apache.commons.beanutils.PropertyUtils;
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 import org.springframework.util.ReflectionUtils;
 
+import com.zaxxer.hikari.HikariDataSource;
+
 @SuppressWarnings("deprecation")
 public class DbHandller extends SqlMapClientDaoSupport{
 	/**
@@ -105,5 +107,8 @@ public class DbHandller extends SqlMapClientDaoSupport{
 
 	public <X, Y> Map<X, Y> queryForMap(String statementName, Object parameterObject, String keyMark) {
 		return getSqlMapClientTemplate().queryForMap(statementName, parameterObject, keyMark);
+	}
+	public void setDataSource(HikariDataSource dataSource) {
+		super.setDataSource(dataSource);
 	}
 }

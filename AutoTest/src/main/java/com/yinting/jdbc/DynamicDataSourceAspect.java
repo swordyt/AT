@@ -1,10 +1,6 @@
 package com.yinting.jdbc;
-
 import java.text.MessageFormat;
-import java.util.Iterator;
 import java.util.Properties;
-
-import javax.annotation.Resource;
 
 import org.aspectj.lang.JoinPoint;
 
@@ -19,11 +15,16 @@ public class DynamicDataSourceAspect {
 		if (!System.getProperty("ENV").equalsIgnoreCase("dev")) {
 			return;
 		}
+
 		String parameter = (String) point.getArgs()[0];
-		String dbName = parameter.split("_")[0];
+		String dbName = parameter.split("_")[0].toLowerCase();
+		if (DataSourceContextHolder.getDbType() !=null&&DataSourceContextHolder.getDbType().equalsIgnoreCase(dbName)) {
+			return;
+		}
 		Log.log("切换数据源为：" + dbName);
+		DataSourceContextHolder.setDbType(dbName);
 		Properties pro = System.getProperties();
-		parameters = new String[] { dbName.toLowerCase() }; // 封装参数
+		parameters = new String[] { dbName }; // 封装参数
 		String url = MessageFormat.format(pro.getProperty("maiziyun.dev.mysql.url"), parameters);
 		String username = MessageFormat.format(pro.getProperty("maiziyun.dev.mysql.username"), parameters);
 		String password = MessageFormat.format(pro.getProperty("maiziyun.dev.mysql.password"), parameters);
@@ -39,7 +40,7 @@ public class DynamicDataSourceAspect {
 		dataSource.setMaxLifetime(1800000);
 		dataSource.setMaximumPoolSize(10);
 		dataSource.setMinimumIdle(1);
-		 handle.setDataSource(dataSource);
+		handle.setDataSource(dataSource);
 		// System.out.println(handle.getDataSource().getConnection().getCatalog());
 	}
 }
