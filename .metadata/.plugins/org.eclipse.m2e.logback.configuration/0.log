@@ -19395,3 +19395,311 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2017-08-11 15:16:12,723 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
 2017-08-11 15:16:22,760 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
 2017-08-11 15:16:22,760 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-18 18:42:03,093 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-18 18:43:09,592 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-18 18:43:10,364 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-08-18 18:43:11,051 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-08-18 18:43:11,051 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-08-18 18:43:11,053 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-08-18 18:43:11,715 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-08-18 18:44:09,828 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-18 18:44:09,830 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml clean
+2017-08-18 18:44:28,251 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-18 18:44:28,251 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-18 18:44:40,205 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:40,207 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-18 18:44:40,208 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-18 18:44:40,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:40,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-18 18:44:41,024 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:41,024 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-18 18:44:41,024 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\NonobankAutoTest\com.nonobank.dao
+2017-08-18 18:44:41,024 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\NonobankAutoTest\com.nonobank.test
+2017-08-18 18:44:41,026 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:41,026 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-18 18:44:41,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:41,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\core\src\main\resources
+2017-08-18 18:44:41,652 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:41,653 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\core\src\test\resources
+2017-08-18 18:44:42,290 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:42,296 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-08-18 18:44:42,432 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:42,432 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\dal\src\test\resources
+2017-08-18 18:44:47,231 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:47,231 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\facade\src\main\resources
+2017-08-18 18:44:47,233 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:47,233 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\facade\src\test\resources
+2017-08-18 18:44:47,573 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:47,573 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-08-18 18:44:47,586 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:47,586 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\integration\src\test\resources
+2017-08-18 18:44:48,688 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:48,688 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2017-08-18 18:44:48,760 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:48,760 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\business\src\test\resources
+2017-08-18 18:44:50,537 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:50,537 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\test\src\main\resources
+2017-08-18 18:44:50,540 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-18 18:44:50,544 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 309 resources
+2017-08-18 18:45:06,976 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-18 18:45:06,977 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-18 18:52:05,580 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-21 14:31:20,814 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-21 14:31:23,688 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-08-21 14:33:24,164 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:24,177 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 14:33:24,178 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 14:33:24,181 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:24,181 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 14:33:25,678 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:25,678 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 14:33:25,678 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\NonobankAutoTest\com.nonobank.dao
+2017-08-21 14:33:25,679 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\NonobankAutoTest\com.nonobank.test
+2017-08-21 14:33:25,681 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:25,682 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 14:33:26,971 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:26,971 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\core\src\main\resources
+2017-08-21 14:33:26,973 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:26,973 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\core\src\test\resources
+2017-08-21 14:33:28,228 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:28,228 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-08-21 14:33:28,324 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:28,325 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\dal\src\test\resources
+2017-08-21 14:33:33,808 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:33,808 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\facade\src\main\resources
+2017-08-21 14:33:33,809 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:33,809 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\facade\src\test\resources
+2017-08-21 14:33:34,312 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:34,312 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-08-21 14:33:34,320 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:34,320 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\integration\src\test\resources
+2017-08-21 14:33:36,996 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:37,007 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2017-08-21 14:33:37,079 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:37,079 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\business\src\test\resources
+2017-08-21 14:33:39,778 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:39,779 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Desktop\fmgw-maiziyun\test\src\main\resources
+2017-08-21 14:33:39,782 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:33:39,788 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 309 resources
+2017-08-21 14:33:45,635 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 14:33:45,655 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 14:47:42,357 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:47:42,357 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 14:47:42,357 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 14:47:42,359 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 14:47:42,359 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 14:47:47,436 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 14:47:47,437 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:03:19,065 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 15:03:19,066 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:03:44,648 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:03:44,648 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:03:44,648 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:03:44,650 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:03:44,650 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:03:52,850 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 15:03:52,851 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:04:05,886 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:04:05,886 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:04:05,887 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:04:05,888 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:04:05,889 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:04:11,160 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 15:04:11,160 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:07:32,943 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 15:07:32,944 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:07:47,863 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:07:47,863 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:07:47,864 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:07:47,865 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:07:47,865 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:07:53,515 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 15:07:53,516 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:22:45,466 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:22:45,467 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:22:45,467 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:22:45,468 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:22:45,468 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:22:50,827 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\AT\AutoTest
+2017-08-21 15:22:50,829 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs D:\software\apache-maven-3.5.0\conf\settings.xml -s D:\software\apache-maven-3.5.0\conf\settings.xml install
+2017-08-21 15:40:50,773 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:40:50,782 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:40:50,782 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:40:50,784 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:40:50,784 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:43:01,694 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:43:01,696 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:43:01,696 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:43:01,697 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:43:01,697 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:43:51,949 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:43:51,951 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:43:51,951 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:43:51,952 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:43:51,952 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 15:45:33,164 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:45:33,166 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 15:45:33,166 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 15:45:33,167 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 15:45:33,167 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 16:12:50,069 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-21 16:12:50,666 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:50,666 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/mgw/mgw-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:50,734 [DefaultMetadataResolver-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/mgw/mgw-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:50,743 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/mgw/mgw-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:50,797 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:50,858 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/mgw/mgw-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:51,731 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yinting:AutoTest:1.0.0 @ E:\AT\AutoTest\pom.xml.
+2017-08-21 16:12:52,122 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/remote-repos/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom
+2017-08-21 16:12:52,241 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom
+2017-08-21 16:12:52,334 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/remote-repos/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar
+2017-08-21 16:12:53,356 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar
+2017-08-21 16:12:54,150 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.maiziyun.fmgw:fmgw-business:1.0.0-20170731-SNAPSHOT @ E:\Desktop\fmgw-maiziyun\business\pom.xml.
+2017-08-21 16:12:54,188 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/mgw/mgw-business/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,207 [DefaultMetadataResolver-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-business/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,241 [DefaultMetadataResolver-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/mgw/mgw-business/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,252 [DefaultMetadataResolver-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-business/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,253 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/mgw/mgw-business/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,267 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/mgw/mgw-business/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,368 [DefaultMetadataResolver-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,407 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/mgw/mgw-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,421 [DefaultMetadataResolver-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,428 [DefaultMetadataResolver-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/mgw/mgw-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,434 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/mgw/mgw-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,476 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/mgw/mgw-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,539 [DefaultMetadataResolver-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-dal/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,565 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/mgw/mgw-dal/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,576 [DefaultMetadataResolver-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-dal/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,589 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/mgw/mgw-dal/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,590 [DefaultMetadataResolver-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/mgw/mgw-dal/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,639 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/mgw/mgw-dal/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,771 [DefaultMetadataResolver-4-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,807 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/mgw/mgw-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,809 [DefaultMetadataResolver-4-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/mgw/mgw-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,816 [DefaultMetadataResolver-4-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/mgw/mgw-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,822 [DefaultMetadataResolver-4-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,872 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/mgw/mgw-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,919 [DefaultMetadataResolver-5-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-util/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,943 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/mgw/mgw-util/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,945 [DefaultMetadataResolver-5-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/mgw/mgw-util/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,961 [DefaultMetadataResolver-5-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/mgw/mgw-util/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:54,970 [DefaultMetadataResolver-5-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/mgw/mgw-util/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,022 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/mgw/mgw-util/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,206 [DefaultMetadataResolver-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/solar/framework/framework-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,256 [DefaultMetadataResolver-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/solar/framework/framework-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,257 [DefaultMetadataResolver-6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/solar/framework/framework-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,258 [DefaultMetadataResolver-6-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/solar/framework/framework-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,280 [DefaultMetadataResolver-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,320 [DefaultMetadataResolver-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-core/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,395 [DefaultMetadataResolver-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/solar/framework/framework-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,401 [DefaultMetadataResolver-7-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/solar/framework/framework-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,412 [DefaultMetadataResolver-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/solar/framework/framework-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,418 [DefaultMetadataResolver-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/solar/framework/framework-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,430 [DefaultMetadataResolver-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,489 [DefaultMetadataResolver-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-parent/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,568 [DefaultMetadataResolver-8-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/solar/framework/framework-cache/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,587 [DefaultMetadataResolver-8-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/solar/framework/framework-cache/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,619 [DefaultMetadataResolver-8-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-cache/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,619 [DefaultMetadataResolver-8-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/solar/framework/framework-cache/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,619 [DefaultMetadataResolver-8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/solar/framework/framework-cache/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,670 [DefaultMetadataResolver-8-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-cache/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,766 [DefaultMetadataResolver-9-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/solar/framework/framework-sequence/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,778 [DefaultMetadataResolver-9-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/solar/framework/framework-sequence/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,790 [DefaultMetadataResolver-9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/solar/framework/framework-sequence/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,791 [DefaultMetadataResolver-9-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/solar/framework/framework-sequence/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,821 [DefaultMetadataResolver-9-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-sequence/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:55,862 [DefaultMetadataResolver-9-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/solar/framework/framework-sequence/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,029 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.maiziyun.fmgw:fmgw-integration:1.0.0-20170731-SNAPSHOT @ E:\Desktop\fmgw-maiziyun\integration\pom.xml.
+2017-08-21 16:12:56,167 [DefaultMetadataResolver-10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/fcm/fcm-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,179 [DefaultMetadataResolver-10-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/fcm/fcm-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,185 [DefaultMetadataResolver-10-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/fcm/fcm-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,192 [DefaultMetadataResolver-10-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/fcm/fcm-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,223 [DefaultMetadataResolver-10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/fcm/fcm-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,261 [DefaultMetadataResolver-10-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/fcm/fcm-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,336 [DefaultMetadataResolver-11-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/payment/ccdc-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,352 [DefaultMetadataResolver-11-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/payment/ccdc-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,372 [DefaultMetadataResolver-11-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/payment/ccdc-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,380 [DefaultMetadataResolver-11-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/payment/ccdc-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,385 [DefaultMetadataResolver-11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/payment/ccdc-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,455 [DefaultMetadataResolver-11-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/payment/ccdc-facade/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,499 [DefaultMetadataResolver-12-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/common/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,532 [DefaultMetadataResolver-12-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/com/maiziyun/common/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,536 [DefaultMetadataResolver-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/remote-repos/com/maiziyun/common/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,540 [DefaultMetadataResolver-12-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-release/com/maiziyun/common/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,544 [DefaultMetadataResolver-12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-libs-release/com/maiziyun/common/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,606 [DefaultMetadataResolver-12-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://120.27.49.79:18080/artifactory/maiziyun-third-snapshot/com/maiziyun/common/1.0.0-SNAPSHOT/maven-metadata.xml
+2017-08-21 16:12:56,780 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.maiziyun.fmgw:fmgw-test:1.0.0-20170731-SNAPSHOT @ E:\Desktop\fmgw-maiziyun\test\pom.xml.
+2017-08-21 16:12:57,824 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/main/java
+2017-08-21 16:12:57,825 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AutoTest/src/main/resources
+2017-08-21 16:12:57,826 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AutoTest/src/test/java
+2017-08-21 16:12:58,228 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2017-08-21 16:16:38,182 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:16:38,183 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 16:16:38,183 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 16:16:38,190 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:16:38,191 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 16:27:56,046 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:27:56,048 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 16:27:56,070 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 16:27:56,071 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:27:56,071 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 16:36:44,682 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:36:44,684 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 16:36:44,684 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 16:36:44,685 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:36:44,685 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 16:48:16,445 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:48:16,447 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 16:48:16,447 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 16:48:16,448 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:48:16,448 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 16:49:05,998 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:49:05,999 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 16:49:05,999 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 16:49:06,000 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 16:49:06,000 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:02:13,222 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:02:13,223 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:02:13,223 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:02:13,224 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:02:13,224 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:03:11,143 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:03:11,146 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:03:11,146 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:03:11,147 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:03:11,147 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:10:29,725 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:10:29,727 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:10:29,727 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:10:29,729 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:10:29,729 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:16:00,085 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:16:00,087 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:16:00,087 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:16:00,088 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:16:00,089 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:16:57,514 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:16:57,515 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:16:57,515 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:16:57,521 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:16:57,521 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:17:07,654 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:17:07,656 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:17:07,656 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:17:07,656 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:17:07,657 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:48:39,031 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:48:39,033 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:48:39,033 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:48:39,034 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:48:39,034 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:48:58,892 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:48:58,893 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:48:58,893 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:48:58,896 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:48:58,896 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources
+2017-08-21 17:58:34,310 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:58:34,312 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-21 17:58:34,316 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\com.yinting.dao
+2017-08-21 17:58:34,325 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-21 17:58:34,325 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\AT\AutoTest\src\test\resources

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
-<fullyQualifiedTypeName name="org.apache.http.util.EntityUtils"/>
-<fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
 <fullyQualifiedTypeName name="com.yinting.core.Http.HttpResponse"/>
 <fullyQualifiedTypeName name="bsh.This"/>
 <fullyQualifiedTypeName name="com.yinting.core.datadriver.ExcelDriver"/>
@@ -11,7 +7,6 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="net.sf.json.JSONObject"/>
 <fullyQualifiedTypeName name="com.yinting.tools.ExcelTools"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.dom4j.Document"/>
@@ -23,7 +18,6 @@
 <fullyQualifiedTypeName name="org.dom4j.io.OutputFormat"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.yinting.core.Log"/>
 <fullyQualifiedTypeName name="com.yinting.tools.DataPersistenceDao.Parameter"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -50,14 +44,20 @@
 <fullyQualifiedTypeName name="org.dom4j.QName"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.config.RuntimeBeanNameReference"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.yinting.tools.DataPersistenceFactory"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.TestContextManager"/>
 <fullyQualifiedTypeName name="com.Testng.run.TestStatus"/>
 <fullyQualifiedTypeName name="com.yinting.tools.Status"/>
-<fullyQualifiedTypeName name="javax.annotation.Resource"/>
-<fullyQualifiedTypeName name="com.yinting.jdbc.DbHandller"/>
 <fullyQualifiedTypeName name="com.yinting.test.TestStatus"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="com.zaxxer.hikari.HikariConfig"/>
+<fullyQualifiedTypeName name="com.yinting.jdbc.DbHandller"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="com.zaxxer.hikari.HikariDataSource"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.yinting.core.Log"/>
+<fullyQualifiedTypeName name="java.text.MessageFormat"/>
 </qualifiedTypeNameHistroy>

@@ -1,72 +1,36 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.yinting</groupId>
-	<artifactId>AutoTest</artifactId>
+	<groupId>com.nonobank</groupId>
+	<artifactId>NonobankAutoTest</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<!-- 设置编译版本 -->
 	<properties>
 		<jdk.version>1.7</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<ganymed.version>262</ganymed.version>
 	</properties>
-
-	<!-- <distributionManagement> <repository> <id>testnf-release</id> <url>http://maven.ipo.com/nexus/content/repositories/testnf-release</url> 
-		</repository> </distributionManagement> -->
 	<dependencies>
-		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
-			<version>6.0.6</version> </dependency> -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.3</version>
-		</dependency>
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.9</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>3.2.3.RELEASE</version>
+			<version>4.3.2.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
-			<version>3.2.3.RELEASE</version>
+			<version>4.3.2.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>3.2.2.RELEASE</version>
+			<version>4.3.2.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>3.2.2.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis-spring</artifactId>
-			<version>1.3.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.zaxxer</groupId>
-			<artifactId>HikariCP</artifactId>
-			<version>2.4.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.ibatis</groupId>
-			<artifactId>ibatis-sqlmap</artifactId>
-			<version>2.3.4.726</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis</artifactId>
-			<version>3.4.2</version>
+			<version>4.3.2.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.annotation</groupId>
@@ -119,24 +83,22 @@
 			<artifactId>dubbo</artifactId>
 			<version>2.5.3</version>
 		</dependency>
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjweaver</artifactId>
-			<version>1.8.10</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.ethz.ganymed</groupId>
-			<artifactId>ganymed-ssh2</artifactId>
-			<version>build210</version>
-		</dependency>
 	</dependencies>
+
+
+
+
+
+
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<name>snapshot</name>
+			<url>http://120.27.49.79:18080/artifactory/maiziyun-libs-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
-		<!-- <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-war-plugin</artifactId> 
-			<version>2.0.2</version> <configuration> <warSourceExcludes>src/main/resources/**</warSourceExcludes> 
-			</configuration> </plugin> </plugins> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> 
-			<artifactId>maven-jar-plugin</artifactId> <version>3.0.2</version> <configuration> 
-			<excludes> <exclude>src/main/resources/**</exclude> </excludes> </configuration> 
-			</plugin> </plugins> -->
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -147,7 +109,13 @@
 				</excludes>
 			</resource>
 			<resource>
-				<directory>com.yinting.dao</directory>
+				<directory>com.nonobank.dao</directory>
+				<excludes>
+					<exclude>**/*</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory>com.nonobank.test</directory>
 				<excludes>
 					<exclude>**/*</exclude>
 				</excludes>
