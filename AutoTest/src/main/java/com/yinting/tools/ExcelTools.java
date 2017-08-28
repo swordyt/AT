@@ -7,15 +7,25 @@ import com.yinting.core.datadriver.ExcelDriver;
 public class ExcelTools {
 	/**
 	 * 随主数据驱动取值，当无数据驱动支持时，支取第一行数据。
-	 * */
-	public static Map data(String path,String sheet) {   
-		return data(path,sheet,ExcelDriver.publicPosition);
+	 * 受run配置影响，只会使用run=Y的数据
+	 */
+	public static Map data(String path, String sheet) {
+		return data(path, sheet, ExcelDriver.publicPosition, true);
 	}
+
 	/**
-	 * 取制定行数据
-	 * */
+	 * 取特定行数据,忽略run配置
+	 */
 	public static Map data(String path, String sheet, int exeNum) {
-		ExcelDriver driver=new ExcelDriver(path,sheet);
-			return driver.readRow(exeNum);
+		return data(path, sheet, exeNum, false);
+	}
+
+	private static Map data(String path, String sheet, int exeNum, boolean runFlag) {
+		ExcelDriver driver = new ExcelDriver(path, sheet);
+		int row = exeNum;
+		if (runFlag) {
+			row=driver.getTotal().get(exeNum-1);
+		}
+		return driver.readRow(row);
 	}
 }
