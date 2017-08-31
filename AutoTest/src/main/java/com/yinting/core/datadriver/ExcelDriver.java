@@ -62,6 +62,23 @@ public class ExcelDriver extends DataDriver {
 
 	}
 
+	/**
+	 * 根据传入的标识，判断当前标志所在的行，固定返回第一次发现的行号
+	 * 如未发现将返回：0；
+	 */
+	public int getRowNumber(String flag) {
+		Cell[] cell = this.sheet.getColumn(ExcelHeader.Description.getOrdinal());
+		for (int i = 0; i < cell.length; i++) {
+			if (cell[i].getContents().trim().equals(flag)) {
+				return i;
+			}
+		}
+		return 0;
+	}
+
+	/**
+	 * 读取指定的行，并封装成map返回。
+	 */
 	public Map<String, String> readRow(int rowNum) {
 		Cell[] cells = this.sheet.getRow(rowNum);
 		Map<String, String> data = new HashMap<String, String>();

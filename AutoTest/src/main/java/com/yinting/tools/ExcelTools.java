@@ -19,7 +19,17 @@ public class ExcelTools {
 	public static Map data(String path, String sheet, int exeNum) {
 		return data(path, sheet, exeNum, false);
 	}
-
+	/**
+	 * 根据传入的标识，固定返回第一次发现的行号 如未发现将返回：null；
+	 * */
+	public static Map data(String path, String sheet, String flag) {
+		ExcelDriver driver = new ExcelDriver(path, sheet);
+		int exeNum=driver.getRowNumber(flag);
+		if(exeNum == 0){
+			return null;
+		}
+		return data(path, sheet, exeNum, false);
+	}
 	private static Map data(String path, String sheet, int exeNum, boolean runFlag) {
 		ExcelDriver driver = new ExcelDriver(path, sheet);
 		int row = exeNum;
