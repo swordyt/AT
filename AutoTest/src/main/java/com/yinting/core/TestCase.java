@@ -74,6 +74,10 @@ public abstract class TestCase extends BaseTestCase{
 		Map data=ExcelTools.data(this.getXLS(), this.getSheet(),row);
 		send(data);
 	}
+	public void send(String row){
+		Map data=ExcelTools.data(this.getXLS(), this.getSheet(),row);
+		send(data);
+	}
 	/**
 	 * sheet
 	 * */
