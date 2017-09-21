@@ -115,6 +115,9 @@ public class HttpRequest implements Request {
 	 */
 	private String assertUrl(String url) {
 		// "http:"+System.getProperty("Domain")+"/"
+		if(url.toLowerCase().startsWith("http://")){
+			return url;
+		}
 		if (!url.startsWith("/")) {
 			url = "/" + url;
 		}

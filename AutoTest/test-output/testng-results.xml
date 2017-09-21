@@ -2,50 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4200" started-at="2017-08-11T07:11:21Z" finished-at="2017-08-11T07:11:25Z">
+  <suite name="Default suite" duration-ms="11023" started-at="2017-09-15T02:57:18Z" finished-at="2017-09-15T02:57:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4200" started-at="2017-08-11T07:11:21Z" finished-at="2017-08-11T07:11:25Z">
-      <class name="com.yinting.tools.DataPersistenceFactory">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2017-08-11T15:11:21Z" finished-at="2017-08-11T15:11:21Z">
+    <test name="Default test" duration-ms="11023" started-at="2017-09-15T02:57:18Z" finished-at="2017-09-15T02:57:29Z">
+      <class name="com.yinting.test.TestStatus">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.yinting.test.TestStatus@3532ec19]" name="test1" duration-ms="10997" started-at="2017-09-15T10:57:18Z" finished-at="2017-09-15T10:57:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3513" started-at="2017-08-11T15:11:21Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-08-11T15:11:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="36" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.yinting.tools.DataPersistenceFactory.traversalData()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="traversalData()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="traversalData" duration-ms="17" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- traversalData -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="602" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.yinting.tools.DataPersistenceFactory.traversalData()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.yinting.tools.DataPersistenceFactory@89525d0]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2017-08-11T15:11:25Z" finished-at="2017-08-11T15:11:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- com.yinting.tools.DataPersistenceFactory -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.yinting.test.TestStatus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

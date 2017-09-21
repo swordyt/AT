@@ -29,7 +29,7 @@ public class Dubbo {
 		File[] files;
 		File dubbo = new File(path);
 		if (!dubbo.exists()) {
-			Log.log("路基不存在：" + path + ",无法加载dubbo配置文件。");
+			Log.log("地址不存在：" + path + ",无法加载dubbo配置文件。");
 			return;
 		}
 		if (!dubbo.isDirectory()) {

@@ -6,10 +6,10 @@ import org.aspectj.lang.JoinPoint;
 
 import com.yinting.core.Log;
 import com.zaxxer.hikari.HikariDataSource;
-
+/**
+ * 用于动态切入，切换数据源。
+ * */
 public class DynamicDataSourceAspect {
-	// @Resource
-	// DbHandller handle;
 	public void intercept(JoinPoint point) throws Exception {
 		String[] parameters = null;
 		if (!System.getProperty("ENV").equalsIgnoreCase("dev")) {
@@ -41,6 +41,5 @@ public class DynamicDataSourceAspect {
 		dataSource.setMaximumPoolSize(10);
 		dataSource.setMinimumIdle(1);
 		handle.setDataSource(dataSource);
-		// System.out.println(handle.getDataSource().getConnection().getCatalog());
 	}
 }

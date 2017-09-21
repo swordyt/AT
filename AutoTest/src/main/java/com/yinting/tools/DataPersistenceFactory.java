@@ -19,7 +19,6 @@ import org.springframework.stereotype.Service;
 import org.testng.annotations.Test;
 import com.yinting.core.BaseTestCase;
 import com.yinting.core.Log;
-import com.yinting.test.TestStatus;
 import com.yinting.tools.DataPersistence.Parameter;
 
 /**

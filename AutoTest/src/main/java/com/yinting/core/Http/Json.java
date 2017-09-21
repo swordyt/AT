@@ -1,24 +1,45 @@
 package com.yinting.core.Http;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.ParseException;
-import org.apache.http.util.EntityUtils;
-
 import com.yinting.core.Log;
 
-import bsh.This;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
 
 public class Json extends HttpResponse {
 
+	@Override
+	public Integer getIndex(String path, Object... parameter) {
+		return this.getIndex(fillPath(path, parameter));
+	}
+
+	@Override
+	public String getValue(String path, Object... parameter) {
+		return this.getValue(fillPath(path, parameter));
+	}
+
+	public String fillPath(String path, Object... parameter) {
+		StringBuilder builder = new StringBuilder(path);
+		if (parameter == null || parameter.equals("")) {
+			return this.getValue(path);
+		}
+		for (int i = 0; i < parameter.length; i++) {
+			builder.replace(builder.indexOf("#"), builder.indexOf("#") + 1, parameter[i].toString());
+		}
+		Log.log("填充后的Json路径为：" + builder.toString());
+		return builder.toString();
+	}
+
 	JSONObject json = null;
 	JSONObject obj = null;
-	public <T>T toBean(Class<T> cls) {
-		return (T)JSONObject.toBean(json,cls);
+
+	public <T> T toBean(Class<T> cls) {
+		return (T) JSONObject.toBean(json, cls);
 	}
+
 	@Override
 	public String getValue(String path) {
 		obj = this.json;
@@ -52,37 +73,43 @@ public class Json extends HttpResponse {
 
 	public Json(String body) {
 		this.json = JSONObject.fromObject(body);
-
 	}
+
 	/**
-	 * 获取json中数组个数，需以。INDEX结尾
-	 * */
+	 * 获取json中数组个数，默认返回0.
+	 */
 	public Integer getIndex(String keyStr) {
-		if (!keyStr.endsWith("INDEX")) {
-			return null;
+		if (keyStr.endsWith("INDEX")) {
+			keyStr = keyStr.substring(0, keyStr.lastIndexOf(".INDEX"));
 		}
 		obj = this.json;
 		List<Container> list = splitString(keyStr);
 		// if (list.size() == 3) {
 		// return null;
 		// }
-		for (int i = 1; i < list.size() - 1; i++) {
-		 String key =list.get(i).getKey();
-		 if (!obj.has(key)) {
-		 Log.log("不存在该元素：" + key);
-		 return null;
-		 }
-		 if (i == list.size() - 2) {
-		 return obj.getJSONArray(key).size();
-		 }
-		 if (list.get(i).getValue() == null) {
-		 obj = obj.getJSONObject(key);
-		 } else {
-		 obj = obj.getJSONArray(key).getJSONObject(list.get(i).getValue());
+		for (int i = 1; i < list.size(); i++) {
+			String key = list.get(i).getKey();
+			if (!obj.has(key)) {
+				Log.log("不存在该元素：" + key);
+				return 0;
+			}
+			if (i == list.size() - 1) {
+				try {
+					return obj.getJSONArray(key).size();
+				} catch (JSONException e) {
+					e.printStackTrace();
+					return 0;
+				}
+			}
+			if (list.get(i).getValue() == null) {
+				obj = obj.getJSONObject(key);
+			} else {
+				obj = obj.getJSONArray(key).getJSONObject(list.get(i).getValue());
 			}
 		}
-		return null;
+		return 0;
 	}
+
 	private List<Container> splitString(String str) {
 		List<Container> list = new ArrayList<Json.Container>();
 		String[] keys = str.trim().split("[.]");

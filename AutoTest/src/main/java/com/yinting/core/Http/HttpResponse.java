@@ -109,4 +109,12 @@ public class HttpResponse implements Response {
 		return this.response.getIndex(keyStr);
 	}
 
+	public String getValue(String path, Object... parameter) {
+		return this.response.getValue(path, parameter);
+	}
+
+	public Integer getIndex(String path, Object... parameter) {
+		return this.response.getIndex(path, parameter);
+	}
+
 }
