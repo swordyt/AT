@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nonobank.dao.cif_user_infoMapper">
+  <resultMap id="BaseResultMap" type="com.nonobank.domain.cif_user_info">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_type" jdbcType="VARCHAR" property="userType" />
+    <result column="login_name" jdbcType="VARCHAR" property="loginName" />
+    <result column="login_name_type" jdbcType="VARCHAR" property="loginNameType" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="mail" jdbcType="VARCHAR" property="mail" />
+    <result column="parent_id" jdbcType="VARCHAR" property="parentId" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="cust_id" jdbcType="VARCHAR" property="custId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+    <result column="out_id" jdbcType="VARCHAR" property="outId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, user_type, login_name, login_name_type, mobile, mail, parent_id, source, status, 
+    cust_id, create_time, modify_time, out_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultType="string">
+    select id from cif_user_info where id = #{id}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from cif_user_info
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.nonobank.domain.cif_user_info">
+    insert into cif_user_info (id, user_type, login_name, 
+      login_name_type, mobile, mail, 
+      parent_id, source, status, 
+      cust_id, create_time, modify_time, 
+      out_id)
+    values (#{id,jdbcType=VARCHAR}, #{userType,jdbcType=VARCHAR}, #{loginName,jdbcType=VARCHAR}, 
+      #{loginNameType,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR}, #{mail,jdbcType=VARCHAR}, 
+      #{parentId,jdbcType=VARCHAR}, #{source,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, 
+      #{custId,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{modifyTime,jdbcType=TIMESTAMP}, 
+      #{outId,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.nonobank.domain.cif_user_info">
+    insert into cif_user_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userType != null">
+        user_type,
+      </if>
+      <if test="loginName != null">
+        login_name,
+      </if>
+      <if test="loginNameType != null">
+        login_name_type,
+      </if>
+      <if test="mobile != null">
+        mobile,
+      </if>
+      <if test="mail != null">
+        mail,
+      </if>
+      <if test="parentId != null">
+        parent_id,
+      </if>
+      <if test="source != null">
+        source,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="custId != null">
+        cust_id,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="modifyTime != null">
+        modify_time,
+      </if>
+      <if test="outId != null">
+        out_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="userType != null">
+        #{userType,jdbcType=VARCHAR},
+      </if>
+      <if test="loginName != null">
+        #{loginName,jdbcType=VARCHAR},
+      </if>
+      <if test="loginNameType != null">
+        #{loginNameType,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="mail != null">
+        #{mail,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        #{parentId,jdbcType=VARCHAR},
+      </if>
+      <if test="source != null">
+        #{source,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="custId != null">
+        #{custId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null">
+        #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="outId != null">
+        #{outId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.nonobank.domain.cif_user_info">
+    update cif_user_info
+    <set>
+      <if test="userType != null">
+        user_type = #{userType,jdbcType=VARCHAR},
+      </if>
+      <if test="loginName != null">
+        login_name = #{loginName,jdbcType=VARCHAR},
+      </if>
+      <if test="loginNameType != null">
+        login_name_type = #{loginNameType,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        mobile = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="mail != null">
+        mail = #{mail,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        parent_id = #{parentId,jdbcType=VARCHAR},
+      </if>
+      <if test="source != null">
+        source = #{source,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="custId != null">
+        cust_id = #{custId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyTime != null">
+        modify_time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="outId != null">
+        out_id = #{outId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.nonobank.domain.cif_user_info">
+    update cif_user_info
+    set user_type = #{userType,jdbcType=VARCHAR},
+      login_name = #{loginName,jdbcType=VARCHAR},
+      login_name_type = #{loginNameType,jdbcType=VARCHAR},
+      mobile = #{mobile,jdbcType=VARCHAR},
+      mail = #{mail,jdbcType=VARCHAR},
+      parent_id = #{parentId,jdbcType=VARCHAR},
+      source = #{source,jdbcType=VARCHAR},
+      status = #{status,jdbcType=VARCHAR},
+      cust_id = #{custId,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      modify_time = #{modifyTime,jdbcType=TIMESTAMP},
+      out_id = #{outId,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nonobank.dao.pcs_product_fof_nav_infoMapper">
+	<resultMap id="BaseResultMap" type="com.nonobank.domain.pcs_product_fof_nav_info">
+		<id column="id" jdbcType="BIGINT" property="id" />
+		<result column="product_id" jdbcType="BIGINT" property="productId" />
+		<result column="product_name" jdbcType="VARCHAR" property="productName" />
+		<result column="product_type" jdbcType="VARCHAR" property="productType" />
+		<result column="fund_type" jdbcType="VARCHAR" property="fundType" />
+		<result column="fund_code" jdbcType="VARCHAR" property="fundCode" />
+		<result column="nav_date" jdbcType="TIMESTAMP" property="navDate" />
+		<result column="nav" jdbcType="VARCHAR" property="nav" />
+		<result column="accumulated_nav" jdbcType="VARCHAR" property="accumulatedNav" />
+		<result column="unit_yield" jdbcType="VARCHAR" property="unitYield" />
+		<result column="yearly_roe" jdbcType="VARCHAR" property="yearlyRoe" />
+		<result column="day_return" jdbcType="VARCHAR" property="dayReturn" />
+		<result column="one_week_return" jdbcType="VARCHAR" property="oneWeekReturn" />
+		<result column="one_month_return" jdbcType="VARCHAR" property="oneMonthReturn" />
+		<result column="quarter_return" jdbcType="VARCHAR" property="quarterReturn" />
+		<result column="half_year_return" jdbcType="VARCHAR" property="halfYearReturn" />
+		<result column="one_year_return" jdbcType="VARCHAR" property="oneYearReturn" />
+		<result column="this_year_return" jdbcType="VARCHAR" property="thisYearReturn" />
+		<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+		<result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		id, product_id, product_name, product_type, fund_type,
+		fund_code,
+		nav_date, nav,
+		accumulated_nav, unit_yield, yearly_roe,
+		day_return, one_week_return,
+		one_month_return,
+		quarter_return,
+		half_year_return, one_year_return, this_year_return, create_time,
+		modify_time
+	</sql>
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+		delete from
+		pcs_fund_nav_info
+		where id = #{id,jdbcType=BIGINT}
+	</delete>
+	<insert id="insert" parameterType="com.nonobank.domain.pcs_product_fof_nav_info">
+		insert into pcs_fund_nav_info
+		(id, product_id, product_name,
+		product_type, fund_type, fund_code,
+		nav_date, nav, accumulated_nav,
+		unit_yield, yearly_roe, day_return,
+		one_week_return, one_month_return, quarter_return,
+		half_year_return,
+		one_year_return, this_year_return,
+		create_time, modify_time)
+		values
+		(#{id,jdbcType=BIGINT}, #{productId,jdbcType=BIGINT},
+		#{productName,jdbcType=VARCHAR},
+		#{productType,jdbcType=VARCHAR},
+		#{fundType,jdbcType=VARCHAR}, #{fundCode,jdbcType=VARCHAR},
+		#{navDate,jdbcType=TIMESTAMP}, #{nav,jdbcType=VARCHAR},
+		#{accumulatedNav,jdbcType=VARCHAR},
+		#{unitYield,jdbcType=VARCHAR},
+		#{yearlyRoe,jdbcType=VARCHAR}, #{dayReturn,jdbcType=VARCHAR},
+		#{oneWeekReturn,jdbcType=VARCHAR}, #{oneMonthReturn,jdbcType=VARCHAR},
+		#{quarterReturn,jdbcType=VARCHAR},
+		#{halfYearReturn,jdbcType=VARCHAR},
+		#{oneYearReturn,jdbcType=VARCHAR},
+		#{thisYearReturn,jdbcType=VARCHAR},
+		#{createTime,jdbcType=TIMESTAMP}, #{modifyTime,jdbcType=TIMESTAMP})
+	</insert>
+	<insert id="insertSelective" parameterType="com.nonobank.domain.pcs_product_fof_nav_info">
+		insert into pcs_fund_nav_info
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				id,
+			</if>
+			<if test="productId != null">
+				product_id,
+			</if>
+			<if test="productName != null">
+				product_name,
+			</if>
+			<if test="productType != null">
+				product_type,
+			</if>
+			<if test="fundType != null">
+				fund_type,
+			</if>
+			<if test="fundCode != null">
+				fund_code,
+			</if>
+			<if test="navDate != null">
+				nav_date,
+			</if>
+			<if test="nav != null">
+				nav,
+			</if>
+			<if test="accumulatedNav != null">
+				accumulated_nav,
+			</if>
+			<if test="unitYield != null">
+				unit_yield,
+			</if>
+			<if test="yearlyRoe != null">
+				yearly_roe,
+			</if>
+			<if test="dayReturn != null">
+				day_return,
+			</if>
+			<if test="oneWeekReturn != null">
+				one_week_return,
+			</if>
+			<if test="oneMonthReturn != null">
+				one_month_return,
+			</if>
+			<if test="quarterReturn != null">
+				quarter_return,
+			</if>
+			<if test="halfYearReturn != null">
+				half_year_return,
+			</if>
+			<if test="oneYearReturn != null">
+				one_year_return,
+			</if>
+			<if test="thisYearReturn != null">
+				this_year_return,
+			</if>
+			<if test="createTime != null">
+				create_time,
+			</if>
+			<if test="modifyTime != null">
+				modify_time,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=BIGINT},
+			</if>
+			<if test="productId != null">
+				#{productId,jdbcType=BIGINT},
+			</if>
+			<if test="productName != null">
+				#{productName,jdbcType=VARCHAR},
+			</if>
+			<if test="productType != null">
+				#{productType,jdbcType=VARCHAR},
+			</if>
+			<if test="fundType != null">
+				#{fundType,jdbcType=VARCHAR},
+			</if>
+			<if test="fundCode != null">
+				#{fundCode,jdbcType=VARCHAR},
+			</if>
+			<if test="navDate != null">
+				#{navDate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="nav != null">
+				#{nav,jdbcType=VARCHAR},
+			</if>
+			<if test="accumulatedNav != null">
+				#{accumulatedNav,jdbcType=VARCHAR},
+			</if>
+			<if test="unitYield != null">
+				#{unitYield,jdbcType=VARCHAR},
+			</if>
+			<if test="yearlyRoe != null">
+				#{yearlyRoe,jdbcType=VARCHAR},
+			</if>
+			<if test="dayReturn != null">
+				#{dayReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="oneWeekReturn != null">
+				#{oneWeekReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="oneMonthReturn != null">
+				#{oneMonthReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="quarterReturn != null">
+				#{quarterReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="halfYearReturn != null">
+				#{halfYearReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="oneYearReturn != null">
+				#{oneYearReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="thisYearReturn != null">
+				#{thisYearReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="modifyTime != null">
+				#{modifyTime,jdbcType=TIMESTAMP},
+			</if>
+		</trim>
+	</insert>
+	<update id="updateByPrimaryKeySelective" parameterType="com.nonobank.domain.pcs_product_fof_nav_info">
+		update pcs_fund_nav_info
+		<set>
+			<if test="productId != null">
+				product_id = #{productId,jdbcType=BIGINT},
+			</if>
+			<if test="productName != null">
+				product_name = #{productName,jdbcType=VARCHAR},
+			</if>
+			<if test="productType != null">
+				product_type = #{productType,jdbcType=VARCHAR},
+			</if>
+			<if test="fundType != null">
+				fund_type = #{fundType,jdbcType=VARCHAR},
+			</if>
+			<if test="fundCode != null">
+				fund_code = #{fundCode,jdbcType=VARCHAR},
+			</if>
+			<if test="navDate != null">
+				nav_date = #{navDate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="nav != null">
+				nav = #{nav,jdbcType=VARCHAR},
+			</if>
+			<if test="accumulatedNav != null">
+				accumulated_nav = #{accumulatedNav,jdbcType=VARCHAR},
+			</if>
+			<if test="unitYield != null">
+				unit_yield = #{unitYield,jdbcType=VARCHAR},
+			</if>
+			<if test="yearlyRoe != null">
+				yearly_roe = #{yearlyRoe,jdbcType=VARCHAR},
+			</if>
+			<if test="dayReturn != null">
+				day_return = #{dayReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="oneWeekReturn != null">
+				one_week_return = #{oneWeekReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="oneMonthReturn != null">
+				one_month_return = #{oneMonthReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="quarterReturn != null">
+				quarter_return = #{quarterReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="halfYearReturn != null">
+				half_year_return = #{halfYearReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="oneYearReturn != null">
+				one_year_return = #{oneYearReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="thisYearReturn != null">
+				this_year_return = #{thisYearReturn,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				create_time = #{createTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="modifyTime != null">
+				modify_time = #{modifyTime,jdbcType=TIMESTAMP},
+			</if>
+		</set>
+		where id = #{id,jdbcType=BIGINT}
+	</update>
+	<update id="updateByPrimaryKey" parameterType="com.nonobank.domain.pcs_product_fof_nav_info">
+		update
+		pcs_fund_nav_info
+		set product_id = #{productId,jdbcType=BIGINT},
+		product_name = #{productName,jdbcType=VARCHAR},
+		product_type =
+		#{productType,jdbcType=VARCHAR},
+		fund_type =
+		#{fundType,jdbcType=VARCHAR},
+		fund_code = #{fundCode,jdbcType=VARCHAR},
+		nav_date = #{navDate,jdbcType=TIMESTAMP},
+		nav =
+		#{nav,jdbcType=VARCHAR},
+		accumulated_nav =
+		#{accumulatedNav,jdbcType=VARCHAR},
+		unit_yield =
+		#{unitYield,jdbcType=VARCHAR},
+		yearly_roe =
+		#{yearlyRoe,jdbcType=VARCHAR},
+		day_return =
+		#{dayReturn,jdbcType=VARCHAR},
+		one_week_return =
+		#{oneWeekReturn,jdbcType=VARCHAR},
+		one_month_return =
+		#{oneMonthReturn,jdbcType=VARCHAR},
+		quarter_return =
+		#{quarterReturn,jdbcType=VARCHAR},
+		half_year_return =
+		#{halfYearReturn,jdbcType=VARCHAR},
+		one_year_return =
+		#{oneYearReturn,jdbcType=VARCHAR},
+		this_year_return =
+		#{thisYearReturn,jdbcType=VARCHAR},
+		create_time =
+		#{createTime,jdbcType=TIMESTAMP},
+		modify_time =
+		#{modifyTime,jdbcType=TIMESTAMP}
+		where id = #{id,jdbcType=BIGINT}
+	</update>
+	<select id="selectByPrimaryKey" resultType="string">
+	select count(*) from pcs_fund_nav_info
+		<!--  select
+		<include refid="Base_Column_List" />
+		from pcs_fund_nav_info
+		where id = #{id,jdbcType=BIGINT}-->
+	</select>
+</mapper>

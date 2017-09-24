@@ -1,84 +1,61 @@
 package com.yinting.test;
-import ch.ethz.ssh2.ChannelCondition;
-import ch.ethz.ssh2.Connection;
-import ch.ethz.ssh2.Session;
-import ch.ethz.ssh2.StreamGobbler;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-public class Test4 {
-    public static void main(String args[]) {
-     try
-  {
-   
-   Connection conn = new Connection("10.30.199.116");
-   
-   
-   conn.connect();
-   
-   boolean isAuthenticated = conn.authenticateWithPassword("log","Devopslog2017");
-   if (isAuthenticated == false)
-    throw new IOException("Authentication failed. Please check hostname, username and password.");
-   
-   Session sess = conn.openSession();
-   // sess.execCommand("uname -a && date && uptime && who");
-   System.out.println("start exec command.......");
-   
-   //sess.execCommand("echo "Text on STDOUT"; echo "Text on STDERR" >&2");
-   //sess.execCommand("env");
-            sess.requestPTY("bash");
-           
-            sess.startShell();
-           
-           
-   InputStream stdout = new StreamGobbler(sess.getStdout());
-   InputStream stderr = new StreamGobbler(sess.getStderr());
- 
-   BufferedReader stdoutReader = new BufferedReader(new InputStreamReader(stdout));
-   BufferedReader stderrReader = new BufferedReader(new InputStreamReader(stderr));
 
-   
-   //if you want to use sess.getStdin().write(), here is a sample
-   //byte b[]={'e','n','v','\n'};
-   //byte b[]={'e','x','i','t','\n'};
-   //sess.getStdin().write(b)
+import java.util.Iterator;
+import java.util.Map;
 
-   //we used PrintWriter, it makes things simple
-   PrintWriter out =new PrintWriter(sess.getStdin());
+import javax.annotation.Resource;
+import javax.sql.DataSource;
 
-   out.println("/data/logs/mgw/fatLog.sh 630c4621989411e7b3a600163e0f1883 /data/logs/mgw/mgw-info.2017-09-13.0.log");
-   out.println("exit");
-   out.close();
-   sess.waitForCondition(ChannelCondition.CLOSED | ChannelCondition.EOF | ChannelCondition.EXIT_STATUS, 30000);
-   
-   System.out.println("Here is the output from stdout:");
-   
-   while (true)
-   {
-    String line = stdoutReader.readLine();
-    if (line == null)
-     break;
-    System.out.println(line);
-   }
-   System.out.println("Here is the output from stderr:");
-   while (true)
-   {
-    String line = stderrReader.readLine();
-    if (line == null)
-     break;
-    System.out.println(line);
-   }
-   
-   System.out.println("ExitCode: " + sess.getExitStatus());
-   sess.close();   
-   conn.close();
-  }
-  catch (IOException e)
-  {
-   e.printStackTrace(System.err);
-   System.exit(2);
-  }
-  }
-    }
+import org.apache.ibatis.binding.MapperProxyFactory;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
+import org.mybatis.spring.SqlSessionFactoryBean;
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.testng.annotations.Test;
+import org.mybatis.spring.SqlSessionTemplate;
+import com.nonobank.dao.cif_user_infoMapper;
+import com.nonobank.dao.pcs_product_fof_nav_infoMapper;
+import com.nonobank.domain.cif_user_info;
+import com.yinting.core.BaseTestCase;
+import com.yinting.jdbc.DataSourceContextHolder;
+import com.yinting.mybatis.SqlSessionContextHolder;
+
+public class Test4 extends BaseTestCase {
+	@Resource
+	pcs_product_fof_nav_infoMapper nav;
+	@Resource
+	cif_user_infoMapper cif_dev;
+//	@Resource
+//	SqlSession sqlSession;
+	@Test
+	public void test() throws Exception {
+//		org.apache.ibatis.binding.MapperProxy
+//		org.mybatis.spring.SqlSessionFactoryBean
+//		org.apache.ibatis.executor.statement.RoutingStatementHandler
+//		org.mybatis.spring.mapper.MapperScannerConfigurer
+//		org.mybatis.spring.SqlSessionTemplate
+//		DataSourceContextHolder.setDbType("qa");
+//		org.mybatis.spring.SqlSessionFactoryBean;
+//		Map map=applicationContext.getBeansOfType(SqlSession.class);
+//		SqlSessionTemplate sqlSessionTemplate=(SqlSessionTemplate)map.get("sqlSessionTemplate");
+
+
+//		System.out.println(map.size());
+//		Iterator it=map.keySet().iterator();
+//		while(it.hasNext()){
+//			System.out.println(it.next());
+//		}
+
+//		sqlSessionFactory.setDataSource((DataSource)applicationContext.getBean("dataSourceCif"));
+//		jdbcTemplate.setDataSource((DataSource)applicationContext.getBean("dataSourceCif"));
+//		DataSourceContextHolder.setDbType("dataSourceCif");
+		System.out.println("开始数据切换");
+//		SqlSessionContextHolder.setSessionFactoryKey("cif");
+		System.out.println(cif_dev.selectByPrimaryKey("00120170512144254000000000000270"));
+		
+//		SqlSessionContextHolder.setSessionFactoryKey("product");
+		System.out.println(nav.selectByPrimaryKey("10"));
+		System.out.println(nav.selectByPrimaryKey("10"));
+	}
+}
