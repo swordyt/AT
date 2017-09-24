@@ -31,8 +31,27 @@
 			</bean>
 		</constructor-arg>
 	</bean>
+	
+	<bean id="dataSourceDev" class="com.zaxxer.hikari.HikariDataSource"
+		destroy-method="shutdown">
+		<constructor-arg>
+			<bean class="com.zaxxer.hikari.HikariConfig">
+				<property name="driverClassName" value="${hyper.jdbc.driverClassName.Mysql}" />
+				<property name="jdbcUrl" value="${hyper.qa.mysql.url}" />
+				<property name="username" value="${hyper.qa.mysql.username}" />
+				<property name="password" value="${hyper.qa.mysql.password}" />
+				<property name="connectionTestQuery" value="SELECT 1" />
+				<property name="connectionTimeout" value="30000" />
+				<property name="idleTimeout" value="60000" />
+				<property name="maxLifetime" value="1800000" />
+				<property name="maximumPoolSize" value="10" />
+				<property name="minimumIdle" value="1" />
+			</bean>
+		</constructor-arg>
+	</bean>
+	
 	<bean id="dynamicDataSourceAspect" class="com.yinting.jdbc.DynamicDataSourceAspect"></bean>
-	<aop:aspectj-autoproxy proxy-target-class="true" />
+	  <aop:aspectj-autoproxy proxy-target-class="true" />
 	<aop:config>
 		<aop:aspect id="aspect" ref="dynamicDataSourceAspect">
 			<aop:pointcut expression="execution(* com.yinting.jdbc.DbHandller.queryFor*(..))" id="queryDao"/>
@@ -41,4 +60,12 @@
 			<aop:before method="intercept" pointcut-ref="executeDao"/>
 		</aop:aspect>
 	</aop:config>
+	<!--
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+	<aop:config>
+		<aop:aspect id="aspect" ref="dynamicDataSourceAspect">
+			<aop:pointcut expression="execution(* javax.sql.DataSource.*(..))" id="queryDao"/>
+			<aop:before method="intercept" pointcut-ref="queryDao"/>
+		</aop:aspect>
+	</aop:config>-->
 </beans>
