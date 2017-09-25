@@ -119,7 +119,7 @@ name CDATA #REQUIRED
 ]>
 <configuration>
 <settings>
-	<!-- <setting name="useStatementNamespaces" value="true" /> -->
+	<!-- <setting name="useStatementNamespaces" value="false" /> -->
 	<setting name="lazyLoadingEnabled" value="true" />
 	<setting name="defaultStatementTimeout" value="120" />
 </settings>

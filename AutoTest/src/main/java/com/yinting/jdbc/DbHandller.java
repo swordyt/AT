@@ -11,7 +11,7 @@ import org.springframework.util.ReflectionUtils;
 import com.zaxxer.hikari.HikariDataSource;
 
 @SuppressWarnings("deprecation")
-public class DbHandller extends SqlMapClientDaoSupport{
+public class DbHandller extends SqlMapClientDaoSupport {
 	/**
 	 * 分页查询时，对应查询数据库记录总数的select名称规则
 	 */
@@ -20,7 +20,8 @@ public class DbHandller extends SqlMapClientDaoSupport{
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.bill99.seashell.orm.QueryDao#queryForObject(java.lang.String, java.lang.Object)
+	 * @see com.bill99.seashell.orm.QueryDao#queryForObject(java.lang.String,
+	 * java.lang.Object)
 	 */
 	@SuppressWarnings("unchecked")
 	public <X> X queryForObject(String statementName, Object parameterObject) {
@@ -33,7 +34,8 @@ public class DbHandller extends SqlMapClientDaoSupport{
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.bill99.seashell.orm.QueryDao#queryForList(java.lang.String, java.lang.Object)
+	 * @see com.bill99.seashell.orm.QueryDao#queryForList(java.lang.String,
+	 * java.lang.Object)
 	 */
 	@SuppressWarnings("unchecked")
 	public <X> List<X> queryForList(String statementName, Object parameterObject) {
@@ -43,7 +45,8 @@ public class DbHandller extends SqlMapClientDaoSupport{
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.bill99.seashell.orm.QueryDao#queryForList(java.lang.String, com.bill99.seashell.orm.pagination.Page, java.lang.Object)
+	 * @see com.bill99.seashell.orm.QueryDao#queryForList(java.lang.String,
+	 * com.bill99.seashell.orm.pagination.Page, java.lang.Object)
 	 */
 	@SuppressWarnings("unchecked")
 	public <X> List<X> queryForList(String statementName, Page page, Object parameterObject) {
@@ -52,8 +55,8 @@ public class DbHandller extends SqlMapClientDaoSupport{
 		} else {
 			Number totalRecord = null;
 			try {
-				totalRecord = (Number) getSqlMapClientTemplate().queryForObject(statementName + COUNT_STATEMENT_NAME_SUFFIX,
-						toParameterMap(parameterObject));
+				totalRecord = (Number) getSqlMapClientTemplate()
+						.queryForObject(statementName + COUNT_STATEMENT_NAME_SUFFIX, toParameterMap(parameterObject));
 				page.setTotalRecord(totalRecord.intValue());
 			} catch (Exception e) {
 				logger.error("No count select [" + statementName + COUNT_STATEMENT_NAME_SUFFIX + "]", e);
@@ -101,13 +104,15 @@ public class DbHandller extends SqlMapClientDaoSupport{
 		return getSqlMapClientTemplate().delete(statementName, parameterObject);
 	}
 
-	public <X, Y> Map<X, Y> queryForMap(String statementName, Object parameterObject, String keyMark, String valueMark) {
+	public <X, Y> Map<X, Y> queryForMap(String statementName, Object parameterObject, String keyMark,
+			String valueMark) {
 		return getSqlMapClientTemplate().queryForMap(statementName, parameterObject, keyMark, valueMark);
 	}
 
 	public <X, Y> Map<X, Y> queryForMap(String statementName, Object parameterObject, String keyMark) {
 		return getSqlMapClientTemplate().queryForMap(statementName, parameterObject, keyMark);
 	}
+
 	public void setDataSource(HikariDataSource dataSource) {
 		super.setDataSource(dataSource);
 	}

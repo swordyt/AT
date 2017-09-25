@@ -26,7 +26,7 @@
 		<property name="targetDataSources">
 			<map key-type="java.lang.String">
 				<entry value-ref="dataSourceQa" key="qa"></entry>
-				<entry value-ref="dataSourceDev" key="dev"></entry>
+				<!--  <entry value-ref="dataSourceDev" key="dev"></entry>-->
 			</map>
 		</property>
 		<property name="defaultTargetDataSource" ref="dataSourceQa"></property>
@@ -36,7 +36,7 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation"
 			value="classpath:qacontext/framework/jdbc/ibaits/sqlmap-config.xml" />
-		<property name="mapperLocations" value="classpath:com/nonobank/mapping/**/*.xml" />
+		<property name="mapperLocations" value="classpath*:ormapping/ibatis/mapping/**/*.xml" />
 	</bean>
 
 
@@ -51,21 +51,21 @@
 			UserMapper.xml位于me.gacl.mapping包下，这样UserMapper.xml就可以被自动扫描 -->
 		<property name="configLocation"
 			value="classpath:qacontext/framework/jdbc/ibaits/sqlmap-config.xml" />
-		<property name="mapperLocations" value="classpath:com/nonobank/mapping/**/*.xml" />
+		<property name="mapperLocations" value="classpath*:ormapping/ibatis/mapping/**/*.xml" />
 	</bean>
-	<bean id="sqlSessionFactoryDev" class="com.yinting.mybatis.SqlSessionFactoryBean">
+	<!-- <bean id="sqlSessionFactoryDev" class="com.yinting.mybatis.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSourceDev" />
 		<property name="configLocation"
 			value="classpath:qacontext/framework/jdbc/ibaits/sqlmap-config.xml" />
-		<property name="mapperLocations" value="classpath:com/nonobank/mapping/**/*.xml" />
+		<property name="mapperLocations" value="classpath:../resources/ormapping/ibatis/mapping/dev/**/*.xml" />
 	</bean>
-
+ -->
 	<bean id="sqlSessionTemplate" class="com.yinting.mybatis.SqlSessionTemplate">
 		<constructor-arg index="0" ref="sqlSessionFactory" />
 		<property name="targetSqlSessionFactory">
 			<map>
 				<entry value-ref="sqlSessionFactoryQa" key="qa" />
-				<entry value-ref="sqlSessionFactoryDev" key="dev" />
+				<!-- <entry value-ref="sqlSessionFactoryDev" key="dev" /> -->
 			</map>
 		</property>
 	</bean>

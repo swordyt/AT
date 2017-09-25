@@ -11,7 +11,7 @@
 
 	<!-- a sqlMapClient per dataSource if needed use ibatis -->
 	<bean id="parentSqlMapClient" abstract="true" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
-		<property name="configLocation" value="classpath:qacontext/framework/jdbc/ibaits/sqlmap-config.xml" />
+		<property name="configLocation" value="classpath:qacontext/framework/jdbc/ibaits/sqlmap-config-old.xml" />
 	</bean>
 
 </beans>
