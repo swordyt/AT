@@ -184,7 +184,7 @@ public class SqlSessionTemplate extends org.mybatis.spring.SqlSessionTemplate {
 			} else {
 				try {// key.properties 中存在该key对应的value时使用配置，不存在使用key本身
 					pro.load(new FileInputStream(
-							new File("src/main/java/properties/framework/" + env + "/key.properties")));
+							new File("src/main/resources/config/dev/key.properties")));
 					String keyValue = pro.getProperty(key + ".key");
 					if (keyValue != null) {
 						key = keyValue;
@@ -199,7 +199,7 @@ public class SqlSessionTemplate extends org.mybatis.spring.SqlSessionTemplate {
 			}
 			if(contextHolder.get()==null||!contextHolder.get().equals(key)){
 				try {
-					pro.load(new FileInputStream("src/main/java/properties/framework/" + env + "/jdbc.properties"));
+					pro.load(new FileInputStream("src/main/resources/config/dev//jdbc.properties"));
 				} catch (FileNotFoundException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
