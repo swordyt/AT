@@ -32,7 +32,7 @@ public class RedisClient {
 				client=testClient;
 			}
 		}
-		return client.getRedis();
+		return client==null?null:client.getRedis();
 	}
 	/**
 	 * 验证连接Redis是否成功
