@@ -7,7 +7,7 @@ public class RedisClient {
 	private static RedisClient client;
 	
 	
-	public Jedis getRedis() {
+	private Jedis getRedis() {
 		return redis;
 	}
 	private RedisClient(String server,int port,String password){
@@ -15,25 +15,29 @@ public class RedisClient {
 		redis.auth(password);
 		
 	}
-	public static RedisClient getInstance(String configName){
+	public static Jedis getInstance(){
+		return getInstance("redis_"+System.getProperty("ENV"));
+	}
+	
+	public static Jedis getInstance(String configName){
 		return getInstance(System.getProperty(configName+".host"),Integer.parseInt(System.getProperty(configName+".port")),System.getProperty(configName+".password"));
 	}
-	public static RedisClient getInstance(String server,String password){
+	public static Jedis getInstance(String server,String password){
 		return getInstance(server,6379,password);
 	}
-	public static RedisClient getInstance(String server,int port,String password){
+	public static Jedis getInstance(String server,int port,String password){
 		if(client == null){
 			RedisClient testClient = new RedisClient(server, port, password);
 			if(testClient.login()){
 				client=testClient;
 			}
 		}
-		return client;
+		return client.getRedis();
 	}
 	/**
 	 * 验证连接Redis是否成功
 	 * */
-	public boolean login(){
+	private boolean login(){
 		return redis.isConnected();
 	}
 }
