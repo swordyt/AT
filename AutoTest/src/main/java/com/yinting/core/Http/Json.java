@@ -72,7 +72,7 @@ public class Json extends HttpResponse {
 	}
 
 	public Json(String body) {
-		Log.log("Json(\""+body+"\")");
+		Log.debug("Json(\""+body+"\")");
 		this.json = JSONObject.fromObject(body);
 	}
 

@@ -18,6 +18,14 @@ public class Log {
 		return log;
 	}
 
+	public static void debug(String message) {
+		Log.instance().debug(message);
+	}
+
+	public static void debug(String message, Throwable t) {
+		Log.instance().debug(message,t);
+	}
+
 	public static void log(String message) {
 		Log.instance().info(message);
 	}

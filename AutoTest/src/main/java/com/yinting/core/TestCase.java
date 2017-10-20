@@ -21,7 +21,6 @@ public abstract class TestCase extends BaseTestCase {
 	private Map<String, String> tmpData = new HashMap<String, String>();
 	public DecimalFormat df = new DecimalFormat("######0.00");
 	protected static final String COMMAND = "/opt/logs/mgw/json.sh ";
-	protected static final String SERVERNAME="maiziyunweb_dev";
 	// 修改sheet名 ，默认为“true”
 	private String sheet = "true";
 	// 保存当前接口json

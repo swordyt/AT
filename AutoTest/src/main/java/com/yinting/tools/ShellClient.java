@@ -73,15 +73,17 @@ public class ShellClient {
 	public Connection getConn() {
 		return conn;
 	}
-/**
- * 获取输出错误流信息
- * */
+
+	/**
+	 * 获取输出错误流信息
+	 */
 	public StringBuilder getStderr() {
 		return errBuilder;
 	}
-/**
- * 获取输出流信息
- * */
+
+	/**
+	 * 获取输出流信息
+	 */
 	public StringBuilder getStdout() {
 		return outBuilder;
 	}
@@ -128,7 +130,8 @@ public class ShellClient {
 		if (instance == null) {
 			instance = new ShellClient(ip, port, username, passward, charset);
 		}
-		return instance;
+		
+		return instance.login()==true?instance:null;
 	}
 
 	/**
@@ -136,6 +139,11 @@ public class ShellClient {
 	 */
 	static synchronized public ShellClient getInstance(String ip, String port, String username, String passward) {
 		return getInstance(ip, port, username, passward, "utf-8");
+
+	}
+
+	static public ShellClient getInstance() {
+		return getInstance("maiziyunweb_"+System.getProperty("ENV"));
 
 	}
 
@@ -386,7 +394,7 @@ public class ShellClient {
 				session.waitForCondition(ChannelCondition.CLOSED | ChannelCondition.EOF | ChannelCondition.EXIT_STATUS,
 						this.timeOut);
 				// session.execCommand(cmds);
-//				in = session.getStdout();// 获取输出流
+				// in = session.getStdout();// 获取输出流
 				outBuilder = this.processStd(stdout, this.charset);// 将输入流返回信息格式化输出
 				errBuilder = this.processStd(stderr, this.charset);// 将输入流返回信息格式化输出
 				Log.log("ExitCode: " + session.getExitStatus());
@@ -397,36 +405,56 @@ public class ShellClient {
 		}
 		return this;
 	}
+
 	/**
-	 * 根据盈米返回的原始字符串，以“_httpContent=”和“, _httpStatusCode=”作为分割，取其中字符串作为响应json。盈米原始字符串如下：
-	 * {ETag=W/"ae9-uczI+obPQYfRuUU1Nh3p6KNfNBE", Vary=Accept-Encoding, Access-Control-Allow-Origin=*, Transfer-Encoding=chunked, Date=Fri, 15 Sep 2017 02:30:54 GMT, _httpContent=
+	 * 根据盈米返回的原始字符串，以“_httpContent=”和“,
+	 * _httpStatusCode=”作为分割，取其中字符串作为响应json。盈米原始字符串如下：
+	 * {ETag=W/"ae9-uczI+obPQYfRuUU1Nh3p6KNfNBE", Vary=Accept-Encoding,
+	 * Access-Control-Allow-Origin=*, Transfer-Encoding=chunked, Date=Fri, 15
+	 * Sep 2017 02:30:54 GMT, _httpContent=
 	 * {"poCode":"ZH006358","poName":"安心动盈","poDesc":"“安心动盈”由盈米与天弘基金共同推荐，组合中80%配置于债券资产，20%随市场变化进行资产轮动，二者偏离度超过10%进行再平衡，回到80/20的比例。","poRichDesc":"80%投资于债券资产，20%投资于“二八轮动”组合。随着市场波动，80/20的股债配比会在偏离度大于10%时“再平衡”。\n\n“二八轮动”主要在沪深300指数与中证500指数间切换，也考虑到两者都不乐观的情况－投资于货基来躲避A股的趋势性大跌。“二八轮动”调仓逻辑主要参考过去20个交易日的收益情况，为避免调仓过于频繁，两次调仓之间限制不少于10个交易日。\n\n“安心动盈“结合了”二八轮动“与”20/80股债再平衡“。“二八轮动”在趋势行情中有着绝对的优势，善于在市场的上涨、下跌中抓住机会；而“20/80股债再平衡”则通过有效的被动管理方式做资产配置，有分散、降低组合风险的优势。本组合汲取了两者各自的优势，使得组合拥有整体资产配置，小部分资产轮动的效果，是一款“稳健的二八轮动”，也是“活跃的20/80”；但最关键的是1份风险换2.49倍左右收益，达到了比前两个组合“性价比”更高的效果。","poStatus":"1","establishedOn":"2015-01-22","ceasedOn":null,"ceasedComment":"NULL","poManagers":[{"poManagerId":30,"poManagerName":"盈米","poManagerDesc":"","poManagerRichDesc":"","poManagerAvatarUrl":null,"verified":true}],"nav":"1.0080","navDate":"2017-09-14","dailyReturn":"0.0000","weeklyReturn":"0.0010","monthlyReturn":"0.0004","quarterlyReturn":null,"halfYearlyReturn":null,"yearlyReturn":null,"fromSetupReturn":"0.0080","maxDrawdown":"0.0241","sharpe":null,"volatility":null,"annualCompoundedReturn":null,"amacRisk5Level":3,"canBuy":true,"canRedeem":true,"cannotBuyReason":null,"cannotRedeemReason":null,"personalHighestBuyAmount":"10000000.00","personalLowestBuyAmount":"1000.00","composition":[{"prodType":"1","prodCode":"000509","prodName":"广发钱袋子货币","percent":"0.7597","nav":"1.0000","navDate":"2017-09-14","fundType":"4","riskLevel":1,"amacRisk5Level":1,"yearlyRoe":"0.04450","unitYield":"1.14150","dailyReturn":"0.0000"},{"prodType":"1","prodCode":"002295","prodName":"广发稳安保本","percent":"0.2403","nav":"1.0430","navDate":"2017-09-14","fundType":"5","riskLevel":2,"amacRisk5Level":2,"yearlyRoe":null,"unitYield":null,"dailyReturn":"0.0000"}],"adjustInfo":{"adjustmentId":1531,"comment":"ForTesting","adjustedOn":"2017-08-25","details":[{"adjustmentId":1531,"prodCode":"000509","prodType":1,"percent":0.76},{"adjustmentId":1531,"prodCode":"002295","prodType":1,"percent":0.24}]},"riskLevel":2}
-	 * , _httpStatusCode=200, X-Request-Id=1505442654.700-172.19.9.3-209118452, Connection=keep-alive, Content-Type=application/json; charset=utf-8, Server=nginx/1.8.0}
-	 * */
-	public String formatYingMiJson(String content){
-		return jsonFormat(content,"_httpContent=",", _httpStatusCode=");
+	 * , _httpStatusCode=200, X-Request-Id=1505442654.700-172.19.9.3-209118452,
+	 * Connection=keep-alive, Content-Type=application/json; charset=utf-8,
+	 * Server=nginx/1.8.0}
+	 */
+	public String formatYingMiJson(String content) {
+		return jsonFormat(content, "_httpContent=", ", _httpStatusCode=");
 	}
+
 	/**
 	 * 根据json.sh返回的原始字符串，以“===start===”和“===end===”作为分割，取其中字符串作为响应json,json.sh脚本返回原始字符串如下：
-	 * ===start===
-	 * {ETag=W/"ae9-uczI+obPQYfRuUU1Nh3p6KNfNBE", Vary=Accept-Encoding, Access-Control-Allow-Origin=*, Transfer-Encoding=chunked, Date=Fri, 15 Sep 2017 02:30:54 GMT, _httpContent={"poCode":"ZH006358","poName":"安心动盈","poDesc":"“安心动盈”由盈米与天弘基金共同推荐，组合中80%配置于债券资产，20%随市场变化进行资产轮动，二者偏离度超过10%进行再平衡，回到80/20的比例。","poRichDesc":"80%投资于债券资产，20%投资于“二八轮动”组合。随着市场波动，80/20的股债配比会在偏离度大于10%时“再平衡”。\n\n“二八轮动”主要在沪深300指数与中证500指数间切换，也考虑到两者都不乐观的情况－投资于货基来躲避A股的趋势性大跌。“二八轮动”调仓逻辑主要参考过去20个交易日的收益情况，为避免调仓过于频繁，两次调仓之间限制不少于10个交易日。\n\n“安心动盈“结合了”二八轮动“与”20/80股债再平衡“。“二八轮动”在趋势行情中有着绝对的优势，善于在市场的上涨、下跌中抓住机会；而“20/80股债再平衡”则通过有效的被动管理方式做资产配置，有分散、降低组合风险的优势。本组合汲取了两者各自的优势，使得组合拥有整体资产配置，小部分资产轮动的效果，是一款“稳健的二八轮动”，也是“活跃的20/80”；但最关键的是1份风险换2.49倍左右收益，达到了比前两个组合“性价比”更高的效果。","poStatus":"1","establishedOn":"2015-01-22","ceasedOn":null,"ceasedComment":"NULL","poManagers":[{"poManagerId":30,"poManagerName":"盈米","poManagerDesc":"","poManagerRichDesc":"","poManagerAvatarUrl":null,"verified":true}],"nav":"1.0080","navDate":"2017-09-14","dailyReturn":"0.0000","weeklyReturn":"0.0010","monthlyReturn":"0.0004","quarterlyReturn":null,"halfYearlyReturn":null,"yearlyReturn":null,"fromSetupReturn":"0.0080","maxDrawdown":"0.0241","sharpe":null,"volatility":null,"annualCompoundedReturn":null,"amacRisk5Level":3,"canBuy":true,"canRedeem":true,"cannotBuyReason":null,"cannotRedeemReason":null,"personalHighestBuyAmount":"10000000.00","personalLowestBuyAmount":"1000.00","composition":[{"prodType":"1","prodCode":"000509","prodName":"广发钱袋子货币","percent":"0.7597","nav":"1.0000","navDate":"2017-09-14","fundType":"4","riskLevel":1,"amacRisk5Level":1,"yearlyRoe":"0.04450","unitYield":"1.14150","dailyReturn":"0.0000"},{"prodType":"1","prodCode":"002295","prodName":"广发稳安保本","percent":"0.2403","nav":"1.0430","navDate":"2017-09-14","fundType":"5","riskLevel":2,"amacRisk5Level":2,"yearlyRoe":null,"unitYield":null,"dailyReturn":"0.0000"}],"adjustInfo":{"adjustmentId":1531,"comment":"ForTesting","adjustedOn":"2017-08-25","details":[{"adjustmentId":1531,"prodCode":"000509","prodType":1,"percent":0.76},{"adjustmentId":1531,"prodCode":"002295","prodType":1,"percent":0.24}]},"riskLevel":2}, _httpStatusCode=200, X-Request-Id=1505442654.700-172.19.9.3-209118452, Connection=keep-alive, Content-Type=application/json; charset=utf-8, Server=nginx/1.8.0}
-	 * ===end===
-	 * */
-	public String formatNonobankJson(String content){
-		return jsonFormat(content,"===start===","===end===");
+	 * ===start=== {ETag=W/"ae9-uczI+obPQYfRuUU1Nh3p6KNfNBE",
+	 * Vary=Accept-Encoding, Access-Control-Allow-Origin=*,
+	 * Transfer-Encoding=chunked, Date=Fri, 15 Sep 2017 02:30:54 GMT,
+	 * _httpContent={"poCode":"ZH006358","poName":"安心动盈","poDesc":"“安心动盈”由盈米与天弘基金共同推荐，组合中80%配置于债券资产，20%随市场变化进行资产轮动，二者偏离度超过10%进行再平衡，回到80/20的比例。","poRichDesc":"80%投资于债券资产，20%投资于“二八轮动”组合。随着市场波动，80/20的股债配比会在偏离度大于10%时“再平衡”。\n\n“二八轮动”主要在沪深300指数与中证500指数间切换，也考虑到两者都不乐观的情况－投资于货基来躲避A股的趋势性大跌。“二八轮动”调仓逻辑主要参考过去20个交易日的收益情况，为避免调仓过于频繁，两次调仓之间限制不少于10个交易日。\n\n“安心动盈“结合了”二八轮动“与”20/80股债再平衡“。“二八轮动”在趋势行情中有着绝对的优势，善于在市场的上涨、下跌中抓住机会；而“20/80股债再平衡”则通过有效的被动管理方式做资产配置，有分散、降低组合风险的优势。本组合汲取了两者各自的优势，使得组合拥有整体资产配置，小部分资产轮动的效果，是一款“稳健的二八轮动”，也是“活跃的20/80”；但最关键的是1份风险换2.49倍左右收益，达到了比前两个组合“性价比”更高的效果。","poStatus":"1","establishedOn":"2015-01-22","ceasedOn":null,"ceasedComment":"NULL","poManagers":[{"poManagerId":30,"poManagerName":"盈米","poManagerDesc":"","poManagerRichDesc":"","poManagerAvatarUrl":null,"verified":true}],"nav":"1.0080","navDate":"2017-09-14","dailyReturn":"0.0000","weeklyReturn":"0.0010","monthlyReturn":"0.0004","quarterlyReturn":null,"halfYearlyReturn":null,"yearlyReturn":null,"fromSetupReturn":"0.0080","maxDrawdown":"0.0241","sharpe":null,"volatility":null,"annualCompoundedReturn":null,"amacRisk5Level":3,"canBuy":true,"canRedeem":true,"cannotBuyReason":null,"cannotRedeemReason":null,"personalHighestBuyAmount":"10000000.00","personalLowestBuyAmount":"1000.00","composition":[{"prodType":"1","prodCode":"000509","prodName":"广发钱袋子货币","percent":"0.7597","nav":"1.0000","navDate":"2017-09-14","fundType":"4","riskLevel":1,"amacRisk5Level":1,"yearlyRoe":"0.04450","unitYield":"1.14150","dailyReturn":"0.0000"},{"prodType":"1","prodCode":"002295","prodName":"广发稳安保本","percent":"0.2403","nav":"1.0430","navDate":"2017-09-14","fundType":"5","riskLevel":2,"amacRisk5Level":2,"yearlyRoe":null,"unitYield":null,"dailyReturn":"0.0000"}],"adjustInfo":{"adjustmentId":1531,"comment":"ForTesting","adjustedOn":"2017-08-25","details":[{"adjustmentId":1531,"prodCode":"000509","prodType":1,"percent":0.76},{"adjustmentId":1531,"prodCode":"002295","prodType":1,"percent":0.24}]},"riskLevel":2},
+	 * _httpStatusCode=200, X-Request-Id=1505442654.700-172.19.9.3-209118452,
+	 * Connection=keep-alive, Content-Type=application/json; charset=utf-8,
+	 * Server=nginx/1.8.0} ===end===
+	 */
+	public String formatNonobankJson(String content) {
+		return jsonFormat(content, "===start===", "===end===");
 	}
+
 	/**
-	 * 获取两个字符串之间的字符串
-	 * begin:content中第一次出现的位置
-	 * end:content中最后一次出现的位置
-	 * */
-	public String jsonFormat(String content,String begin,String end){
-		return content.substring(content.indexOf(begin)+begin.length(), content.lastIndexOf(end));
+	 * 获取两个字符串之间的字符串 begin:content中第一次出现的位置 end:content中最后一次出现的位置
+	 */
+	public String jsonFormat(String content, String begin, String end) {
+		return content.substring(content.indexOf(begin) + begin.length(), content.lastIndexOf(end));
 	}
+	public String jsonFormat(String content, String begin, String end,int offset) {
+		Integer beginIndex=0;
+		Integer endIndex=0;
+		for(int i=0;i<offset;i++){
+			beginIndex=content.indexOf(begin,beginIndex)+begin.length();
+			endIndex=content.indexOf(end,endIndex+end.length());
+		}
+		return content.substring(beginIndex,endIndex);
+	}
+
 	/**
 	 * 退出远端服务器
-	 * */
-	public void close(){
+	 */
+	public void close() {
 		conn.close();
 	}
 

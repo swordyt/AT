@@ -1,12 +1,15 @@
 package com.yinting.core.datadriver;
 
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import javax.swing.filechooser.FileFilter;
 
 import com.yinting.core.Log;
 
@@ -63,8 +66,7 @@ public class ExcelDriver extends DataDriver {
 	}
 
 	/**
-	 * 根据传入的标识，判断当前标志所在的行，固定返回第一次发现的行号
-	 * 如未发现将返回：0；
+	 * 根据传入的标识，判断当前标志所在的行，固定返回第一次发现的行号 如未发现将返回：0；
 	 */
 	public int getRowNumber(String flag) {
 		Cell[] cell = this.sheet.getColumn(ExcelHeader.Description.getOrdinal());
@@ -92,11 +94,42 @@ public class ExcelDriver extends DataDriver {
 		return data;
 	}
 
+	private List<File> searchFile(File directoryPath,String fileName) {
+		List<File> list=new ArrayList<File>();
+		if(!directoryPath.isDirectory()){
+			return null;
+		}
+		File[] files = directoryPath.listFiles();
+		for (File e : files) {
+			Log.debug(e.getPath());
+			if (e.isFile()&&e.getName().equals(fileName)) {
+				Log.log("搜索到文件："+e.getPath());
+				list.add(e);
+				continue;
+			}
+			if (e.isDirectory()) {
+				list.addAll(searchFile(e,fileName));
+			}
+		}
+		return list;
+	}
+
 	// 初始化Excel数据
-	private void initPara(String path, String sheet) {
-		path = "src/main/resources/datadriver/excel/" + System.getProperty("ENV") + "/" + path;
+	private void initPara(String pathname, String sheet) {
+		String path = "src/main/resources/datadriver/excel/" + System.getProperty("ENV") + "/" + pathname;
+		File file = new File(path);
+		if (!file.isFile()) {
+			Log.log("匹配未发现，开始自动搜索：src/main/resources/datadriver/excel/.../" + pathname);
+			List<File> files=searchFile(new File("src/main/resources/datadriver/excel/"),pathname);
+			if(files.size()<=0){
+				Log.log("未搜索到文件。。。");
+				return ;
+			}
+			file=files.get(0);
+			Log.log("使用搜索中的第一条："+file.getPath());
+		}
 		try {
-			this.book = Workbook.getWorkbook(new File(path));
+			this.book = Workbook.getWorkbook(file);
 		} catch (BiffException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
